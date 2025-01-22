@@ -1,0 +1,323 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:9cad17d8-1648-4bcc-b068-c4a7c524178d",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-12-02T12:50:20Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "4272cede-ec82-4a26-9432-fa1683f18f6f",
+      "name" : "EdgeConnector",
+      "version" : "2024.02.03"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "931a2438-072a-419c-8740-e4a97e95c512",
+      "supplier" : {
+        "name" : "https://curl.se/"
+      },
+      "name" : "curl",
+      "version" : "8.1.2",
+      "description" : "https://github.com/curl/curl/",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "curl"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1996 - 2020, Daniel Stenberg, daniel@haxx.se, and many contributors, see the THANKS file.",
+      "purl" : "pkg:github/curl/curl",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/curl/curl/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2cebadcd-e94a-4460-873e-8ae5c7affc41",
+      "supplier" : {
+        "name" : "Baptiste Lepilleur and The JsonCpp Authors"
+      },
+      "name" : "jsoncpp-0",
+      "version" : "0.6.0",
+      "description" : "https://github.com/open-source-parsers/jsoncpp",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 2007-2010 Baptiste Lepilleur",
+      "purl" : "pkg:github/open-source-parsers/jsoncpp",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/open-source-parsers/jsoncpp"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4bdfec1e-ea00-47d2-a429-1ef5e7c45e6e",
+      "supplier" : {
+        "name" : "https://github.com/toshic"
+      },
+      "name" : "libfcgi",
+      "version" : "2.4.1",
+      "description" : "https://github.com/toshic/libfcgi",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "libfcgi",
+            "url" : "https://github.com/toshic/libfcgi/blob/master/LICENSE.TERMS"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1996 Open Market, Inc.",
+      "purl" : "pkg:github/toshic/libfcgi",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/toshic/libfcgi"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b599d998-21cc-4f4c-a3f5-ecfd484666c8",
+      "supplier" : {
+        "name" : "https://libzip.org/"
+      },
+      "name" : "libzip",
+      "version" : "1.10.0",
+      "description" : "https://github.com/nih-at/libzip",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause-Clear"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 1999-2020 Dieter Baron and Thomas Klausner",
+      "purl" : "pkg:github/nih-at/libzip",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/nih-at/libzip"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "32b66e82-e0eb-4c76-ac00-8672b82ff0eb",
+      "supplier" : {
+        "name" : "http://www.OpenLDAP.org"
+      },
+      "name" : "openldap",
+      "version" : "2.5.13",
+      "description" : "https://git.openldap.org/nivanova/openldap",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "OLDAP-2.8",
+            "url" : "https://git.openldap.org/nivanova/openldap/-/blob/master/LICENSE"
+          }
+        }
+      ],
+      "copyright" : "Copyright 1999-2003 The OpenLDAP Foundation, Redwood City,California, USA. All Rights Reserved.",
+      "purl" : "pkg:github/openldap/openldap",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://git.openldap.org/nivanova/openldap"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "bf414aa5-78dd-4e6c-baf3-6cc312cd2cf8",
+      "supplier" : {
+        "name" : "https://github.com/eclipse-paho"
+      },
+      "name" : "paho",
+      "version" : "1.3.13",
+      "description" : "https://github.com/eclipse/paho.mqtt.c/",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://raw.githubusercontent.com/eclipse/paho.mqtt.c/v1.3.8/LICENSE"
+          }
+        }
+      ],
+      "copyright" : "Copyright IBM Corp. 2009, 2020 Authors(s):Ian Craggs,…",
+      "purl" : "pkg:github/eclipse/paho.mqtt.c",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/eclipse/paho.mqtt.c/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c323e8ce-c8e7-4c0e-9423-44f4e80a5fb1",
+      "supplier" : {
+        "name" : "https://github.com/kgabis"
+      },
+      "name" : "parson",
+      "version" : "1.5.3",
+      "description" : "https://github.com/kgabis/parson",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2012 - 2022 Krzysztof Gabis",
+      "purl" : "pkg:github/kgabis/parson",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/kgabis/parson"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a90fe06f-973f-4414-a249-1f2fdbdb9140",
+      "supplier" : {
+        "name" : "https://github.com/jupp0r"
+      },
+      "name" : "prometheus-cpp",
+      "version" : "1.2.0",
+      "description" : "https://github.com/jupp0r/prometheus-cpp",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2016-2021 Jupp Mueller, Copyright (c) 2017-2022 Gregor Jasny",
+      "purl" : "pkg:github/jupp0r/prometheus-cpp",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/jupp0r/prometheus-cpp"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3adf7ee5-992b-4677-afd8-a340fa790ce4",
+      "supplier" : {
+        "name" : "https://github.com/ThePhD"
+      },
+      "name" : "sol2",
+      "version" : "3.3.1",
+      "description" : "https://github.com/ThePhD/sol2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2013-2022 Rapptz, ThePhD, and contributors",
+      "purl" : "pkg:github/thephd/sol2",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/ThePhD/sol2"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "15b5bf81-9323-4eff-9926-8f8acc84fff4",
+      "supplier" : {
+        "name" : "https://github.com/madler"
+      },
+      "name" : "zlib",
+      "version" : "1.2.13",
+      "description" : "https://github.com/madler/zlib",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Zlib"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 1995-2024 Jean-loup Gailly and Mark Adler",
+      "purl" : "pkg:github/madler/zlib",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/madler/zlib"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "4272cede-ec82-4a26-9432-fa1683f18f6f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "931a2438-072a-419c-8740-e4a97e95c512",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2cebadcd-e94a-4460-873e-8ae5c7affc41",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4bdfec1e-ea00-47d2-a429-1ef5e7c45e6e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b599d998-21cc-4f4c-a3f5-ecfd484666c8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "32b66e82-e0eb-4c76-ac00-8672b82ff0eb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bf414aa5-78dd-4e6c-baf3-6cc312cd2cf8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c323e8ce-c8e7-4c0e-9423-44f4e80a5fb1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a90fe06f-973f-4414-a249-1f2fdbdb9140",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3adf7ee5-992b-4677-afd8-a340fa790ce4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "15b5bf81-9323-4eff-9926-8f8acc84fff4",
+      "dependsOn" : [ ]
+    }
+  ]
+}
