@@ -19,14 +19,14 @@ Vulnerabilities | 0
 Name | Version | Type | Supplier | License
 | -------- | -------- | -------- | -------- | -------- 
 curl | 8.1.2 | LIBRARY | https://curl.se/ | curl
-fwlib32 | 2 | LIBRARY |  | Free
+fwlib32 | 1.0.5 | LIBRARY | FANUC | Free
 jsoncpp-0 | 0.6.0 | LIBRARY | Baptiste Lepilleur and The JsonCpp Authors | MIT
 libfcgi | 2.4.1 | LIBRARY | https://github.com/toshic | libfcgi
-liblmxclient | 5.2.2 | LIBRARY |  | Free
+liblmxclient | 5.2.2 | LIBRARY | X-Formation | Free
 libzip | 1.10.0 | LIBRARY | https://libzip.org/ | BSD-3-Clause-Clear
-nginx | 1.14.0 | LIBRARY |  | BSD-2-Clause
+nginx | 1.14.0 | LIBRARY | Nginx.org | BSD-2-Clause
 openldap | 2.5.13 | LIBRARY | http://www.OpenLDAP.org | OLDAP-2.8
-OpenSSL | 1.1.1.t | LIBRARY |  | MIT
+OpenSSL | 1.1.1.t | LIBRARY | Open SSL | MIT
 paho | 1.3.13 | LIBRARY | https://github.com/eclipse-paho | EPL-2.0
 parson | 1.5.3 | LIBRARY | https://github.com/kgabis | MIT
 prometheus-cpp | 1.2.0 | LIBRARY | https://github.com/jupp0r | MIT
@@ -36,14 +36,14 @@ zlib | 1.2.13 | LIBRARY | https://github.com/madler | Zlib
 Name | Version | Ecosystem | Download | Copyright
 | -------- | -------- | -------- | -------- | -------- 
 curl | 8.1.2 | github | https://github.com/curl/curl/ | Copyright (c) 1996 - 2020, Daniel Stenberg, daniel@haxx.se, and many contributors, see the THANKS file.
-fwlib32 | 1.0.5 | - | NOT KNOWN | -
+fwlib32 | 1.0.5 | github | https://github.com/strangesast/fwlib | -
 jsoncpp-0 | 0.6.0 | github | https://github.com/open-source-parsers/jsoncpp | Copyright (C) 2007-2010 Baptiste Lepilleur
 libfcgi | 2.4.1 | github | https://github.com/toshic/libfcgi | Copyright (c) 1996 Open Market, Inc.
 liblmxclient | 5.2.2 | - | NOT KNOWN | -
 libzip | 1.10.0 | github | https://github.com/nih-at/libzip | Copyright (C) 1999-2020 Dieter Baron and Thomas Klausner
-nginx | 1.14.0 | - | NOT KNOWN | Copyright (C) 2002-2021 Igor Sysoev Copyright (C) 2011-2025 Nginx, Inc.
+nginx | 1.14.0 | - | https://nginx.org/ | Copyright (C) 2002-2021 Igor Sysoev Copyright (C) 2011-2025 Nginx, Inc.
 openldap | 2.5.13 | github | https://git.openldap.org/nivanova/openldap | Copyright 1999-2003 The OpenLDAP Foundation, Redwood City,California, USA. All Rights Reserved.
-OpenSSL | 1.1.1.t | - | NOT KNOWN | -
+OpenSSL | 1.1.1.t | - | https://github.com/openssl/openssl/releases | -
 paho | 1.3.13 | github | https://github.com/eclipse/paho.mqtt.c/ | Copyright IBM Corp. 2009, 2020 Authors(s):Ian Craggs,…
 parson | 1.5.3 | github | https://github.com/kgabis/parson | Copyright (c) 2012 - 2022 Krzysztof Gabis
 prometheus-cpp | 1.2.0 | github | https://github.com/jupp0r/prometheus-cpp | Copyright (c) 2016-2021 Jupp Mueller, Copyright (c) 2017-2022 Gregor Jasny
@@ -340,4 +340,3 @@ LOST DATA, EVEN IF OPEN MARKET HAS BEEN ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGES.  THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS".
 OPEN MARKET HAS NO LIABILITY IN CONTRACT, TORT, NEGLIGENCE OR
 OTHERWISE ARISING OUT OF THIS SOFTWARE OR THE DOCUMENTATION.
-
