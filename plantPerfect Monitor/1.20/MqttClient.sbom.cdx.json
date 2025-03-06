@@ -1,0 +1,827 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:65c391ad-1cb5-48ca-863f-1a440a0c25af",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-03-04T09:24:10Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "261e55f7-9625-410f-b64f-0515e3eae0ba",
+      "name" : "PPM - MQTTClient",
+      "version" : "1.20"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "bd4dfedc-bbea-49e0-9134-c57207f71ce1",
+      "name" : "boltons",
+      "version" : "25.0.0",
+      "description" : "When they're not builtins, they're boltons.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/boltons@25.0.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "045dbd6c-8218-4236-a790-b1eccc33621c",
+      "name" : "certifi",
+      "version" : "2025.1.31",
+      "description" : "Python package for providing Mozilla's CA Bundle.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/certifi@2025.1.31",
+      "externalReferences" : [
+        {
+          "type" : "other",
+          "url" : "https://github.com/certifi/python-certifi",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/certifi/python-certifi",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8cd7ae47-67e1-4d57-902b-53ca762ebc7f",
+      "name" : "charset-normalizer",
+      "version" : "3.4.1",
+      "description" : "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/charset-normalizer@3.4.1",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://charset-normalizer.readthedocs.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jawah/charset_normalizer/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/jawah/charset_normalizer",
+          "comment" : "from packaging metadata Project-URL: Code"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d6d38c27-e1bd-4aa4-ae96-af303b9836e0",
+      "name" : "docopt",
+      "version" : "0.6.2",
+      "description" : "Pythonic argument parser, that will make you smile",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/docopt@0.6.2",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://docopt.org",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "abc132b6-f012-4a7a-a4c3-66e899d0cf30",
+      "name" : "environs",
+      "version" : "14.1.1",
+      "description" : "simplified environment variable parsing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/environs@14.1.1",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sloria/environs/issues",
+          "comment" : "from packaging metadata Project-URL: Issues"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/sloria/environs",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/sloria/environs/blob/master/CHANGELOG.md",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d15439ee-5526-46da-a94e-783b13e403db",
+      "name" : "Events",
+      "version" : "0.5",
+      "description" : "Bringing the elegance of C# EventHandler to Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/events@0.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b9745795-4887-4e84-be12-4b6ce7c83831",
+      "name" : "idna",
+      "version" : "3.10",
+      "description" : "Internationalized Domain Names in Applications (IDNA)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/idna@3.10",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/kjd/idna/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/kjd/idna",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/kjd/idna/blob/master/HISTORY.rst",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3bd4ad8d-2b14-4208-8452-90d22bf26ae9",
+      "name" : "marshmallow",
+      "version" : "3.26.1",
+      "description" : "A lightweight library for converting complex datatypes to and from native Python datatypes.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/marshmallow@3.26.1",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/marshmallow-code/marshmallow/issues",
+          "comment" : "from packaging metadata Project-URL: Issues"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/marshmallow-code/marshmallow",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "other",
+          "url" : "https://opencollective.com/marshmallow",
+          "comment" : "from packaging metadata Project-URL: Funding"
+        },
+        {
+          "type" : "other",
+          "url" : "https://tidelift.com/subscription/pkg/pypi-marshmallow?utm_source=pypi-marshmallow&utm_medium=pypi",
+          "comment" : "from packaging metadata Project-URL: Tidelift"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://marshmallow.readthedocs.io/en/latest/changelog.html",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f629e6a6-9845-4b60-8924-c342709b7446",
+      "name" : "msgpack",
+      "version" : "1.1.0",
+      "description" : "MessagePack serializer",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/msgpack@1.1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e81b0a81-d64c-4d62-a18f-0619b5b28fb1",
+      "name" : "ntplib",
+      "version" : "0.4.0",
+      "description" : "Python NTP library",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/ntplib@0.4.0",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/cf-natali/ntplib",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8e8f9ddb-bf2d-4da0-ace6-6c52b8efa38a",
+      "name" : "opensearch-py",
+      "version" : "2.8.0",
+      "description" : "Python client for OpenSearch",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/opensearch-py@2.8.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://opensearch.org/docs/clients/python",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/opensearch-project/opensearch-py/issues",
+          "comment" : "from packaging metadata Project-URL: Issue Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/opensearch-project/opensearch-py",
+          "comment" : "from packaging metadata Project-URL: Source Code"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/opensearch-project/opensearch-py",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "da93568f-b1bc-403a-ad10-7b90aeddc353",
+      "name" : "packaging",
+      "version" : "24.2",
+      "description" : "Core utilities for Python packages",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/packaging@24.2"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "150ea364-9c21-4b0a-87ad-005061a86387",
+      "name" : "paho-mqtt",
+      "version" : "2.1.0",
+      "description" : "MQTT version 5.0/3.1.1 client class",
+      "licenses" : [
+        {
+          "expression" : "BSD-3-Clause"
+        }
+      ],
+      "purl" : "pkg:pypi/paho-mqtt@2.1.0",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://eclipse.org/paho",
+          "comment" : "from packaging metadata Project-URL: Homepage"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cb77d117-3113-49db-ae17-9a82ca454abe",
+      "name" : "pip",
+      "version" : "25.0.1",
+      "description" : "The PyPA recommended tool for installing Python packages.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/pip@25.0.1",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://pip.pypa.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/pypa/pip",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://pip.pypa.io/en/stable/news/",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://pip.pypa.io/",
+          "comment" : "from packaging metadata Project-URL: Homepage"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ff10d57b-919e-4fa7-875b-200262f643aa",
+      "name" : "pycryptodome",
+      "version" : "3.21.0",
+      "description" : "Cryptographic library for Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/pycryptodome@3.21.0",
+      "externalReferences" : [
+        {
+          "type" : "other",
+          "url" : "https://github.com/Legrandin/pycryptodome/",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://www.pycryptodome.org/src/changelog",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://www.pycryptodome.org",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0e6b3cef-a63b-459b-b1bb-81e2f5e0cf2e",
+      "name" : "python-dateutil",
+      "version" : "2.9.0.post0",
+      "description" : "Extensions to the standard Python datetime module",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/python-dateutil@2.9.0.post0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "356a662b-c197-46e2-b31c-db8513d2dbbb",
+      "name" : "python-dotenv",
+      "version" : "1.0.1",
+      "description" : "Read key-value pairs from a .env file and set them as environment variables",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/python-dotenv@1.0.1",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/theskumar/python-dotenv",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2b53cc93-b961-41b5-a83e-2f7d7e7090c6",
+      "name" : "requests",
+      "version" : "2.32.3",
+      "description" : "Python HTTP for Humans.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/requests@2.32.3",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://requests.readthedocs.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/psf/requests",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "website",
+          "url" : "https://requests.readthedocs.io",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a060ab0c-f27f-43ad-9f54-ebf26685292f",
+      "name" : "setuptools",
+      "version" : "66.1.1",
+      "description" : "Easily download, build, install, upgrade, and uninstall Python packages",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/setuptools@66.1.1",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://setuptools.pypa.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://setuptools.pypa.io/en/stable/history.html",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/pypa/setuptools",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b9431eb4-8d4d-4ac4-b9f5-4259ead3177a",
+      "name" : "six",
+      "version" : "1.17.0",
+      "description" : "Python 2 and 3 compatibility utilities",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/six@1.17.0",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/benjaminp/six",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "09747ec5-ceeb-4a48-868d-4fa651281b73",
+      "name" : "sourcedefender",
+      "version" : "15.0.1",
+      "description" : "Advanced encryption protecting your python codebase.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "declared license of 'sourcedefender'"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/sourcedefender@15.0.1",
+      "externalReferences" : [
+        {
+          "type" : "other",
+          "url" : "https://dashboard.sourcedefender.co.uk/login?src=pypi-navbar",
+          "comment" : "from packaging metadata Project-URL: Dashboard"
+        },
+        {
+          "type" : "website",
+          "url" : "https://sourcedefender.co.uk/?src=pypi-url",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5ddff5e3-176a-43ea-a1b6-e6090da8770a",
+      "name" : "TgCrypto-pyrofork",
+      "version" : "1.2.7",
+      "description" : "Fast and Portable Cryptography Extension Library for Pyrofork",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/tgcrypto-pyrofork@1.2.7",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/Mayuri-Chan/tgcrypto/releases/latest",
+          "comment" : "from packaging metadata: Download-URL"
+        },
+        {
+          "type" : "documentation",
+          "url" : "https://pyrofork.mayuri.my.id",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/Mayuri-Chan/tgcrypto/issues",
+          "comment" : "from packaging metadata Project-URL: Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/Mayuri-Chan/tgcrypto",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "other",
+          "url" : "https://t.me/MayuriChan_Chat",
+          "comment" : "from packaging metadata Project-URL: Community"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/Mayuri-Chan",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c940d537-60b8-4559-a0ca-f11d29305e45",
+      "name" : "urllib3",
+      "version" : "2.3.0",
+      "description" : "HTTP library with thread-safe connection pooling, file post, and more.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/urllib3@2.3.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://urllib3.readthedocs.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/urllib3/urllib3/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/urllib3/urllib3",
+          "comment" : "from packaging metadata Project-URL: Code"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4a245681-b3f5-40b4-8937-0a71c71f8ce6",
+      "name" : "wheel",
+      "version" : "0.38.4",
+      "description" : "A built-package format for Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/wheel@0.38.4",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://wheel.readthedocs.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/pypa/wheel/issues",
+          "comment" : "from packaging metadata Project-URL: Issue Tracker"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://wheel.readthedocs.io/en/stable/news.html",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/pypa/wheel",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "261e55f7-9625-410f-b64f-0515e3eae0ba",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bd4dfedc-bbea-49e0-9134-c57207f71ce1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "045dbd6c-8218-4236-a790-b1eccc33621c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8cd7ae47-67e1-4d57-902b-53ca762ebc7f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d6d38c27-e1bd-4aa4-ae96-af303b9836e0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "abc132b6-f012-4a7a-a4c3-66e899d0cf30",
+      "dependsOn" : [
+        "3bd4ad8d-2b14-4208-8452-90d22bf26ae9",
+        "da93568f-b1bc-403a-ad10-7b90aeddc353",
+        "356a662b-c197-46e2-b31c-db8513d2dbbb"
+      ]
+    },
+    {
+      "ref" : "d15439ee-5526-46da-a94e-783b13e403db",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b9745795-4887-4e84-be12-4b6ce7c83831",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3bd4ad8d-2b14-4208-8452-90d22bf26ae9",
+      "dependsOn" : [
+        "da93568f-b1bc-403a-ad10-7b90aeddc353"
+      ]
+    },
+    {
+      "ref" : "f629e6a6-9845-4b60-8924-c342709b7446",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e81b0a81-d64c-4d62-a18f-0619b5b28fb1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8e8f9ddb-bf2d-4da0-ace6-6c52b8efa38a",
+      "dependsOn" : [
+        "d15439ee-5526-46da-a94e-783b13e403db",
+        "045dbd6c-8218-4236-a790-b1eccc33621c",
+        "0e6b3cef-a63b-459b-b1bb-81e2f5e0cf2e",
+        "2b53cc93-b961-41b5-a83e-2f7d7e7090c6",
+        "c940d537-60b8-4559-a0ca-f11d29305e45"
+      ]
+    },
+    {
+      "ref" : "da93568f-b1bc-403a-ad10-7b90aeddc353",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "150ea364-9c21-4b0a-87ad-005061a86387",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cb77d117-3113-49db-ae17-9a82ca454abe",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ff10d57b-919e-4fa7-875b-200262f643aa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0e6b3cef-a63b-459b-b1bb-81e2f5e0cf2e",
+      "dependsOn" : [
+        "b9431eb4-8d4d-4ac4-b9f5-4259ead3177a"
+      ]
+    },
+    {
+      "ref" : "356a662b-c197-46e2-b31c-db8513d2dbbb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2b53cc93-b961-41b5-a83e-2f7d7e7090c6",
+      "dependsOn" : [
+        "045dbd6c-8218-4236-a790-b1eccc33621c",
+        "8cd7ae47-67e1-4d57-902b-53ca762ebc7f",
+        "b9745795-4887-4e84-be12-4b6ce7c83831",
+        "c940d537-60b8-4559-a0ca-f11d29305e45"
+      ]
+    },
+    {
+      "ref" : "a060ab0c-f27f-43ad-9f54-ebf26685292f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b9431eb4-8d4d-4ac4-b9f5-4259ead3177a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "09747ec5-ceeb-4a48-868d-4fa651281b73",
+      "dependsOn" : [
+        "5ddff5e3-176a-43ea-a1b6-e6090da8770a",
+        "bd4dfedc-bbea-49e0-9134-c57207f71ce1",
+        "d6d38c27-e1bd-4aa4-ae96-af303b9836e0",
+        "abc132b6-f012-4a7a-a4c3-66e899d0cf30",
+        "f629e6a6-9845-4b60-8924-c342709b7446",
+        "e81b0a81-d64c-4d62-a18f-0619b5b28fb1",
+        "da93568f-b1bc-403a-ad10-7b90aeddc353",
+        "2b53cc93-b961-41b5-a83e-2f7d7e7090c6",
+        "a060ab0c-f27f-43ad-9f54-ebf26685292f",
+        "4a245681-b3f5-40b4-8937-0a71c71f8ce6"
+      ]
+    },
+    {
+      "ref" : "5ddff5e3-176a-43ea-a1b6-e6090da8770a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c940d537-60b8-4559-a0ca-f11d29305e45",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4a245681-b3f5-40b4-8937-0a71c71f8ce6",
+      "dependsOn" : [ ]
+    }
+  ]
+}

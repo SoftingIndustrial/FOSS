@@ -1,0 +1,51 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:6b92b2b2-77ea-4b9b-a90a-a3037144b3e9",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-03-05T14:21:53Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "container",
+      "bom-ref" : "812f1c17-3d19-4fd4-ae23-c8f26d807770",
+      "name" : "PPM-Opensearch",
+      "version" : "1.20"
+    }
+  },
+  "components" : [
+    {
+      "type" : "container",
+      "bom-ref" : "98e7f03f-6340-4c7b-9b15-6e62cc810eef",
+      "author" : "OpenSearch Project",
+      "group" : "OpenSearch Project",
+      "name" : "opensearchproject/opensearch:2.18.0",
+      "version" : "2.18.0",
+      "description" : "https://hub.docker.com/layers/opensearchproject/opensearch/2.18.0/images/sha256-0246c8b2d4b494dc7c4776dff472ba765be63a71bd9d8d878ac9c40f573379bb",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright Opensearch Contributors"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "812f1c17-3d19-4fd4-ae23-c8f26d807770",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "98e7f03f-6340-4c7b-9b15-6e62cc810eef",
+      "dependsOn" : [ ]
+    }
+  ]
+}

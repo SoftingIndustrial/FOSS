@@ -1,0 +1,52 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:87280b4b-accf-4a64-95e4-0dbc81fd10e7",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-03-05T14:26:35Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "container",
+      "bom-ref" : "68670645-ca37-465e-ac75-026f33fdfa94",
+      "name" : "PPM - Mosquitto",
+      "version" : "1.20",
+      "description" : "bsd-3-clause for mosquitto"
+    }
+  },
+  "components" : [
+    {
+      "type" : "container",
+      "bom-ref" : "be9f7b2f-b77d-4c74-bd07-907925ba3e8b",
+      "group" : "Eclipse foundation",
+      "name" : "eclipse-mosquitto:2.0.20-openssl",
+      "version" : "2.0.20-openssl",
+      "description" : "https://hub.docker.com/layers/library/eclipse-mosquitto/openssl/images/sha256-7e27cf9077c69a7549ca1b68c56218090e5491a7605f608f66c63e16c083b34c",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) Eclipse Foundation",
+      "cpe" : "cpe:2.3:a:eclipse:mosquitto:2.0.20:*:*:*:*:*:*:*"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "68670645-ca37-465e-ac75-026f33fdfa94",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "be9f7b2f-b77d-4c74-bd07-907925ba3e8b",
+      "dependsOn" : [ ]
+    }
+  ]
+}
