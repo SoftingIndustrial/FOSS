@@ -123,9 +123,9 @@ System.Runtime.CompilerServices.Unsafe | 6.0.0 | LIBRARY |  | MIT
 System.Runtime.Extensions | 4.3.0 | LIBRARY |  | MIT
 System.Runtime.Handles | 4.3.0 | LIBRARY |  | MIT
 System.Runtime.InteropServices | 4.3.0 | LIBRARY |  | MIT
-System.Runtime.InteropServices.RuntimeInformation | 4.3.0 | LIBRARY |  | Unknown - See URL
+System.Runtime.InteropServices.RuntimeInformation | 4.3.0 | LIBRARY |  | MIT
 System.Security.AccessControl | 4.7.0 | LIBRARY |  | MIT
-System.Security.Claims | 4.3.0 | LIBRARY |  | Unknown - See URL
+System.Security.Claims | 4.3.0 | LIBRARY |  | MIT
 System.Security.Cryptography.Cng | 4.7.0 | LIBRARY |  | MIT
 System.Security.Cryptography.Pkcs | 4.7.0 | LIBRARY |  | MIT
 System.Security.Cryptography.Xml | 4.7.0 | LIBRARY |  | MIT
