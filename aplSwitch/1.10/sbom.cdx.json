@@ -1,0 +1,543 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:a64cbb89-ad0d-462f-909f-c10bdefed0ae",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-26T11:34:44Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "email" : "support.automation@softing.com",
+        "phone" : "+49-89-456560"
+      }
+    ],
+    "manufacture" : {
+      "url" : [
+        "https://industrial.softing.com"
+      ],
+      "contact" : [
+        {
+          "email" : "support.automation@softing.com"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "79038a87-8fb5-4034-8e51-d6591c008b92",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "aplSwitch",
+      "version" : "1.10.00",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        }
+      ]
+    }
+  },
+  "components" : [
+    {
+      "type" : "file",
+      "bom-ref" : "a44aa9cf-96e3-42b6-a1ad-bc0838c85b65",
+      "supplier" : {
+        "name" : "Aha-Soft"
+      },
+      "author" : "Aha-Soft",
+      "group" : "Aha-Soft",
+      "name" : "Administrator Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.aha-soft.com/free-icons/free-large-boss-icon-set",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception",
+            "url" : "http://www.aha-soft.com/terms-of-use.htm"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2000-2019 Aha-Soft",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "http://www.aha-soft.com/free-icons/free-large-boss-icon-set"
+        }
+      ]
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "1188f29b-3e16-452b-907f-d72aba2cb60b",
+      "supplier" : {
+        "name" : "Google LLC"
+      },
+      "author" : "Google LLC",
+      "group" : "Google LLC",
+      "name" : "Angular",
+      "version" : "2.4.0",
+      "description" : "Source: https://angular.io/",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://angular.io/license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2010-2020 Google LLC.",
+      "purl" : "pkg:npm/angular@2.4.x"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b20fd12d-a6e8-45e1-9a6c-30a432cfceab",
+      "supplier" : {
+        "name" : "500Tech LTD"
+      },
+      "author" : "500Tech LTD",
+      "group" : "500Tech LTD",
+      "name" : "angular-tree-component",
+      "version" : "3.3.0",
+      "description" : "Source: https://github.com/500tech/angular-tree-component",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/CirclonGroup/angular-tree-component"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 500Tech LTD"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c4c2ca33-6d5f-4d1b-89d8-8487ae9bf10d",
+      "supplier" : {
+        "name" : "zloirock"
+      },
+      "author" : "Denis Pushkarev and others",
+      "group" : "zloirock",
+      "name" : "core-js",
+      "version" : "2.4.1",
+      "description" : "Source: https://github.com/zloirock/core-js",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/zloirock/core-js"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2025 Denis Pushkarev",
+      "purl" : "pkg:npm/core-js@2.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9ae774d8-1c1a-4ba0-b25b-07b23d85e62e",
+      "supplier" : {
+        "name" : "eCosCentric Limited"
+      },
+      "author" : "eCosCentric Limited",
+      "group" : "eCosCentric Limited",
+      "name" : "eCosPro",
+      "version" : "4.3.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "eCosPro License",
+            "url" : "https://www.ecoscentric.com/licensing/ecospro-license-3_0.shtml",
+            "text" : {
+              "contentType" : "text/plain",
+              "encoding" : "base64",
+              "content" : "ICAgICAgICBWZXJzaW9uIDMuMCBBcHJpbCAyMDE4DQoxLiBQcmVhbWJsZQ0KDQpUaGlzIExpY2Vuc2Ugc2V0cyBvdXQgdGhlIHBlcm1pc3Npb25zIGdyYW50ZWQgYnkgdGhlIExpY2Vuc29yIGZvciB0aGUgTGljZW5zZWUgdG8gbWFrZSBDb21tZXJjaWFsIHVzZSBvZiB0aGUgU29mdHdhcmUsIGFuZCBkZWZpbmVzIHRoZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyB1bmRlciB3aGljaCB0aG9zZSBwZXJtaXNzaW9ucyBhcmUgZ3JhbnRlZC4NCg0KV2hlcmUgc29mdHdhcmUgaGFzIGJlZW4gcHJldmlvdXNseSBwcm92aWRlZCB1bmRlciB0aGUgZUNvc1BybyBOb24tQ29tbWVyY2lhbCBQdWJsaWMgTGljZW5zZSBWZXJzaW9uIDEuMCBieSB0aGUgTGljZW5zb3IsIHRoZSBMaWNlbnNvciBhZ3JlZXMgdG8gcmVsaWNlbnNlIHRoZSBOb24t77u/Q29tbWVyY2lhbCBTb2Z0d2FyZSB0byB0aGUgTGljZW5zZWUgdW5kZXIgdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHRoaXMgTGljZW5zZS4NCg0KQnkgdXNpbmcgdGhlIFNvZnR3YXJlLCB0aGUgTGljZW5zb3IgYWdyZWVzIHRvIHRoZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB0aGlzIExpY2Vuc2UsIGluY2x1ZGluZyBTY2hlZHVsZSBBOiBDb21tZXJjaWFsIFVzYWdlLCBhbmQgYWNjZXB0cyB0aGF0IHRoZSBwZXJtaXNzaW9ucyBncmFudGVkIGFyZSBzdWJqZWN0IHRvIHRoZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB0aGlzIExpY2Vuc2UuDQoyLiBEZWZpbml0aW9ucw0KDQpUaGUgZm9sbG93aW5nIHRlcm1zIHVzZWQgd2l0aGluIHRoaXMgbGljZW5zZSBoYXZlIHRoZSBjb3JyZXNwb25kaW5nIG1lYW5pbmc6DQoNCkNvbW1lcmNpYWwNCiAgICBQcmltYXJpbHkgaW50ZW5kZWQgZm9yIG9yIGRpcmVjdGVkIHRvd2FyZHMgY29tbWVyY2lhbCBhZHZhbnRhZ2Ugb3IgbW9uZXRhcnkgY29tcGVuc2F0aW9uLiANCkNvbW1lcmNpYWwgU29mdHdhcmUNCiAgICBUaGUgc29mdHdhcmUgc3BlY2lmaWVkIGluIHNlY3Rpb24gMi5hIG9mIFNjaGVkdWxlIEE6IENvbW1lcmNpYWwgVXNhZ2UuIA0KSG9zdCBTb2Z0d2FyZQ0KICAgIFNvZnR3YXJlIG9yIFNvZnR3YXJlIERlcml2YXRpdmVzLCBpbiBhbnkgZm9ybSwgdGhhdCBhcmUgdXNlZCBpbiB0aGUgZGV2ZWxvcG1lbnQgYW5kIHByb2R1Y3Rpb24gb2YgVGFyZ2V0IFNvZnR3YXJlIGFuZCB3aGljaCBleGVjdXRlcyBvbiBhIGhvc3QgY29tcHV0ZXIsIGFuZCBhbnkgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uLiANCkxpY2Vuc2UNCiAgICBWZXJzaW9uIDMuMCBvZiB0aGUgZUNvc1BybyBMaWNlbnNlLCBpbiBjb25qdW5jdGlvbiB3aXRoIFNjaGVkdWxlIEE6IENvbW1lcmNpYWwgVXNhZ2UuIA0KTGljZW5zZWUNCiAgICBUaGUgTGljZW5zZWUgcHJvdmlkZWQgaW4gU2NoZWR1bGUgQTogQ29tbWVyY2lhbCBVc2FnZS4gDQpMaWNlbnNvcg0KICAgIFRoZSBMaWNlbnNvciBwcm92aWRlZCBpbiBTY2hlZHVsZSBBOiBDb21tZXJjaWFsIFVzYWdlLiANCk1pZGRsZXdhcmUNCiAgICBTb2Z0d2FyZSBpZGVudGlmaWVkIGFzIHBhcnQgb2YgYW4gZUNvc1BybyBNaWRkbGV3YXJlIFBhY2thZ2UgYXMgZGVzY3JpYmVkIGluIHNlY3Rpb24gNiwgQXBwZW5kaXggQSBvZiB0aGUgZUNvc1BybyBOb24tQ29tbWVyY2lhbCBQdWJsaWMgTGljZW5zZSBWZXJzaW9uIDEuMC4gDQpOb24t77u/Q29tbWVyY2lhbA0KICAgIE5vdCBwcmltYXJpbHkgaW50ZW5kZWQgZm9yIG9yIGRpcmVjdGVkIHRvd2FyZHMgY29tbWVyY2lhbCBhZHZhbnRhZ2Ugb3IgbW9uZXRhcnkgY29tcGVuc2F0aW9uLiANCk5vbi3vu79Db21tZXJjaWFsIFNvZnR3YXJlDQogICAgU29mdHdhcmUgKGluIGFueSBmb3JtKSBhbmQgZG9jdW1lbnRhdGlvbiBpZGVudGlmaWVkIGFzIGxpY2Vuc2VkIHVuZGVyIHRoZSBlQ29zUHJvIE5vbi1Db21tZXJjaWFsIFB1YmxpYyBMaWNlbnNlIFZlcnNpb24gMS4wIHRoYXQgaXMgZGlzdHJpYnV0ZWQgYW5kIGxpY2Vuc2VkIGJ5IExpY2Vuc29yLiANClJlbGljZW5zZWQgU29mdHdhcmUNCiAgICBUaGUgc29mdHdhcmUgc3BlY2lmaWVkIGluIHNlY3Rpb24gMi5iIG9mIFNjaGVkdWxlIEE6IENvbW1lcmNpYWwgVXNhZ2UuIA0KU29mdHdhcmUNCiAgICBUaGUgc29mdHdhcmUgc3BlY2lmaWVkIGluIHNlY3Rpb24gMiBvZiBTY2hlZHVsZSBBOiBDb21tZXJjaWFsIFVzYWdlLiANClNvZnR3YXJlIERlcml2YXRpdmVzDQogICAgUmVmZXJzIHRvIGFueSB3b3JrIGRlcml2ZWQgb3IgYmFzZWQgb24gdGhlIFNvZnR3YXJlIGluIGZvcm1hdHMgb3RoZXIgdGhhbiB0aGUgc291cmNlIGNvZGUgZm9ybSBvZiB0aGUgU29mdHdhcmUuIFRoaXMgaW5jbHVkZXMgYW5kIGlzIG5vdCBsaW1pdGVkIG9iamVjdCwgYmluYXJ5LCBleGVjdXRhYmxlLCBlbmNyeXB0ZWQgb3IgY29tcHJlc3NlZCBmb3JtcyBvZiB0aGUgd29yay4gDQpUYXJnZXQgSGFyZHdhcmUNCiAgICBUaGUgVGFyZ2V0KHMpIHNwZWNpZmllZCBpbiBzZWN0aW9uIDMgb2YgU2NoZWR1bGUgQTogQ29tbWVyY2lhbCBVc2FnZS4gDQpUYXJnZXQgU29mdHdhcmUNCiAgICBTb2Z0d2FyZSBvciBTb2Z0d2FyZSBEZXJpdmF0aXZlcyBpbiBvYmplY3QsIGJpbmFyeSBvciBleGVjdXRhYmxlIGZvcm0gdGhhdCBhcmUgaW50ZW5kZWQgdG8gZXhlY3V0ZSBvbiB0aGUgVGFyZ2V0IEhhcmR3YXJlLiANCg0KMy4gR3JhbnQgb2YgTGljZW5zZQ0KDQogICAgVGhlIExpY2Vuc29yIGhlcmVieSwgYW5kIGFzIHNldCBvdXQgaW4gU2NoZWR1bGUgQTogQ29tbWVyY2lhbCBVc2FnZSwgbGljZW5zZXMgdGhlIFNvZnR3YXJlIHVuZGVyIHRoZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB0aGlzIExpY2Vuc2UgYW5kIGdyYW50cyB0aGUgTGljZW5zZWUgYSBub24t77u/dHJhbnNmZXJhYmxlLCBub24t77u/ZXhjbHVzaXZlIGxpY2Vuc2UgdG8gdXNlIHRoZSBTb2Z0d2FyZSBpbiBhY2NvcmRhbmNlIHdpdGggdGhpcyBMaWNlbnNlLg0KICAgIFJlZGlzdHJpYnV0aW9uIG9mIENvbW1lcmNpYWwgU29mdHdhcmUgaW4gYW55IGZvcm0gb3RoZXIgdGhhbiB0aGF0IG9mIFRhcmdldCBTb2Z0d2FyZSBpcyBzdHJpY3RseSBwcm9oaWJpdGVkLg0KICAgIFJlZGlzdHJpYnV0aW9uIG9mIEhvc3QgU29mdHdhcmUgaW4gYW55IGZvcm0gaXMgc3RyaWN0bHkgcHJvaGliaXRlZC4NCiAgICBSZWRpc3RyaWJ1dGlvbiBvZiBSZWxpY2Vuc2VkIFNvZnR3YXJlIGJ5IHRoZSBMaWNlbnNlZSBpcyBwZXJtaXR0ZWQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBlQ29zUHJvIE5vbi1Db21tZXJjaWFsIFB1YmxpYyBMaWNlbnNlIFZlcnNpb24gMS4wLg0KICAgIFRoaXMgTGljZW5zZSBpcyBub3QgdmFsaWQgdW5sZXNzIFNjaGVkdWxlIEE6IENvbW1lcmNpYWwgVXNhZ2UgaGFzIGJlZW4gYXV0aG9yaXNlZCBhbmQgc2lnbmVkIGJ5IGFuIGF1dGhvcmlzZWQgcmVwcmVzZW50YXRpdmUgb2YgdGhlIExpY2Vuc29yLg0KDQo0LiBUZXJtcyBhbmQgQ29uZGl0aW9ucw0KDQpUaGUgU29mdHdhcmUgY29tcG9uZW50cyB0aGF0IGFyZSBsaWNlbnNlZCBmb3IgdXNlIHVuZGVyIHRoaXMgTGljZW5zZSBhcmUgc3ViamVjdCB0byB0aGUgZm9sbG93aW5nIHRlcm1zIGFuZCBjb25kaXRpb25zOg0KDQogICAgRGVmaW5pdGlvbiBvZiBVc2UNCiAgICAgICAgVGhlIExpY2Vuc2VlIGlzIGdyYW50ZWQgYSBub24t77u/dHJhbnNmZXJhYmxlLCBub24t77u/ZXhjbHVzaXZlIHJpZ2h0IHRvIHVzZSB0aGUgU29mdHdhcmUgYW5kIEhvc3QgU29mdHdhcmUgaW4gdGhlIGRldmVsb3BtZW50IGFuZCBwcm9kdWN0aW9uIG9mIFRhcmdldCBTb2Z0d2FyZS4gVGhlIExpY2Vuc2VlIG1heSBzdHVkeSBhbmQgbW9kaWZ5IHRoZSBzb3VyY2UgY29kZSBvZiB0aGUgU29mdHdhcmUgd2hlcmUgcHJvdmlkZWQgYW5kIG1heSBjb21waWxlIGFuZCBhc3NlbWJsZSB0aGUgU29mdHdhcmUgb3IgbW9kaWZpZWQgdmVyc2lvbnMgdGhlcmVvZiB0byBjcmVhdGUgVGFyZ2V0IFNvZnR3YXJlLg0KICAgICAgICBUaGUgTGljZW5zZWUgaXMgcGVybWl0dGVkIHVubGltaXRlZCBkaXN0cmlidXRpb24gb2YgVGFyZ2V0IFNvZnR3YXJlLCBvciBkZXJpdmF0aXZlcyB0aGVyZW9mLCBmb3IgQ29tbWVyY2lhbCBwdXJwb3Nlcy4NCg0KICAgIFByb3RlY3Rpb24gYW5kIFNlY3VyaXR5DQoNCiAgICBUaGUgTGljZW5zZWUgaXMgc3RyaWN0bHkgcHJvaGliaXRlZCBmcm9tIGRpc2Nsb3NpbmcgdGhlIENvbW1lcmNpYWwgU29mdHdhcmUsIFNvZnR3YXJlIERlcml2YXRpdmVzIG9mIENvbW1lcmNpYWwgU29mdHdhcmUsIHV0aWxpdGllcywgaW5zdGFsbGF0aW9uIHByb2dyYW1zLCBhc3NvY2lhdGVkIGRvY3VtZW50YXRpb24sIG9yIG90aGVyIHByb3ByaWV0YXJ5IGluZm9ybWF0aW9uIG1hZGUgYXZhaWxhYmxlIHVuZGVyIHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGlzIExpY2Vuc2UgdG8gYW55IG90aGVyIHBhcnRpZXMsIHJlZ2FyZGxlc3Mgb2Ygd2hldGhlciBvciBub3QgdGhlc2Ugd2VyZSBtb2RpZmllZCBieSB0aGUgTGljZW5zZWUuDQoNCiAgICBFeGNlcHQgaW4gcmVsYXRpb24gdG8gdGhlIFRhcmdldCBTb2Z0d2FyZSB3aGVyZSBkaXN0cmlidXRpb24gaXMgcGVybWl0dGVkIGJ5IDQuYS5paSwgdGhlIExpY2Vuc2VlIGFncmVlcyB0byB0YWtlIHJlYXNvbmFibGUgbWVhc3VyZXMgdG8gcHJvdGVjdCBhbGwgcHJvcHJpZXRhcnkgaW5mb3JtYXRpb24gYW5kIGNvcHlyaWdodHMgb2YgTGljZW5zb3IgaW4gcmVnYXJkcyB0byB0aGUgQ29tbWVyY2lhbCBTb2Z0d2FyZSBhbmQgU29mdHdhcmUgRGVyaXZhdGl2ZXMgb2YgQ29tbWVyY2lhbCBTb2Z0d2FyZSB0byBlbnN1cmUgdGhhdCBubyB1bmF1dGhvcmlzZWQgcGVyc29uIGhhcyBhY2Nlc3MgdG8gdGhlIGFmb3JlbWVudGlvbmVkIGFuZCB0aGF0IHRoZXJlIGlzIG5vIHVuYXV0aG9yaXNlZCBjb3B5aW5nIG9yIGRpc3RyaWJ1dGlvbiBvZiB0aGUgYWZvcmVtZW50aW9uZWQuDQoNCiAgICBUcmFuc2ZlcnMNCg0KICAgIFRoZSBMaWNlbnNlZSBtYXkgbm90IGRpc3RyaWJ1dGUgKGV4Y2VwdCBhcyBwcm92aWRlZCBmb3IgdW5kZXIgNC5hLmlpKSwgc3VibGljZW5zZSwgbGVhc2UsIHJlbnQgbm9yIGxlbmQgdGhlIENvbW1lcmNpYWwgU29mdHdhcmUgb3IgU29mdHdhcmUgRGVyaXZhdGl2ZXMgb2YgQ29tbWVyY2lhbCBTb2Z0d2FyZSwgb3IgYW55IGxhd2Z1bCBjb3BpZXMgdGhlcmVvZiwgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIGFueSBvZiB0aGVpciByaWdodHMgdW5kZXIgdGhpcyBMaWNlbnNlIHRvIGFueSBvdGhlciBwYXJ0eSB3aXRob3V0IHRoZSBwcmlvciB3cml0dGVuIGNvbnNlbnQgb2YgdGhlIExpY2Vuc29yLg0KDQogICAgQXVkaXQNCg0KICAgIFRoZSBMaWNlbnNlZSBzaGFsbCBrZWVwIGFsbCBuZWNlc3NhcnkgYWNjb3VudGluZyByZWNvcmRzIGZvciBwdXJwb3NlcyBvZiBkZXRlcm1pbmluZyB0aGVpciBjb21wbGlhbmNlIHRvIHRoaXMgTGljZW5zZS4gVGhlIExpY2Vuc29yLCBvciBpdHMgcmVwcmVzZW50YXRpdmUsIHNoYWxsIGhhdmUgdGhlIHJpZ2h0IHRvIGF1ZGl0LCBieSBwcmlvciBhcHBvaW50bWVudCBkdXJpbmcgbm9ybWFsIGJ1c2luZXNzIGhvdXJzIGFuZCBubyBtb3JlIHRoYW4gb25jZSBwZXIgeWVhciwgdGhlIExpY2Vuc2VlJ3MgcmVsZXZhbnQgcmVjb3JkcyBhbmQgYWNjb3VudHMgdGhhdCBtYXkgY29udGFpbiBpbmZvcm1hdGlvbiByZWdhcmRpbmcgdGhlIExpY2Vuc2VlJ3MgZXhlcmNpc2Ugb2YgaXRzIHJpZ2h0cyBhbmQgdGhlIHBlcmZvcm1hbmNlIG9mIGl0cyBvYmxpZ2F0aW9ucyB1bmRlciB0aGlzIExpY2Vuc2UuIEFueSBpbmZvcm1hdGlvbiBzbyByZXZlYWxlZCB0byB0aGUgTGljZW5zb3Igc2hhbGwgYmUga2VwdCBpbiBjb25maWRlbmNlIGFuZCB1c2VkIHNvbGVseSBmb3IgdGhlIHB1cnBvc2Ugb2YgdmVyaWZ5aW5nIHRoZSBMaWNlbnNlZSdzIGNvbXBsaWFuY2Ugd2l0aCB0aGlzIExpY2Vuc2UuDQoNCiAgICBUZXJtDQoNCiAgICBUaGlzIGxpY2Vuc2UgaXMgZWZmZWN0aXZlIHVudGlsIHRlcm1pbmF0ZWQuDQoNCiAgICBUZXJtaW5hdGlvbg0KDQogICAgICAgIFRoaXMgbGljZW5zZSB3aWxsIHRlcm1pbmF0ZSB1bmRlciB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6DQogICAgICAgICAgICBUaGUgTGljZW5zZWUgdmlvbGF0ZXMgaXRzIG9ibGlnYXRpb25zIGFzIGRlZmluZWQgYnkgdGhpcyBMaWNlbnNlOyBvcg0KICAgICAgICAgICAgVGhlIExpY2Vuc2VlIHZpb2xhdGVzIGl0cyBvYmxpZ2F0aW9ucyBhcyBkZWZpbmVkIHNlY3Rpb24gNCAo4oCcTGljZW5zZSBDb25kaXRpb25zIGFuZCBBdHRyaWJ1dGlvbuKAnSkgb2YgdGhlIGVDb3NQcm8gTm9uLUNvbW1lcmNpYWwgUHVibGljIExpY2Vuc2UgVmVyc2lvbiAxLjAgaWYgdGhlIExpY2Vuc2VlIGNob29zZXMgdG8gc2hhcmUgTm9uLe+7v0NvbW1lcmNpYWwgU29mdHdhcmU7IG9yDQogICAgICAgICAgICBUaGUgTGljZW5zb3IgcmVhc29uYWJseSBiZWxpZXZlcyB0aGF0IHRoZSBMaWNlbnNlZSBoYXMgdmlvbGF0ZWQgaXRzIG9ibGlnYXRpb25zIGFzIGRlZmluZWQgYnkgdGhpcyBMaWNlbnNlIGFuZCB0aGUgZmFpbHVyZSBoYXMgbm90IGJlZW4gY29ycmVjdGVkIHdpdGhpbiAzMCBkYXlzIGFmdGVyIG5vdGlmaWNhdGlvbiBieSB0aGUgTGljZW5zb3I7IG9yDQogICAgICAgICAgICBUaGUgTGljZW5zZWUgZG9lcyBub3QgcGF5IHRoZSBmdWxsIGludm9pY2VkIGFtb3VudCB3aXRoaW4gMzAgZGF5cyBwYXN0IHRoZSBuZXQgcGF5bWVudCB0ZXJtcyBzcGVjaWZpZWQgaW4gdGhlIExpY2Vuc2VlJ3MgcHVyY2hhc2Ugb3JkZXIsIHdoZXJlIHByb3ZpZGVkLCB0byBMaWNlbnNvcjsNCiAgICAgICAgICAgIFRoZSBMaWNlbnNlZSBiZWNvbWVzIG9yIGlzIGRlZW1lZCBpbnNvbHZlbnQ7IG9yDQogICAgICAgICAgICBBbnkgZGlzdHJlc3Mgb3IgZXhlY3V0aW9uIGlzIGxldmllZCBvbiBhbnkgb2YgdGhlIExpY2Vuc2VlJ3MgcHJvcGVydHkgb3IgYXNzZXRzOyBvcg0KICAgICAgICAgICAgVGhlIExpY2Vuc2VlIG1ha2VzIG9yIG9mZmVycyB0byBtYWtlIGFueSBhcnJhbmdlbWVudCBvciBhZ3JlZW1lbnQgb3IgY29tcG9zaXRpb24gd2l0aCBjcmVkaXRvcnM7IG9yDQogICAgICAgICAgICBUaGUgTGljZW5zZWUgZmlsZXMgYSBiYW5rcnVwdGN5IHBldGl0aW9uOyBvcg0KICAgICAgICAgICAgVGhlIExpY2Vuc2VlIGlzIHN1YmplY3QgdG8gYW55IHByb2NlZWRpbmdzIHdoaWNoIGFyZSBlcXVpdmFsZW50IG9yIHN1YnN0YW50aWFsbHkgc2ltaWxhciB0byBhbnkgb2YgdGhlIHByb2NlZWRpbmdzIHVuZGVyIHRoZSBhYm92ZSBzdWItY2xhdXNlcyA1LCA2LCA3IG9yIDggdW5kZXIgYW55IGFwcGxpY2FibGUganVyaXNkaWN0aW9uLg0KDQogICAgICAgIElmIGFueSBvZiB0aGUgdGhlIGFib3ZlIHN1Yi1jbGF1c2VzIDUsIDYsIDcgb3IgOCBhcmUgZGVlbWVkIGludmFsaWQgaW4gYW55IGFwcGxpY2FibGUganVyaXNkaWN0aW9uLCB0aGUgcmVtYWluZGVyIG9mIHRoaXMgTGljZW5zZSBzaGFsbCByZW1haW4gdmFsaWQuDQoNCiAgICAgICAgVXBvbiB0ZXJtaW5hdGlvbiwgdGhlIExpY2Vuc2VlIG11c3Q6DQogICAgICAgICAgICBjZWFzZSBhbGwgdXNlIG9mIHRoZSBDb21tZXJjaWFsIFNvZnR3YXJlIGFuZCBTb2Z0d2FyZSBEZXJpdmF0aXZlcyBvZiB0aGUgQ29tbWVyY2lhbCBTb2Z0d2FyZSwgaW5jbHVkaW5nIGFsbCBkaXN0cmlidXRpb24gb2YgVGFyZ2V0IFNvZnR3YXJlIGRlcml2ZWQgZWl0aGVyIGluIGZ1bGwgb3IgaW4gcGFydCBmcm9tIENvbW1lcmNpYWwgU29mdHdhcmU7IGFuZA0KICAgICAgICAgICAgaW1tZWRpYXRlbHkgcmV0dXJuIG9yIGRlc3Ryb3kgdGhlIENvbW1lcmNpYWwgU29mdHdhcmUsIFNvZnR3YXJlIERlcml2YXRpdmVzIG9mIENvbW1lcmNpYWwgU29mdHdhcmUsIHV0aWxpdGllcyBhbmQgYXNzb2NpYXRlZCBkb2N1bWVudGF0aW9uOyBhbmQNCiAgICAgICAgICAgIGNlcnRpZnkgaW4gd3JpdGluZyB0byBMaWNlbnNvciB0aGUgY29tcGxldGlvbiBvZiB0aGUgYWJvdmUgc3ViLWNsYXVzZXMgMSBhbmQgMiBpbiB0aGlzIHNlY3Rpb24gNC5mLmlpLg0KDQogICAgVXBvbiB0ZXJtaW5hdGlvbiwgdGhlcmUgd2lsbCBiZSBubyByZWZ1bmQgb2YgYW55IG1vbmllcyBwYWlkIGJ5IExpY2Vuc2VlLg0KDQogICAgVGVybWluYXRpb24gb2YgdGhpcyBsaWNlbnNlIGRvZXMgbm90IHJlcXVpcmUgdGhlIHJldHVybiBvciBkZXN0cnVjdGlvbiBvZiBUYXJnZXQgU29mdHdhcmUgc2hpcHBlZCBieSBMaWNlbnNlZSBwcmlvciB0byBsaWNlbnNlIHRlcm1pbmF0aW9uLg0KDQo1LiBObyBXYXJyYW50eQ0KDQpUaGlzIHNvZnR3YXJlIGlzIHByb3ZpZGVkIGJ5IHRoZSBMaWNlbnNvciBhcyBpcyBhbmQgYW55IGV4cHJlc3Mgb3IgaW1wbGllZCB3YXJyYW50aWVzLCBpbmNsdWRpbmcsIGJ1dCBub3QgbGltaXRlZCB0bywgdGhlIGltcGxpZWQgd2FycmFudGllcyBvZiBtZXJjaGFudGFiaWxpdHksIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlIGFuZCBub24tIGluZnJpbmdlbWVudCBvZiBpbnRlbGxlY3R1YWwgcHJvcGVydHkgcmlnaHRzLCBleGNlcHQgd2hlcmUgc2VjdGlvbiA2LmIgYW5kIDYuYyBhcHBseSwgYXJlIGRpc2NsYWltZWQuIFRoZSBMaWNlbnNvciBkb2VzIG5vdCB3YXJyYW50IHRoYXQgdGhlIFNvZnR3YXJlIHdpbGwgbWVldCB0aGUgTGljZW5zZWUncyByZXF1aXJlbWVudHMgb3IgdGhhdCBvcGVyYXRpb24gb2YgdGhlIFNvZnR3YXJlIHdpbGwgYmUgdW5pbnRlcnJ1cHRlZCBvciB0aGF0IHRoZSBTb2Z0d2FyZSB3aWxsIGJlIGVycm9yLWZyZWUuDQoNClRoaXMgc2VjdGlvbiAoU2VjdGlvbiA1LCDigJxObyBXYXJyYW50eeKAnSkgd2lsbCBzdXJ2aXZlIHRoZSB0ZXJtaW5hdGlvbiBvZiB0aGlzIExpY2Vuc2UgZm9yIGFueSByZWFzb24uDQo2LiBJbnRlbGxlY3R1YWwgUHJvcGVydHkgUmlnaHRzDQoNCiAgICBUaGUgaW50ZWxsZWN0dWFsIHByb3BlcnR5IHJpZ2h0cyBpbiB0aGUgU29mdHdhcmUgc2hhbGwgcmVtYWluIHZlc3RlZCBpbiB0aGUgTGljZW5zb3IuDQoNCiAgICBUaGlzIHNlY3Rpb24gKDYuYSkgd2lsbCBzdXJ2aXZlIHRoZSB0ZXJtaW5hdGlvbiBvZiB0aGlzIExpY2Vuc2UgZm9yIGFueSByZWFzb24uDQoNCiAgICBJbiB0aGUgZXZlbnQgYW55IFNvZnR3YXJlIGluZnJpbmdlcyBhIHRoaXJkIHBhcnR5J3MgaW50ZWxsZWN0dWFsIHByb3BlcnR5IHJpZ2h0cywgTGljZW5zb3IgdW5kZXJ0YWtlcyB0byBlaXRoZXI6DQogICAgICAgIHJlcGxhY2Ugb3IgbW9kaWZ5IHRoZSBhZmZlY3RlZCBjb2RlIHNvIHRoYXQgaXQgd291bGQgbm90IGJlIGluZnJpbmdpbmcgYW55bW9yZTsgb3INCiAgICAgICAgb2J0YWluIGF0IExpY2Vuc29yJ3MgZXhwZW5zZSBhIGxpY2Vuc2Ugb2YgdXNlIGZvciBMaWNlbnNlZSBoYXZpbmcgdGhlIHNhbWUgc2NvcGUgb2YgdGhpcyBMaWNlbnNlLg0KDQogICAgVGhlIExpY2Vuc29yIHdpbGwgaW5kZW1uaWZ5IHRoZSBMaWNlbnNlZSBhZ2FpbnN0IGFueSBsb3NzIG9yIGRhbWFnZSBzdWZmZXJlZCBvciBpbmN1cnJlZCBieSB0aGUgTGljZW5zZWUgYXMgYSByZXN1bHQgb2YgYW55IGNsYWltIHRoYXQgdGhlIHVzZSBvciBwb3NzZXNzaW9uIGJ5IHRoZSBMaWNlbnNlZSBpbiBhY2NvcmRhbmNlIHdpdGggdGhpcyBhZ3JlZW1lbnQgb2YgYW55IFNvZnR3YXJlIGluZnJpbmdlcyB0aGUgaW50ZWxsZWN0dWFsIHByb3BlcnR5IHJpZ2h0cyBvZiBhbnkgdGhpcmQgcGFydHkuDQoNCjcuIERpc2NsYWltZXIgb2YgRGFtYWdlcw0KDQpTb21lIGNvdW50cmllcywgaW5jbHVkaW5nIG1lbWJlciBjb3VudHJpZXMgb2YgdGhlIEV1cm9wZWFuIGVjb25vbWljIGFyZWEsIG9yIHNvbWUgb2YgdGhlaXIgc3RhdGVzLCBkbyBub3QgYWxsb3cgdGhlIGxpbWl0YXRpb24gb3IgZXhjbHVzaW9uIG9mIGxpYWJpbGl0eSBmb3IgaW5jaWRlbnRhbCBvciBjb25zZXF1ZW50aWFsIGRhbWFnZXMgc28gdGhlIGJlbG93IGxpbWl0YXRpb24gb3IgZXhjbHVzaW9uIG1heSBub3QgYXBwbHkgdG8gdGhlIExpY2Vuc2VlLg0KDQpUbyB0aGUgbWF4aW11bSBleHRlbnQgcGVybWl0dGVkIGJ5IGFwcGxpY2FibGUgbGF3IGFuZCByZWdhcmRsZXNzIG9mIHdoZXRoZXIgYW55IHJlbWVkeSBzZXQgZm9ydGggaGVyZWluIGZhaWxzIG9mIGl0cyBlc3NlbnRpYWwgcHVycG9zZSwgaW4gbm8gZXZlbnQgd2lsbCB0aGUgTGljZW5zb3IgYmUgbGlhYmxlIHRvIHRoZSBMaWNlbnNlZSBmb3IgYW55IHNwZWNpYWwsIGNvbnNlcXVlbnRpYWwsIGluZGlyZWN0IG9yIHNpbWlsYXIgZGFtYWdlcywgaW5jbHVkaW5nIGFueSBsb3N0IHByb2ZpdHMgb3IgbG9zdCBkYXRhIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb3IgaW5hYmlsaXR5IHRvIHVzZSB0aGUgc29mdHdhcmUgZXZlbiBpZiB0aGUgTGljZW5zb3IgaGFzIGJlZW4gYWR2aXNlZCBvZiB0aGUgcG9zc2liaWxpdHkgb2Ygc3VjaCBkYW1hZ2VzLg0KOC4gR2VuZXJhbA0KDQpUaGlzIExpY2Vuc2UgaXMgZ292ZXJuZWQgYnkgRW5nbGlzaCBsYXcuIEJvdGggdGhlIExpY2Vuc29yIGFuZCB0aGUgTGljZW5zZWUgc3VibWl0IHRvIHRoZSBleGNsdXNpdmUganVyaXNkaWN0aW9uIG9mIHRoZSBFbmdsaXNoIGNvdXJ0cyBpbiByZWxhdGlvbiB0byBhbnkgZGlzcHV0ZSBjb25jZXJuaW5nIHRoaXMgYWdyZWVtZW50IGJ1dCB0aGUgTGljZW5zb3IgaXMgYWxzbyBlbnRpdGxlZCB0byBhcHBseSB0byBhbnkgY291cnQgd29ybGR3aWRlIGZvciBpbmp1bmN0aXZlIGFuZCBvdGhlciByZW1lZGllcyBpbiBvcmRlciB0byBwcm90ZWN0IG9yIGVuZm9yY2UgaXRzIEludGVsbGVjdHVhbCBQcm9wZXJ0eSBSaWdodHMuDQpTY2hlZHVsZSBBOiBDb21tZXJjaWFsIFVzYWdlDQoNCkxpY2Vuc2UgSUQ6IF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpUaGUgTGljZW5zb3IgaGVyZWJ5IGFncmVlcyB0bzoNCg0KICAgIGxpY2Vuc2UgdGhlIHNvZnR3YXJlIGFuZCBkb2N1bWVudGF0aW9uIGlkZW50aWZpZWQgaW4gMi5hIGJlbG93IHRvIHRoZSBMaWNlbnNlZTsgYW5kDQogICAgcmUt77u/bGljZW5zZSB0aGUgc29mdHdhcmUgYW5kIGRvY3VtZW50YXRpb24gaWRlbnRpZmllZCBpbiAyLmIgYmVsb3cgdG8gdGhlIExpY2Vuc2VlDQoNCnVuZGVyIHRoZSB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB0aGUgZUNvc1BybyBMaWNlbnNlIFZlcnNpb24gMy4wLg0KDQpUaGlzIHNjaGVkdWxlIGRlZmluZXMgdGhlIExpY2Vuc2VlIGFuZCBMaWNlbnNvciwgdGhlIGV4dGVudCB3aGljaCB0aGUgU29mdHdhcmUgaXMgcmVsaWNlbnNlZCBhcyB3ZWxsIGFzIHRoZSBwcm9jZXNzb3IocykgYW5kIExpY2Vuc2VlJ3MgcHJvZHVjdHMuDQoxLiBMaWNlbnNlZSBhbmQgTGljZW5zb3INCg0KTGljZW5zb3I6DQoNCiAgICBlQ29zQ2VudHJpYyBMaW1pdGVkDQogICAgVGhlIE1hbHRpbmdzLCBIaWdoIFN0cmVldCwgQnVyd2VsbCwgQ2FtYnJpZGdlLCBDYW1icmlkZ2VzaGlyZSwgQ0IyNSAwSEIsIFVuaXRlZCBLaW5nZG9tDQogICAgUGhvbmU6ICs0NCAxMjIzIDI0NTU3MSAgICBGYXg6ICs0NCAxMjIzIDI0ODcxMg0KICAgIEVtYWlsOiA8bGljZW5zaW5nQGVjb3NjZW50cmljLmNvbT4gICAgV2ViOiBodHRwczovL3d3dy5lY29zY2VudHJpYy5jb20vDQogICAgQ29tcGFueSByZWdpc3RlcmVkIGluIEVuZ2xhbmQgYW5kIFdhbGVzLCBSZWcgTm8gMDQ0MjIwNzENCg0KTGljZW5zZWU6DQpOYW1lOiAJDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCkJ1c2luZXNzIFVuaXQ6IAkNCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KQWRkcmVzczogCQ0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KMi4gU29mdHdhcmUNCg0KICAgIGVDb3NQcm8gTGljZW5zZSBWZXJzaW9uIDMuMA0KDQogICAgU29mdHdhcmUgd2hpY2ggaWRlbnRpZmllcyBpdHNlbGYgYXMgYmVpbmcgbGljZW5zZWQgdW5kZXIgdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHRoZSBlQ29zUHJvIExpY2Vuc2UgVmVyc2lvbiAzLjAuIFN1Y2ggc29mdHdhcmUgd2lsbCBub3JtYWxseSBjb250YWluIGEgaGVhZGVyIG9mIHRoZSBmb2xsb3dpbmcgZm9ybSBpbiB0aGUgc291cmNlIGNvZGU6DQoNCiAgICAvLz09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQogICAgLy8jIyMjRUNPU1BST0NPUFlSSUdIVEJFR0lOIyMjIw0KICAgIC8vDQogICAgLy8gQ29weXJpZ2h0IChDKSAyMDEwLTIwMTggZUNvc0NlbnRyaWMgTGltaXRlZCAoTGljZW5zb3IgYW5kIGF1dGhvcikNCiAgICAvLw0KICAgIC8vIFRoaXMgZmlsZSBpcyBwYXJ0IG9mIHRoZSBlQ29zUHJvIFJUT1MgYW5kIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZQ0KICAgIC8vICJlQ29zUHJvIExpY2Vuc2UgVmVyc2lvbiAzLjAiICh0aGUgIkxpY2Vuc2UiKSBvciBieSB5b3VyIG93biBjaG9pY2UNCiAgICAvLyBhbnkgbGF0ZXIgdmVyc2lvbi4gWW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZQ0KICAgIC8vIHdpdGggdGhlIExpY2Vuc2UuIEEgY29weSBvZiB0aGUgTGljZW5zZSBjYW4gYmUgb2J0YWluZWQgZnJvbToNCiAgICAvLyAgIGh0dHA6Ly93d3cuZWNvc2NlbnRyaWMuY29tL2Vjb3Nwcm8tbGljZW5zZS5odG1sDQogICAgLy8NCiAgICAvLyMjIyNFQ09TUFJPQ09QWVJJR0hURU5EIyMjIw0KICAgIC8vPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KICAgIElmIG5vIHN1Y2ggaGVhZGVyIGlzIHByZXNlbnQgb3IgcG9zc2libGUgZHVlIHRvIHRoZSBmaWxlIGZvcm1hdCwgdGhlIGxpY2Vuc2Ugd2lsbCBiZSBpZGVudGlmaWVkIGluIHRoZSBhY2NvbXBhbnlpbmcgTElDRU5TRS50eHQgZmlsZSBsb2NhdGVkIGVpdGhlciBpbiB0aGUgc2FtZSBkaXJlY3Rvcnkgb3IsIGlmIG5vdCBwcmVzZW50LCB0aGUgY2xvc2VzdCBhbmNlc3RvcidzIGRpcmVjdG9yeSBjb250YWluaW5nIGEgTElDRU5TRS50eHQgZmlsZS4NCg0KICAgIFJlbGljZW5zZWQgTm9uLUNvbW1lcmNpYWwgU29mdHdhcmUNCg0KICAgIE5vbi3vu79Db21tZXJjaWFsIFNvZnR3YXJlIHRoYXQ6DQogICAgICAgIGlzIGRpc3RyaWJ1dGVkIGFuZCBsaWNlbnNlZCBieSB0aGUgTGljZW5zb3I7IGFuZA0KICAgICAgICBpcyBwcm92aWRlZCBkaXJlY3RseSB0byB0aGUgTGljZW5zZWUgYnkgdGhlIExpY2Vuc29yOyBhbmQNCg0KICAgICAgICBlaXRoZXI6DQogICAgICAgICAgICBkb2VzIG5vdCBpZGVudGlmeSBpdHNlbGYgYXMgTWlkZGxld2FyZSBvcg0KDQogICAgICAgICAgICBpcyBvbmUgb2YgdGhlIGZvbGxvd2luZyBNaWRkbGV3YXJlIHBhY2thZ2VzOg0KDQogICAgICAgICAgICBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogICAgICAgICAgICBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogICAgW0ltcG9ydGFudF0gCUltcG9ydGFudA0KDQogICAgQWxsIE1pZGRsZXdhcmUgUGFja2FnZXMgbm90IGxpc3RlZCBpbiBzZWN0aW9uIDIuYi5paWkuYiBvZiB0aGlzIHNjaGVkdWxlIHNoYWxsIHJlbWFpbiBsaWNlbnNlZCB1bmRlciB0aGUgZUNvc1BybyBOb24tQ29tbWVyY2lhbCBQdWJsaWMgTGljZW5zZSBWZXJzaW9uIDEuMCAoaS5lLiBOb24t77u/Q29tbWVyY2lhbCB1c2Ugb25seSkuDQoNCjMuIFRhcmdldCBIYXJkd2FyZQ0KDQpUaGUgZm9sbG93aW5nIHNlY3Rpb25zIGFyZSBleGFtcGxlcyBvZiBob3cgdGFyZ2V0cyBtYXkgYmUgZGVmaW5lZCBhbmQgYXJlIGluZGljYXRpdmUgb2YgdGhlIHR5cGUgb2Ygc3BlY2lmaWNhdGlvbnMgd2hpY2ggbWF5IGJlIHVzZWQgdG8gZGVmaW5lIHRoZSBwYXJhbWV0ZXJzIHVuZGVyIHdoaWNoIHRoZSBTb2Z0d2FyZSBpcyBsaWNlbnNlZC4gRm9yIGV4YW1wbGUsIHByb2Nlc3NvcnMsIExpY2Vuc2VlJ3MgcHJvZHVjdHMgYW5kIGNvbWJpbmF0aW9ucyB0aGVyZW9mIG1heSBiZSB1c2VkIGluIHRoZSBkZWZpbml0aW9uIG9mIFRhcmdldCBIYXJkd2FyZS4NCg0KICAgIFByb2Nlc3NvcihzKQ0KDQogICAgVGhlIFNvZnR3YXJlIGlzIGxpY2Vuc2VkIGZvciB1c2Ugb24gdGhlIGZvbGxvd2luZyBwcm9jZXNzb3Iocyk6DQogICAgTW9kZWwgTnVtYmVyczogCQ0KDQogICAgX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQogICAgRmFtaWx5L0xpbmU6IAkNCg0KICAgIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICAgIFByb2Nlc3NvciBWZW5kb3I6IAkNCg0KICAgIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogICAgUHJvZHVjdChzKQ0KDQogICAgVGhlIFNvZnR3YXJlIGlzIGxpY2Vuc2VkIGZvciB1c2UgaW4gdGhlIGZvbGxvd2luZyBwcm9kdWN0KHMpOg0KICAgIFByb2R1Y3Qocyk6IAkNCg0KDQogICAgX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCg0KICAgIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQoNCiAgICBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KDQogICAgX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQogICAgUHJvZHVjdCBOYW1lLCBQcm9kdWN0IElELCBCcmFuZCBOYW1lLCBVUEMvRUFOIEJhcmNvZGUsIERlc2NyaXB0aW9uDQogICAgUHJvZHVjdCBMaW5lKHMpOiAJDQoNCg0KICAgIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQoNCiAgICBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KDQogICAgX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCg0KICAgIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICAgIFByb2R1Y3QgTGluZSBOYW1lLCBGdW5jdGlvbmFsaXR5LCBCcmFuZCBOYW1lLCBEZXNjcmlwdGlvbg0KDQo0LiBBdXRob3Jpc2VkIGJ5IExpY2Vuc2VlDQpOYW1lOiAJDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KUG9zaXRpb246IAkNCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpTaWduZWQ6IAkNCg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpEYXRlOiAJDQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICAgICAg"
+            }
+          }
+        }
+      ],
+      "copyright" : "https://www.ecoscentric.com/company/legal.shtml",
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.3.0:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4bf40f91-342e-420e-8c59-a24bae448c81",
+      "supplier" : {
+        "name" : "Eli Grey"
+      },
+      "author" : "Eli Grey",
+      "group" : "eligrey",
+      "name" : "file-saver",
+      "version" : "1.3.3",
+      "description" : "Source: https://github.com/eligrey/FileSaver.js",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/eligrey/FileSaver.js/"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 Eli Grey",
+      "purl" : "pkg:npm/file-saver@1.3.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b51c582e-ef61-456e-ad15-60bd1b3b1acb",
+      "supplier" : {
+        "name" : "JS Foundation"
+      },
+      "author" : "JS Foundation and other contributors",
+      "group" : "JS Foundation and other contributors",
+      "name" : "lodash-es",
+      "version" : "4.17.4",
+      "description" : "Source: https://github.com/lodash/lodash",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/lodash/lodash"
+          }
+        }
+      ],
+      "copyright" : "Copyright © JS Foundation and other contributors <https://js.foundation/> Based on Underscore.js, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>",
+      "purl" : "pkg:npm/lodash-es@4.17.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "222807a4-cd1e-448c-a52e-281acd8ba48f",
+      "supplier" : {
+        "name" : "Free Software Foundation Inc."
+      },
+      "author" : "Swedish Institute of Computer Science and other contributors",
+      "group" : "Nicht-GNU Software",
+      "name" : "LWIP",
+      "version" : "2.1.1",
+      "description" : "Source: http://git.savannah.nongnu.org/cgit/lwip.git",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-1-Clause",
+            "url" : "https://github.com/lwip-tcpip/lwip?tab=readme-ov-file"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2001, 2002 Swedish Institute of Computer Science. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, ...",
+      "cpe" : "cpe:2.3:a:lwip_project:lwip:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "file",
+      "bom-ref" : "b5e13327-1ab4-4adf-884a-468e684087df",
+      "supplier" : {
+        "name" : "Oxygen project"
+      },
+      "author" : "Oxygen Team",
+      "group" : "Oxygen project",
+      "name" : "Maintenance Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Categories-preferences-system-icon.html",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception"
+          }
+        }
+      ],
+      "copyright" : "Oxygen Icon Theme has been developed by The Oxygen Team. Art Directors: Nuno F. Pinheiro <nuno@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Naming Coordinator Jakob Petsovits <jpetso@gmx.at> Designers: David J. Miller <miller@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Johann Ollivier Lapeyre <johann@oxygen-icons.org> Kenneth Wimer <ken@oxygen-icons.org> Nuno F. Pinheiro <nuno@oxygen-icons.org> Riccardo Iaconelli <riccardo@oxygen-icons.org> David J. Miller <miller@oxygen-icons.org> Thanks to: Lee Olson: Contributed drawing used in application-x-bittorent icon. Marco AurÃ©lio \"CorÃ©\": Improved audio-input-microphone icon. Matthias Kretz: Contributed \"audio-input-line\" device icon. Mauricio Piacentini <piacentini@kde.org> : game icons mashup Erlend Hamberg: \"text-x-haskell\" mimetype icon."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cb0ae956-0ace-4fcc-9903-c4f668e78eb1",
+      "supplier" : {
+        "name" : "MobX"
+      },
+      "author" : "Michel Weststrate",
+      "group" : "Michel Weststrate",
+      "name" : "mobx",
+      "version" : "3.1.7",
+      "description" : "Source: https://github.com/mobxjs/mobx",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/mobxjs/mobx"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015 Michel Weststrate",
+      "purl" : "pkg:npm/mobx@3.1.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7153f692-a33a-464a-9c5f-0add4f344de9",
+      "supplier" : {
+        "name" : "Mike Grabski"
+      },
+      "author" : "Mike Grabski",
+      "group" : "Mike Grabski",
+      "name" : "ng2-idle",
+      "version" : "2.0.0",
+      "description" : "Source: https://github.com/HackedByChinese/ng2-idle",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://github.com/grbsk/ng2-idle"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 Mike Grabski",
+      "purl" : "pkg:npm/ng2-idle@2.0.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "fb27d606-a328-4535-8160-efbe45ecbd39",
+      "supplier" : {
+        "name" : "500Tech LTD"
+      },
+      "author" : "Elia Rohana",
+      "group" : "500Tech LTD",
+      "name" : "ng2-mobx",
+      "version" : "1.2.9",
+      "description" : "Source: https://github.com/EliaRohana/ng2-mobx",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/mobxjs/mobx-angular"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 500Tech LTD",
+      "purl" : "pkg:npm/ng2-mobx@1.2.9"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "15abc5ff-3ac2-4f90-adb7-fb73f6e1b0ee",
+      "supplier" : {
+        "name" : "Valor Software"
+      },
+      "author" : "Valor Software",
+      "group" : "Valor Software",
+      "name" : "ngx-bootstrap",
+      "version" : "1.9.3",
+      "description" : "Source: https://github.com/valor-software/ngx-boostrap",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/valor-software/ngx-bootstrap"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015-2017 Valor Software Copyright © 2015-2017 Dmitriy Shekhovtsov<valorkin@gmail.com>",
+      "purl" : "pkg:npm/ngx-bootstrap@1.9.3"
+    },
+    {
+      "type" : "file",
+      "bom-ref" : "defac8e5-0899-4937-aa07-5ecaf2eb6c3e",
+      "supplier" : {
+        "name" : "Oxygen project"
+      },
+      "author" : "Oxygen Team",
+      "group" : "Oxygen project",
+      "name" : "Observer Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-edit-find-icon.html",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception"
+          }
+        }
+      ],
+      "copyright" : "Oxygen Icon Theme has been developed by The Oxygen Team. Art Directors: Nuno F. Pinheiro <nuno@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Naming Coordinator Jakob Petsovits <jpetso@gmx.at> Designers: David J. Miller <miller@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Johann Ollivier Lapeyre <johann@oxygen-icons.org> Kenneth Wimer <ken@oxygen-icons.org> Nuno F. Pinheiro <nuno@oxygen-icons.org> Riccardo Iaconelli <riccardo@oxygen-icons.org> David J. Miller <miller@oxygen-icons.org> Thanks to: Lee Olson: Contributed drawing used in application-x-bittorent icon. Marco AurÃ©lio \"CorÃ©\": Improved audio-input-microphone icon. Matthias Kretz: Contributed \"audio-input-line\" device icon. Mauricio Piacentini <piacentini@kde.org> : game icons mashup Erlend Hamberg: \"text-x-haskell\" mimetype icon."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b9b078b5-4b06-4471-977a-6082b91d6a32",
+      "supplier" : {
+        "name" : "OpenSSL Project"
+      },
+      "author" : "OpenSSL Project",
+      "group" : "OpenSSL Project",
+      "name" : "OpenSSL",
+      "version" : "1.02",
+      "description" : "Source: http://www.openssl.org",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "OpenSSL"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 1998-2018 The OpenSSL Project. All rights reserved. Copyright © 1995-1998 Eric Young (eay@cryptsoft.com) This product includes cryptographic software written by Eric Young (eay@cryptsoft.com) This product includes software written by Tim Hudson (tjh@cryptsoft.com)",
+      "cpe" : "cpe:2.3:a:openssl:openssl:1.0.2u:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5557b4c9-520e-45af-ae5c-928d5df4e254",
+      "supplier" : {
+        "name" : "Tencent"
+      },
+      "author" : "json.org, Alexander Chemeris, THL A29 Limited, Milo Yip",
+      "group" : "Tencent",
+      "name" : "RapidJSON",
+      "version" : "1.1.0",
+      "description" : "Source: https://github.com/Tencent/rapidjson",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "JSON"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015 THL A29 Limited, a Tencent company, and Milo Yip The msinttypes r29 Copyright © 2006-2013 Alexander Chemeris json.org Copyright © 2002 JSON.org JSON_checker Copyright © 2002 JSON.org",
+      "cpe" : "cpe:2.3:a:tencent:rapidjson:1.1.0:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9610022b-049d-468e-bc66-56421a581a3c",
+      "supplier" : {
+        "name" : "Marcin Kalicinski"
+      },
+      "author" : "Marcin Kalicinski",
+      "group" : "Marcin Kalicinski",
+      "name" : "RapidXml",
+      "version" : "1.13.0",
+      "description" : "Source: http://rapidxml.sourceforge.net",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2006, 2007 Marcin Kalicinski"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "5e1e40f9-d2ec-491d-8850-7af989eb0c33",
+      "supplier" : {
+        "name" : "RxJS Dev"
+      },
+      "author" : "Ben Lesh (ben@benlesh.com), Tracy Lee (tracy@thisdot.co) or OJ Kwon (kwon.ohjoong@gmail.com) and others",
+      "group" : "rxjs dev",
+      "name" : "rxjs",
+      "version" : "5.1.0",
+      "description" : "Source: https://github.com/reactivex/rxjs",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://rxjs.dev"
+          }
+        }
+      ],
+      "copyright" : "Ben Lesh (ben@benlesh.com), Tracy Lee (tracy@thisdot.co) or OJ Kwon (kwon.ohjoong@gmail.com) and others",
+      "purl" : "pkg:npm/rxjs@5.1.0"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "79038a87-8fb5-4034-8e51-d6591c008b92",
+      "dependsOn" : [
+        "a44aa9cf-96e3-42b6-a1ad-bc0838c85b65",
+        "1188f29b-3e16-452b-907f-d72aba2cb60b",
+        "b20fd12d-a6e8-45e1-9a6c-30a432cfceab",
+        "c4c2ca33-6d5f-4d1b-89d8-8487ae9bf10d",
+        "9ae774d8-1c1a-4ba0-b25b-07b23d85e62e",
+        "4bf40f91-342e-420e-8c59-a24bae448c81",
+        "b51c582e-ef61-456e-ad15-60bd1b3b1acb",
+        "222807a4-cd1e-448c-a52e-281acd8ba48f",
+        "b5e13327-1ab4-4adf-884a-468e684087df",
+        "cb0ae956-0ace-4fcc-9903-c4f668e78eb1",
+        "7153f692-a33a-464a-9c5f-0add4f344de9",
+        "fb27d606-a328-4535-8160-efbe45ecbd39",
+        "15abc5ff-3ac2-4f90-adb7-fb73f6e1b0ee",
+        "defac8e5-0899-4937-aa07-5ecaf2eb6c3e",
+        "b9b078b5-4b06-4471-977a-6082b91d6a32",
+        "5557b4c9-520e-45af-ae5c-928d5df4e254",
+        "9610022b-049d-468e-bc66-56421a581a3c",
+        "5e1e40f9-d2ec-491d-8850-7af989eb0c33"
+      ]
+    },
+    {
+      "ref" : "a44aa9cf-96e3-42b6-a1ad-bc0838c85b65",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1188f29b-3e16-452b-907f-d72aba2cb60b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b20fd12d-a6e8-45e1-9a6c-30a432cfceab",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c4c2ca33-6d5f-4d1b-89d8-8487ae9bf10d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9ae774d8-1c1a-4ba0-b25b-07b23d85e62e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4bf40f91-342e-420e-8c59-a24bae448c81",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b51c582e-ef61-456e-ad15-60bd1b3b1acb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "222807a4-cd1e-448c-a52e-281acd8ba48f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b5e13327-1ab4-4adf-884a-468e684087df",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cb0ae956-0ace-4fcc-9903-c4f668e78eb1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7153f692-a33a-464a-9c5f-0add4f344de9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "fb27d606-a328-4535-8160-efbe45ecbd39",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "15abc5ff-3ac2-4f90-adb7-fb73f6e1b0ee",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "defac8e5-0899-4937-aa07-5ecaf2eb6c3e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b9b078b5-4b06-4471-977a-6082b91d6a32",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5557b4c9-520e-45af-ae5c-928d5df4e254",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9610022b-049d-468e-bc66-56421a581a3c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "5e1e40f9-d2ec-491d-8850-7af989eb0c33",
+      "dependsOn" : [ ]
+    }
+  ]
+}
