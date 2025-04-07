@@ -1,0 +1,97 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:2e8ff0e8-80b2-4be5-bded-61df86b50350",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-04-07T13:33:19Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "79038a87-8fb5-4034-8e51-d6591c008b92",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "aplSwitch",
+      "version" : "1.10.00",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/ethernet-apl-switches.html"
+        }
+      ]
+    },
+    "manufacture" : {
+      "url" : [
+        "https://industrial.softing.com"
+      ],
+      "contact" : [
+        {
+          "email" : "support.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "vulnerabilities" : [
+    {
+      "bom-ref" : "68c89c03-7db0-49f7-834d-be33130df214",
+      "id" : "CVE-2021-27417",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv2",
+          "vector" : "(AV:N/AC:L/Au:N/C:P/I:P/A:P)"
+        },
+        {
+          "source" : {
+            "name" : "NVD",
+            "url" : "https://nvd.nist.gov/"
+          },
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        190
+      ],
+      "description" : "eCosCentric eCosPro RTOS Versions 2.0.1 through 4.5.3 are vulnerable to integer wraparound in function calloc (an implementation of malloc). The unverified memory assignment can lead to arbitrary memory allocation, resulting in a heap-based buffer overflow.",
+      "published" : "2022-05-03T21:15:00Z",
+      "updated" : "2024-11-21T05:57:00Z",
+      "analysis" : {
+        "state" : "resolved"
+      },
+      "affects" : [
+        {
+          "ref" : "79038a87-8fb5-4034-8e51-d6591c008b92"
+        }
+      ]
+    }
+  ]
+}
