@@ -1,0 +1,195 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:ce7b029b-9427-49d8-883c-4b47f3dc9b65",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-19T08:10:56Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "3706994c-eedb-4de4-bc13-bcb22be0e9d3",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "name" : "EtherNet/IP Adapter for Altera FPGA",
+      "version" : "1.29.00",
+      "description" : "EtherNet/IP Adapter for Altera FPGA version 1.29.00."
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation"
+    },
+    "supplier" : {
+      "name" : "Softing Industrial Automation"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "6f3ffd9d-f1eb-4974-990a-6cdf7027ca44",
+      "supplier" : {
+        "name" : "Altera"
+      },
+      "author" : "Altera",
+      "name" : "Altera IP Cores",
+      "version" : "18.00.00",
+      "description" : "Altera IP Cores"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "21b94221-2b54-4529-a721-b4c7db777c1b",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "DMA IP Core",
+      "version" : "1.31.00",
+      "description" : "DMA IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "405dfc84-25d5-4b31-a206-c6d9072809ac",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2782f568-1ef8-499e-8323-2d711404f27f",
+      "supplier" : {
+        "name" : "various"
+      },
+      "author" : "various",
+      "name" : "EtherNet/IP Adapter Stack",
+      "version" : "2.17.00",
+      "description" : "EtherNet/IP Adapter Stack"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "17a2a5ce-60ce-423a-90d1-682058bc0774",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "2.01.00",
+      "description" : "Fieldbus Utility IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "79597bbc-4047-4e4d-8044-905216e5baef",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Mutex IP Core",
+      "version" : "1.04.00",
+      "description" : "Mutex IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1cb3f2ba-d91c-4cdc-b9c0-9b1e4c338081",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "RTE Switch IP Core",
+      "version" : "1.66.00",
+      "description" : "RTE Switch IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f2047f93-77d9-4cca-a002-20f5fac07503",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "SDAI Sample Application",
+      "version" : "1.44.00",
+      "description" : "SDAI Sample Application"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e664ae8f-f505-4577-8f84-96b5aaf9c8c7",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.95.00",
+      "description" : "Simple Device Application Interface (SDAI)"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "3706994c-eedb-4de4-bc13-bcb22be0e9d3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6f3ffd9d-f1eb-4974-990a-6cdf7027ca44",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "21b94221-2b54-4529-a721-b4c7db777c1b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "405dfc84-25d5-4b31-a206-c6d9072809ac",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2782f568-1ef8-499e-8323-2d711404f27f",
+      "dependsOn" : [
+        "405dfc84-25d5-4b31-a206-c6d9072809ac"
+      ]
+    },
+    {
+      "ref" : "17a2a5ce-60ce-423a-90d1-682058bc0774",
+      "dependsOn" : [
+        "21b94221-2b54-4529-a721-b4c7db777c1b",
+        "79597bbc-4047-4e4d-8044-905216e5baef"
+      ]
+    },
+    {
+      "ref" : "79597bbc-4047-4e4d-8044-905216e5baef",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1cb3f2ba-d91c-4cdc-b9c0-9b1e4c338081",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f2047f93-77d9-4cca-a002-20f5fac07503",
+      "dependsOn" : [
+        "e664ae8f-f505-4577-8f84-96b5aaf9c8c7"
+      ]
+    },
+    {
+      "ref" : "e664ae8f-f505-4577-8f84-96b5aaf9c8c7",
+      "dependsOn" : [ ]
+    }
+  ]
+}

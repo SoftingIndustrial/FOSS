@@ -1,0 +1,92 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:96000173-cae6-483e-be8d-76b8ace7698a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-19T07:18:32Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation"
+      }
+    ],
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "7a911f67-d056-4f60-bc70-7221722e79a9",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "name" : "PROFINET Device Stack",
+      "version" : "2.29.00",
+      "description" : "PROFINET Device Stack 1.29.00."
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation"
+    },
+    "supplier" : {
+      "name" : "Softing Industrial Automation"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "8bbd8763-2d26-4ace-81de-8e1dd1d76895",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "PROFINET Device Stack",
+      "version" : "2.29.00",
+      "description" : "PROFINET Device Stack version 2.29.00."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a2c29135-f636-45d0-af1b-7550742471e9",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "SDAI Sample Application",
+      "version" : "1.44.00",
+      "description" : "SDAI Sample Application"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cf3a1675-b8a8-42ab-82a9-f43a7cdb8f65",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.95.00",
+      "description" : "Simple Device Application Interface (SDAI)"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "7a911f67-d056-4f60-bc70-7221722e79a9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8bbd8763-2d26-4ace-81de-8e1dd1d76895",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a2c29135-f636-45d0-af1b-7550742471e9",
+      "dependsOn" : [
+        "cf3a1675-b8a8-42ab-82a9-f43a7cdb8f65"
+      ]
+    },
+    {
+      "ref" : "cf3a1675-b8a8-42ab-82a9-f43a7cdb8f65",
+      "dependsOn" : [ ]
+    }
+  ]
+}

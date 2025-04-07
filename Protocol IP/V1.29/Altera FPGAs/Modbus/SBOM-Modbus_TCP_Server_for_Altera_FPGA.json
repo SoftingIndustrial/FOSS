@@ -1,0 +1,194 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:4cb42b67-28b3-41d0-bf9a-753ed0aabf48",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-19T08:01:20Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "6a600454-f061-4762-8e7a-23cbb3e7c90e",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "name" : "Modbus TCP Server for Altera FPGA",
+      "version" : "1.29.00",
+      "description" : "Modbus TCP Server for Altera FPGA version 1.29.00."
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation"
+    },
+    "supplier" : {
+      "name" : "Softing Industrial Automation"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "0a2cd11d-4be9-4a58-8f8d-8a13e6c6f75d",
+      "supplier" : {
+        "name" : "Altera"
+      },
+      "author" : "Altera",
+      "name" : "Altera IP Cores",
+      "version" : "18.00.00",
+      "description" : "Altera IP Cores"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8aaffafd-857a-4b85-9b32-70ef1da87f7c",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ee7a4300-1c08-496a-a071-a0ef3efdd2b6",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "External Bus IP Core",
+      "version" : "1.21.00",
+      "description" : "External Bus IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4b9038a8-2ee7-4f09-96c4-210cffa61ff4",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "2.01.00",
+      "description" : "Fieldbus Utility IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2e135bb7-88a4-4897-a085-cb6146bf722d",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "MODBUS/TCP Slave Stack",
+      "version" : "1.15.00",
+      "description" : "EtherNet/IP Adapter Stack"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b6049049-334d-4c2d-be16-23ecac733165",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Mutex IP Core",
+      "version" : "1.04.00",
+      "description" : "Mutex IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c113517d-939f-45d4-92a9-bbcb982283c9",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "RTE Switch IP Core",
+      "version" : "1.66.00",
+      "description" : "RTE Switch IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "65ebdbc0-ce8d-41c2-b8f4-a4af2f239617",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "SDAI Sample Application",
+      "version" : "1.44.00",
+      "description" : "SDAI Sample Application"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9b715a12-24d7-4c50-b3a5-a55cee8ad82c",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.95.00",
+      "description" : "Simple Device Application Interface (SDAI)"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "6a600454-f061-4762-8e7a-23cbb3e7c90e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0a2cd11d-4be9-4a58-8f8d-8a13e6c6f75d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8aaffafd-857a-4b85-9b32-70ef1da87f7c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ee7a4300-1c08-496a-a071-a0ef3efdd2b6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "4b9038a8-2ee7-4f09-96c4-210cffa61ff4",
+      "dependsOn" : [
+        "b6049049-334d-4c2d-be16-23ecac733165"
+      ]
+    },
+    {
+      "ref" : "2e135bb7-88a4-4897-a085-cb6146bf722d",
+      "dependsOn" : [
+        "8aaffafd-857a-4b85-9b32-70ef1da87f7c"
+      ]
+    },
+    {
+      "ref" : "b6049049-334d-4c2d-be16-23ecac733165",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c113517d-939f-45d4-92a9-bbcb982283c9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "65ebdbc0-ce8d-41c2-b8f4-a4af2f239617",
+      "dependsOn" : [
+        "9b715a12-24d7-4c50-b3a5-a55cee8ad82c"
+      ]
+    },
+    {
+      "ref" : "9b715a12-24d7-4c50-b3a5-a55cee8ad82c",
+      "dependsOn" : [ ]
+    }
+  ]
+}

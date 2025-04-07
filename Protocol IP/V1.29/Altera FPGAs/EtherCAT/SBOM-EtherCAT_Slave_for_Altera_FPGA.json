@@ -1,0 +1,210 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:558a3c1f-1c82-4563-8988-5d26b0aa0f62",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-19T08:06:55Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "9c3c2685-8cf0-4870-8959-c1f90ac96e0a",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "name" : "EtherCAT Slave for Altera FPGA",
+      "version" : "1.29.00",
+      "description" : "EtherCAT Slave for Altera FPGA version 1.29.00."
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation"
+    },
+    "supplier" : {
+      "name" : "Softing Industrial Automation"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "52fb0a81-aed5-4274-a8e5-e0862031e746",
+      "supplier" : {
+        "name" : "Altera"
+      },
+      "author" : "Altera",
+      "name" : "Altera IP Cores",
+      "version" : "18.00.00",
+      "description" : "Altera IP Cores"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "960a73d1-4fe1-4f1a-95ac-d8849d991de8",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "DMA IP Core",
+      "version" : "1.31.00",
+      "description" : "DMA IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f0872a5a-c3ff-49ae-97ee-a33b60c0bc18",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a9485041-4093-4052-9fdf-8b6bffb1c0d0",
+      "supplier" : {
+        "name" : "BECKHOFF Automation GmbH & Co. KG"
+      },
+      "author" : "BECKHOFF Automation GmbH & Co. KG",
+      "name" : "EtherCAT Slave Controller IP Core (ESC30)",
+      "version" : "3.00.03 (Patch 2)",
+      "description" : "EtherCAT Slave Controller IP Core (ESC30)"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "cfa2ab95-5a5f-48ec-a975-dd05af1fa683",
+      "supplier" : {
+        "name" : "BECKHOFF Automation GmbH & Co. KG"
+      },
+      "author" : "BECKHOFF Automation GmbH & Co. KG",
+      "name" : "EtherCAT Slave Stack",
+      "version" : "2.25.00",
+      "description" : "EtherCAT Slave Stack (Softing version based on version 5.11 from Beckhoff)"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ea6a8d30-030f-4613-9ed1-f5119c62a7ba",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "External Bus IP Core",
+      "version" : "1.21.00",
+      "description" : "External Bus IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "841774b7-fed1-440a-bc07-e7e3d2b79bd8",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "2.01.00",
+      "description" : "Fieldbus Utility IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2ea4320b-28e6-4a11-93c3-557fe5933baa",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Mutex IP Core",
+      "version" : "1.04.00",
+      "description" : "Mutex IP Core"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "29911843-056c-4b5b-b38a-cb411510cf0b",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "SDAI Sample Application",
+      "version" : "1.44.00",
+      "description" : "SDAI Sample Application"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7558ce22-f73e-4aa7-8b7c-ac8f03696020",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.95.00",
+      "description" : "Simple Device Application Interface (SDAI)"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "9c3c2685-8cf0-4870-8959-c1f90ac96e0a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "52fb0a81-aed5-4274-a8e5-e0862031e746",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "960a73d1-4fe1-4f1a-95ac-d8849d991de8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f0872a5a-c3ff-49ae-97ee-a33b60c0bc18",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a9485041-4093-4052-9fdf-8b6bffb1c0d0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "cfa2ab95-5a5f-48ec-a975-dd05af1fa683",
+      "dependsOn" : [
+        "f0872a5a-c3ff-49ae-97ee-a33b60c0bc18"
+      ]
+    },
+    {
+      "ref" : "ea6a8d30-030f-4613-9ed1-f5119c62a7ba",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "841774b7-fed1-440a-bc07-e7e3d2b79bd8",
+      "dependsOn" : [
+        "960a73d1-4fe1-4f1a-95ac-d8849d991de8",
+        "2ea4320b-28e6-4a11-93c3-557fe5933baa"
+      ]
+    },
+    {
+      "ref" : "2ea4320b-28e6-4a11-93c3-557fe5933baa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "29911843-056c-4b5b-b38a-cb411510cf0b",
+      "dependsOn" : [
+        "7558ce22-f73e-4aa7-8b7c-ac8f03696020"
+      ]
+    },
+    {
+      "ref" : "7558ce22-f73e-4aa7-8b7c-ac8f03696020",
+      "dependsOn" : [ ]
+    }
+  ]
+}

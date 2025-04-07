@@ -1,0 +1,91 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:e48d52cc-fd3c-4d20-b32f-0c37d5779b14",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-02-24T14:27:48Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation"
+      }
+    ],
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "b3ab1125-2f14-41b6-b460-64b3af8fef81",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "name" : "Ethernet/IP Adapter Stack",
+      "version" : "2.17.00"
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation"
+    },
+    "supplier" : {
+      "name" : "Softing Industrial Automation"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "a499e282-091d-463e-9927-3a6976610163",
+      "supplier" : {
+        "name" : "various"
+      },
+      "author" : "various",
+      "name" : "EtherNet/IP Adapter Stack",
+      "version" : "2.17.00",
+      "description" : "EtherNet/IP Adapter Stack version 2.17.00"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "bc0096d0-8244-4908-b8b6-347589b3554c",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "SDAI Sample Application",
+      "version" : "1.44.00",
+      "description" : "SDAI Sample Application"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4da365e1-dfe0-4d33-a4c0-41c4e6611d77",
+      "supplier" : {
+        "name" : "Softing Industrial Automation"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.95.00",
+      "description" : "Simple Device Application Interface (SDAI)"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "b3ab1125-2f14-41b6-b460-64b3af8fef81",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a499e282-091d-463e-9927-3a6976610163",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bc0096d0-8244-4908-b8b6-347589b3554c",
+      "dependsOn" : [
+        "4da365e1-dfe0-4d33-a4c0-41c4e6611d77"
+      ]
+    },
+    {
+      "ref" : "4da365e1-dfe0-4d33-a4c0-41c4e6611d77",
+      "dependsOn" : [ ]
+    }
+  ]
+}
