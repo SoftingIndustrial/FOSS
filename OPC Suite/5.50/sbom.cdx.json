@@ -1,0 +1,349 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:beeebab8-fc1f-47f9-95ad-68bcbfc72acf",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-06-12T10:34:57Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "034ec492-9307-4231-b4b0-f7cac428c3e7",
+      "name" : "DataFEED OPC Suite",
+      "version" : "5.50"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "7019e0f1-9150-40d9-a1d7-5fc51de81fd2",
+      "author" : "B&R Industrial Automation",
+      "group" : "B&R Industrial Automation",
+      "name" : "B&R PVI Communication Library",
+      "version" : "4.3.4.114",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Free"
+          }
+        }
+      ],
+      "copyright" : "Copyright © B&R",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://www.br-automation.com/en/products/software/automation-software/automation-netpvi/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3d1253f4-7d31-4e6d-a748-a802daa24666",
+      "author" : "MongoDb",
+      "group" : "MongoDb",
+      "name" : "Libbson",
+      "version" : "1.15.1",
+      "description" : "https://mongoc.org/libbson/1.15.1/index.html",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright 2017, MongoDB, Inc.Created using Sphinx 1.8.3",
+      "cpe" : "cpe:2.3:a:mongodb:libbson:1.9.5:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://mongoc.org/libbson/1.15.1/index.html"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "bd24308d-7292-411d-bdc2-5091abb4dc12",
+      "author" : "PUC Rio",
+      "group" : "PUC University RIO DE Janeiro",
+      "name" : "Lua",
+      "version" : "5.4.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 1994–2022 Lua.org, PUC-Rio.",
+      "cpe" : "cpe:2.3:a:lua:lua:5.4.3:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://www.lua.org/ftp/lua-5.4.3.tar.gz"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "a8ce8fd9-60eb-40ab-982b-868466c2fcd9",
+      "author" : "Microsoft Corp.",
+      "group" : "Microsoft Corp.",
+      "name" : "Microsoft Visual C++ Redistributables",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MS-PL"
+          }
+        }
+      ],
+      "copyright" : "Copyright Microsoft Corporation",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "www.microsoft.com"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "02657c0b-10a5-42cc-8736-c5cc9e8465c4",
+      "author" : "MongoDb",
+      "group" : "MongoDb",
+      "name" : "MongoDB C++ Driver",
+      "version" : "1.6.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2020 MongoDB, Inc.",
+      "cpe" : "cpe:2.3:a:mongodb:c_driver:1.6.3:*:*:*:*:mongodb:*:*",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/mongodb/mongo-c-driver/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "525d7eed-4490-48b0-807c-7dbce8b52201",
+      "author" : "https://mosquitto.org/",
+      "group" : "https://mosquitto.org/",
+      "name" : "Mosquitto MQTT Broker",
+      "version" : "2.0.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2007, Eclipse Foundation, Inc. and its licensors. Author: Roger Light"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8d8ad8a2-944e-4190-a71d-e8ccfc664faf",
+      "author" : "beltoforion.de",
+      "group" : "beltoforion.de",
+      "name" : "MU Parser",
+      "version" : "4.0.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2012, Ingo Berg",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/beltoforion/muparserx/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1a51d301-1eb8-4606-bffe-237250464265",
+      "author" : "net-snmp.org",
+      "group" : "net-snmp.org",
+      "name" : "NetSNMP",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright" : "Copyright 1989, 1991, 1992 by Carnegie Mellon University. Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The Regents of the University of California.Copyright © 2001-2003, Networks Associates Technology, Inc. copyright © 2001-2003, Cambridge Broadband Ltd.Copyright © 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. Copyright © 2003-2009, Sparta, Inc. Copyright © 2004, Cisco, Inc and Information Network Center of Beijing University of Posts and Telecommunications. Copyright © Fabasoft R&D Software GmbH & Co KG, 2003 oss@fabasoft.com Author: Bernhard Penz. Copyright © 2007 Apple Inc. Copyright © 2009, ScienceLogic, LLC",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "http://www.net-snmp.org/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1bacebcb-86c2-4f04-a7b0-388b06b88c53",
+      "author" : "OPC Foundation",
+      "group" : "OPC Foundation",
+      "name" : "OPC UA LDS",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Reciprocal Community License 1.0"
+          }
+        }
+      ],
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/OPCFoundation/UA-LDS/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7ffccadf-ada5-4dd9-b7bc-c5e88f801285",
+      "author" : "Open SSL Software Services Inc",
+      "group" : "Open SSL Software Services Inc",
+      "name" : "OpenSSL",
+      "version" : "3.0.12",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 1996 - 2020",
+      "cpe" : "cpe:2.3:a:openssl:openssl:3.0.12:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d33630d8-c78f-4c4e-909a-07c04745bfbb",
+      "author" : "Ian Craggs",
+      "group" : "Eclipse Paho",
+      "name" : "Paho.mqtt.c",
+      "version" : "1.3.14",
+      "description" : "https://github.com/eclipse-paho/paho.mqtt.c",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright IBM Corp. 2009, 2020 Authors(s):Ian Craggs",
+      "purl" : "pkg:github/eclipse/paho.mqtt.c"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "66072fb7-caad-443f-b404-34717dbe8d15",
+      "author" : "Qt Group",
+      "group" : "Qt Group",
+      "name" : "Qt",
+      "version" : "5.15.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2020 The Qt Company",
+      "cpe" : "cpe:2.3:a:qt:qt:5.15.2:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d1ec9e97-2de6-4611-babc-c12374c2648c",
+      "author" : "Lee Thomason",
+      "group" : "Public Domain",
+      "name" : "TinyXML 2 XML Parser",
+      "version" : "2.8.2.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Zlib"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2020 GitHub, Inc.",
+      "cpe" : "cpe:2.3:a:tinyxml2_project:tinyxml2:8.0.0:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/leethomason/tinyxml2/"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "034ec492-9307-4231-b4b0-f7cac428c3e7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7019e0f1-9150-40d9-a1d7-5fc51de81fd2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3d1253f4-7d31-4e6d-a748-a802daa24666",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bd24308d-7292-411d-bdc2-5091abb4dc12",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "a8ce8fd9-60eb-40ab-982b-868466c2fcd9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "02657c0b-10a5-42cc-8736-c5cc9e8465c4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "525d7eed-4490-48b0-807c-7dbce8b52201",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8d8ad8a2-944e-4190-a71d-e8ccfc664faf",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1a51d301-1eb8-4606-bffe-237250464265",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1bacebcb-86c2-4f04-a7b0-388b06b88c53",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7ffccadf-ada5-4dd9-b7bc-c5e88f801285",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d33630d8-c78f-4c4e-909a-07c04745bfbb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "66072fb7-caad-443f-b404-34717dbe8d15",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d1ec9e97-2de6-4611-babc-c12374c2648c",
+      "dependsOn" : [ ]
+    }
+  ]
+}
