@@ -1,0 +1,144 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:9cf21104-0a5d-42ec-8b91-d2c2468fc66b",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-07-07T07:43:23Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.11.5"
+      }
+    ],
+    "component" : {
+      "type" : "framework",
+      "bom-ref" : "6e5882cb-7237-41b7-bd95-8acef2106e4a",
+      "name" : "OPC UA C++ SDK",
+      "version" : "6.80"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "b9c13c07-896e-4cb5-a821-7bb65e2ce541",
+      "author" : "jsoncpp contributors",
+      "group" : "Open Source Software",
+      "name" : "jsoncpp",
+      "version" : "1.9.6",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Baptiste Lepilleur <blep@users.sourceforge.net> Aaron Jacobs <aaronjjacobs@gmail.com> Aaron Jacobs <jacobsa@google.com> Adam Boseley <ABoseley@agjunction.com> Adam Boseley <adam.boseley@gmail.com> Aleksandr Derbenev <13alexac@gmail.com> Alexander Gazarov <DrMetallius@users.noreply.github.com> Alexander V. Brezgin <abrezgin@appliedtech.ru> Alexandr Brezgin <albrezgin@mail.ru> Alexey Kruchinin <alexey@mopals.com> Anton Indrawan <anton.indrawan@gmail.com> Baptiste Jonglez <git@bitsofnetworks.org> Baptiste Lepilleur <baptiste.lepilleur@gmail.com> Baruch Siach <baruch@tkos.co.il> Ben Boeckel <mathstuf@gmail.com> Benjamin Knecht <bknecht@logitech.com> Bernd Kuhls <bernd.kuhls@t-online.de> Billy Donahue <billydonahue@google.com> Braden McDorman <bmcdorman@gmail.com> Brandon Myers <bmyers1788@gmail.com> Brendan Drew <brendan.drew@daqri.com> chason <cxchao802@gmail.com> chenguoping <chenguopingdota@163.com> Chris Gilling <cgilling@iparadigms.com> Christopher Dawes <christopher.dawes.1981@googlemail.com> Christophe...",
+      "purl" : "pkg:github/open-source-parsers/jsoncpp"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "6216975a-b58d-44d8-a0c8-3bc90b6a2648",
+      "author" : "libxml contributors",
+      "group" : "libxml2 contributors",
+      "name" : "libxml2",
+      "version" : "2.14.3",
+      "description" : "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home",
+      "hashes" : [
+        {
+          "alg" : "SHA-256",
+          "content" : "82f54c6b383d961fc33d93fd1b8e7cb0bee9338eb8c2083ab804fc02a38d20a5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 1998-2012 Daniel Veillard. All Rights Reserved. Contributors:Bjorn Reese, William Brack, Igor Zlatkovic for the Windows port, Aleksey Sanin, Nick Wellnhofer"
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "161a572a-c4b9-4c35-a8e8-80e997517489",
+      "group" : "OPC Foundation",
+      "name" : "OPC Ansi C Stack",
+      "version" : "1.03.341",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Reciprocal Community License 1.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 2008,2009 OPC Foundation, Inc., All Rights Reserved."
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "c69c40aa-a2c5-493d-8270-57aef5afd296",
+      "author" : "OpenSSL Corp.",
+      "group" : "OpenSSL Corp.",
+      "name" : "OpenSSL",
+      "version" : "3.0.16",
+      "hashes" : [
+        {
+          "alg" : "SHA-256",
+          "content" : "57e03c50feab5d31b152af2b764f10379aecd8ee92f16c985983ce4a99f7ef86"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1998-2024 The OpenSSL Project Authors Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson All rights reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c87cebe3-d171-41d5-8a2a-022d7713fdfd",
+      "author" : "eclipse-paho",
+      "group" : "eclipe-paho",
+      "name" : "paho.mqtt.c",
+      "version" : "1.4",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Eclipse Foundation",
+      "purl" : "pkg:github/eclipse-paho/paho.mqtt.c"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "6e5882cb-7237-41b7-bd95-8acef2106e4a",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b9c13c07-896e-4cb5-a821-7bb65e2ce541",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "6216975a-b58d-44d8-a0c8-3bc90b6a2648",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "161a572a-c4b9-4c35-a8e8-80e997517489",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c69c40aa-a2c5-493d-8270-57aef5afd296",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c87cebe3-d171-41d5-8a2a-022d7713fdfd",
+      "dependsOn" : [ ]
+    }
+  ]
+}
