@@ -24,7 +24,8 @@
       ],
       "contact" : [
         {
-          "email" : "support.automation@softing.com"
+          "email" : "support.automation@softing.com",
+          "phone" : "+49-89-456560"
         }
       ]
     },
@@ -41,6 +42,10 @@
         {
           "type" : "website",
           "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/ethernet-apl-switches.html"
         }
       ]
     }
@@ -139,7 +144,7 @@
       "purl" : "pkg:npm/core-js@2.4.1"
     },
     {
-      "type" : "library",
+      "type" : "operating-system",
       "bom-ref" : "9ae774d8-1c1a-4ba0-b25b-07b23d85e62e",
       "supplier" : {
         "name" : "eCosCentric Limited"
@@ -441,6 +446,235 @@
       ],
       "copyright" : "Ben Lesh (ben@benlesh.com), Tracy Lee (tracy@thisdot.co) or OJ Kwon (kwon.ohjoong@gmail.com) and others",
       "purl" : "pkg:npm/rxjs@5.1.0"
+    },
+    {
+      "type" : "firmware",
+      "bom-ref" : "f25e4a7e-3d09-4ff6-bede-6b7eb4aded9e",
+      "supplier" : {
+        "name" : "R. Stahl Schaltgeraete GmbH"
+      },
+      "author" : "R. Stahl Schaltgeraete GmbH",
+      "group" : "R. Stahl Schaltgeraete GmbH",
+      "name" : "APL FS - Plugboardcontroller",
+      "version" : "V0.3.347R",
+      "description" : "APL Field Switch Plugboardcontroller",
+      "copyright" : "Copyright © 2022-2025",
+      "components" : [
+        {
+          "type" : "device-driver",
+          "bom-ref" : "41930c80-a2c8-43e5-bade-037587c453d9",
+          "supplier" : {
+            "name" : "ARM Limited"
+          },
+          "author" : "ARM Limited",
+          "group" : "ARM Limited",
+          "name" : "ARM CMSIS",
+          "version" : "V5.1",
+          "description" : "CMSIS Core(M) Version definitions",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "Apache-2.0",
+                "url" : "https://arm-software.github.io/CMSIS_6/latest/General/index.html#License"
+              }
+            }
+          ],
+          "copyright" : "Copyright (c) 2009-2017 ARM Limited."
+        },
+        {
+          "type" : "device-driver",
+          "bom-ref" : "d08ee527-73c6-4756-aef6-48d8e7459434",
+          "supplier" : {
+            "name" : "STMicroelectronics"
+          },
+          "author" : "STMicroelectronics - MCD Application Team",
+          "group" : "STMicroelectronics",
+          "name" : "STM32L1xx HAL Drivers",
+          "version" : "V1.4.5",
+          "description" : "The STM32Cube HAL and LL, an STM32 abstraction layer embedded software, ensure maximized portability across STM32 portfolio.",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "BSD-3-Clause-Clear",
+                "url" : "https://github.com/STMicroelectronics/stm32l1xx-hal-driver/blob/master/LICENSE.md"
+              }
+            }
+          ],
+          "copyright" : "COPYRIGHT 2014 STMicroelectronics"
+        }
+      ]
+    },
+    {
+      "type" : "firmware",
+      "bom-ref" : "c1181029-0c5d-4111-9a43-cf91ff65c5d0",
+      "supplier" : {
+        "name" : "R. Stahl Schaltgeraete GmbH"
+      },
+      "author" : "R. Stahl Schaltgeraete GmbH",
+      "group" : "R. Stahl Schaltgeraete GmbH",
+      "name" : "APL FS - Displaycontroller",
+      "version" : "V0.2.973R",
+      "description" : "APL Field Switch Displaycontroller",
+      "copyright" : "Copyright © 2022-2025",
+      "components" : [
+        {
+          "type" : "device-driver",
+          "bom-ref" : "41930c80-a2c8-43e5-bade-037587c453d9",
+          "supplier" : {
+            "name" : "ARM Limited"
+          },
+          "author" : "ARM Limited",
+          "group" : "ARM Limited",
+          "name" : "ARM CMSIS",
+          "version" : "V5.1",
+          "description" : "CMSIS Core(M) Version definitions",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "Apache-2.0",
+                "url" : "https://arm-software.github.io/CMSIS_6/latest/General/index.html#License"
+              }
+            }
+          ],
+          "copyright" : "Copyright (c) 2009-2017 ARM Limited."
+        },
+        {
+          "type" : "operating-system",
+          "bom-ref" : "f37829d0-1df5-4a65-91b5-2e6cbd90c4d5",
+          "supplier" : {
+            "name" : "ARM Limited"
+          },
+          "author" : "ARM Limited",
+          "group" : "ARM Limited",
+          "name" : "CMSIS-RTOS API",
+          "version" : "V2.1.0",
+          "description" : "ARM CMSIS RTOS API",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "Apache-2.0",
+                "url" : "https://arm-software.github.io/CMSIS_6/latest/General/index.html#License"
+              }
+            }
+          ],
+          "copyright" : "Copyright (c) 2009-2017 ARM Limited."
+        },
+        {
+          "type" : "operating-system",
+          "bom-ref" : "319a057e-dbbd-43e6-b331-462219f588d8",
+          "supplier" : {
+            "name" : "Amazon Web Services"
+          },
+          "author" : "Amazon Web Services",
+          "group" : "Amazon Web Services",
+          "name" : "FreeRTOS Kernel",
+          "version" : "V10.0.1",
+          "description" : "FreeRTOS operating system",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "MIT",
+                "url" : "https://www.freertos.org/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/04-Licensing"
+              }
+            }
+          ],
+          "cpe" : "cpe:2.3:o:amazon:freertos:10.0.1:*:*:*:*:*:*:*",
+          "copyright" : "Copyright (C) 2017 Amazon.com, Inc. or its affiliates. All Rights Reserved."
+        },
+        {
+          "type" : "library",
+          "bom-ref" : "7a04b2ce-e70b-4985-8244-94042ee444cb",
+          "supplier" : {
+            "name" : "STMicroelectronics"
+          },
+          "author" : "STMicroelectronics - MCD Application Team",
+          "group" : "STMicroelectronics",
+          "name" : "ST TouchSensing Library",
+          "version" : "V2.2.3",
+          "description" : "ST TouchSensing Library",
+          "licenses" : [
+            {
+              "license" : {
+                "name" : "STMicroelectronics Software License Agreement Liberty V2",
+                "url" : "http://www.st.com/software_license_agreement_liberty_v2",
+                "text" : {
+                  "contentType" : "text/plain",
+                  "encoding" : "base64",
+                  "content" : "U0xBMDA0NCBSZXY1L0ZlYnJ1YXJ5IDIwMTgNCg0KQlkgSU5TVEFMTElORyBDT1BZSU5HLCBET1dOTE9BRElORywgQUNDRVNTSU5HIE9SIE9USEVSV0lTRSBVU0lORyBUSElTIFNPRlRXQVJFIE9SIEFOWSBQQVJUIFRIRVJFT0YgKEFORCBUSEUgUkVMQVRFRCBET0NVTUVOVEFUSU9OKSBGUk9NIFNUTUlDUk9FTEVDVFJPTklDUyBJTlRFUk5BVElPTkFMIE4uViwgU1dJU1MgQlJBTkNIIEFORC9PUiBJVFMgQUZGSUxJQVRFRCBDT01QQU5JRVMgKFNUTUlDUk9FTEVDVFJPTklDUyksIFRIRSBSRUNJUElFTlQsIE9OIEJFSEFMRiBPRiBISU1TRUxGIE9SIEhFUlNFTEYsIE9SIE9OIEJFSEFMRiBPRiBBTlkgRU5USVRZIEJZIFdISUNIIFNVQ0ggUkVDSVBJRU5UIElTIEVNUExPWUVEIEFORC9PUiBFTkdBR0VEIEFHUkVFUyBUTyBCRSBCT1VORCBCWSBUSElTIFNPRlRXQVJFIExJQ0VOU0UgQUdSRUVNRU5ULg0KDQpVbmRlciBTVE1pY3JvZWxlY3Ryb25pY3PigJkgaW50ZWxsZWN0dWFsIHByb3BlcnR5IHJpZ2h0cywgdGhlIHJlZGlzdHJpYnV0aW9uLCByZXByb2R1Y3Rpb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3JtcyBvZiB0aGUgc29mdHdhcmUgb3IgYW55IHBhcnQgdGhlcmVvZiwgd2l0aCBvciB3aXRob3V0IG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0Og0KMS4JUmVkaXN0cmlidXRpb24gb2Ygc291cmNlIGNvZGUgKG1vZGlmaWVkIG9yIG5vdCkgbXVzdCByZXRhaW4gYW55IGNvcHlyaWdodCBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZGlzY2xhaW1lciBzZXQgZm9ydGggYmVsb3cgYXMgaXRlbXMgMTAgYW5kIDExLg0KMi4JUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtLCBleGNlcHQgYXMgZW1iZWRkZWQgaW50byBtaWNyb2NvbnRyb2xsZXIgb3IgbWljcm9wcm9jZXNzb3IgZGV2aWNlIG1hbnVmYWN0dXJlZCBieSBvciBmb3IgU1RNaWNyb2VsZWN0cm9uaWNzIG9yIGEgc29mdHdhcmUgdXBkYXRlIGZvciBzdWNoIGRldmljZSwgbXVzdCByZXByb2R1Y2UgYW55IGNvcHlyaWdodCBub3RpY2UgcHJvdmlkZWQgd2l0aCB0aGUgYmluYXJ5IGNvZGUsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zLCBhbmQgdGhlIGRpc2NsYWltZXIgc2V0IGZvcnRoIGJlbG93IGFzIGl0ZW1zIDEwIGFuZCAxMSwgaW4gZG9jdW1lbnRhdGlvbiBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi4NCjMuCU5laXRoZXIgdGhlIG5hbWUgb2YgU1RNaWNyb2VsZWN0cm9uaWNzIG5vciB0aGUgbmFtZXMgb2Ygb3RoZXIgY29udHJpYnV0b3JzIHRvIHRoaXMgc29mdHdhcmUgbWF5IGJlIHVzZWQgdG8gZW5kb3JzZSBvciBwcm9tb3RlIHByb2R1Y3RzIGRlcml2ZWQgZnJvbSB0aGlzIHNvZnR3YXJlIG9yIHBhcnQgdGhlcmVvZiB3aXRob3V0IHNwZWNpZmljIHdyaXR0ZW4gcGVybWlzc2lvbi4NCjQuCVRoaXMgc29mdHdhcmUgb3IgYW55IHBhcnQgdGhlcmVvZiwgaW5jbHVkaW5nIG1vZGlmaWNhdGlvbnMgYW5kL29yIGRlcml2YXRpdmUgd29ya3Mgb2YgdGhpcyBzb2Z0d2FyZSwgbXVzdCBiZSB1c2VkIGFuZCBleGVjdXRlIHNvbGVseSBhbmQgZXhjbHVzaXZlbHkgb24gb3IgaW4gY29tYmluYXRpb24gd2l0aCBhIG1pY3JvY29udHJvbGxlciBvciBtaWNyb3Byb2Nlc3NvciBkZXZpY2UgbWFudWZhY3R1cmVkIGJ5IG9yIGZvciBTVE1pY3JvZWxlY3Ryb25pY3MuDQo1LglObyB1c2UsIHJlcHJvZHVjdGlvbiBvciByZWRpc3RyaWJ1dGlvbiBvZiB0aGlzIHNvZnR3YXJlIHBhcnRpYWxseSBvciB0b3RhbGx5IG1heSBiZSBkb25lIGluIGFueSBtYW5uZXIgdGhhdCB3b3VsZCBzdWJqZWN0IHRoaXMgc29mdHdhcmUgdG8gYW55IE9wZW4gU291cmNlIFRlcm1zLiDigJxPcGVuIFNvdXJjZSBUZXJtc+KAnSBzaGFsbCBtZWFuIGFueSBvcGVuIHNvdXJjZSBsaWNlbnNlIHdoaWNoIHJlcXVpcmVzIGFzIHBhcnQgb2YgZGlzdHJpYnV0aW9uIG9mIHNvZnR3YXJlIHRoYXQgdGhlIHNvdXJjZSBjb2RlIG9mIHN1Y2ggc29mdHdhcmUgaXMgZGlzdHJpYnV0ZWQgdGhlcmV3aXRoIG9yIG90aGVyd2lzZSBtYWRlIGF2YWlsYWJsZSwgb3Igb3BlbiBzb3VyY2UgbGljZW5zZSB0aGF0IHN1YnN0YW50aWFsbHkgY29tcGxpZXMgd2l0aCB0aGUgT3BlbiBTb3VyY2UgZGVmaW5pdGlvbiBzcGVjaWZpZWQgYXQgd3d3Lm9wZW5zb3VyY2Uub3JnIGFuZCBhbnkgb3RoZXIgY29tcGFyYWJsZSBvcGVuIHNvdXJjZSBsaWNlbnNlIHN1Y2ggYXMgZm9yIGV4YW1wbGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgKEdQTCksIEVjbGlwc2UgUHVibGljIExpY2Vuc2UgKEVQTCksIEFwYWNoZSBTb2Z0d2FyZSBMaWNlbnNlLCBCU0QgbGljZW5zZSBvciBNSVQgbGljZW5zZS4NCjYuCVNUTWljcm9lbGVjdHJvbmljcyBoYXMgbm8gb2JsaWdhdGlvbiB0byBwcm92aWRlIGFueSBtYWludGVuYW5jZSwgc3VwcG9ydCBvciB1cGRhdGVzIGZvciB0aGUgc29mdHdhcmUuDQo3LglUaGUgc29mdHdhcmUgaXMgYW5kIHdpbGwgcmVtYWluIHRoZSBleGNsdXNpdmUgcHJvcGVydHkgb2YgU1RNaWNyb2VsZWN0cm9uaWNzIGFuZCBpdHMgbGljZW5zb3JzLiBUaGUgcmVjaXBpZW50IHdpbGwgbm90IHRha2UgYW55IGFjdGlvbiB0aGF0IGplb3BhcmRpemVzIFNUTWljcm9lbGVjdHJvbmljcyBhbmQgaXRzIGxpY2Vuc29ycycgcHJvcHJpZXRhcnkgcmlnaHRzIG9yIGFjcXVpcmUgYW55IHJpZ2h0cyBpbiB0aGUgc29mdHdhcmUsIGV4Y2VwdCB0aGUgbGltaXRlZCByaWdodHMgc3BlY2lmaWVkIGhlcmV1bmRlci4NCjguCVRoZSByZWNpcGllbnQgc2hhbGwgY29tcGx5IHdpdGggYWxsIGFwcGxpY2FibGUgbGF3cyBhbmQgcmVndWxhdGlvbnMgYWZmZWN0aW5nIHRoZSB1c2Ugb2YgdGhlIHNvZnR3YXJlIG9yIGFueSBwYXJ0IHRoZXJlb2YgaW5jbHVkaW5nIGFueSBhcHBsaWNhYmxlIGV4cG9ydCBjb250cm9sIGxhdyBvciByZWd1bGF0aW9uLg0KOS4JUmVkaXN0cmlidXRpb24gYW5kIHVzZSBvZiB0aGlzIHNvZnR3YXJlIG9yIGFueSBwYXJ0IHRoZXJlb2Ygb3RoZXIgdGhhbiBhcyBwZXJtaXR0ZWQgdW5kZXIgdGhpcyBsaWNlbnNlIGlzIHZvaWQgYW5kIHdpbGwgYXV0b21hdGljYWxseSB0ZXJtaW5hdGUgeW91ciByaWdodHMgdW5kZXIgdGhpcyBsaWNlbnNlLiANCjEwLglUSElTIFNPRlRXQVJFIElTIFBST1ZJREVEIEJZIFNUTUlDUk9FTEVDVFJPTklDUyBBTkQgQ09OVFJJQlVUT1JTICJBUyBJUyIgQU5EIEFOWSBFWFBSRVNTLCBJTVBMSUVEIE9SIFNUQVRVVE9SWSBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFksIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBOT04tSU5GUklOR0VNRU5UIE9GIFRISVJEIFBBUlRZIElOVEVMTEVDVFVBTCBQUk9QRVJUWSBSSUdIVFMsIFdISUNIIEFSRSBESVNDTEFJTUVEIFRPIFRIRSBGVUxMRVNUIEVYVEVOVCBQRVJNSVRURUQgQlkgTEFXLiBJTiBOTyBFVkVOVCBTSEFMTCBTVE1JQ1JPRUxFQ1RST05JQ1MgT1IgQ09OVFJJQlVUT1JTIEJFIExJQUJMRSBGT1IgQU5ZIERJUkVDVCwgSU5ESVJFQ1QsIElOQ0lERU5UQUwsIFNQRUNJQUwsIEVYRU1QTEFSWSwgT1IgQ09OU0VRVUVOVElBTCBEQU1BR0VTIChJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgUFJPQ1VSRU1FTlQgT0YgU1VCU1RJVFVURSBHT09EUyBPUiBTRVJWSUNFUzsgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikgSE9XRVZFUiBDQVVTRUQgQU5EIE9OIEFOWSBUSEVPUlkgT0YgTElBQklMSVRZLCBXSEVUSEVSIElOIENPTlRSQUNULCBTVFJJQ1QgTElBQklMSVRZLCBPUiBUT1JUIChJTkNMVURJTkcgTkVHTElHRU5DRSBPUiBPVEhFUldJU0UpIEFSSVNJTkcgSU4gQU5ZIFdBWSBPVVQgT0YgVEhFIFVTRSBPRiBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GIFNVQ0ggREFNQUdFLg0KMTEuCUVYQ0VQVCBBUyBFWFBSRVNTTFkgUEVSTUlUVEVEIEhFUkVVTkRFUiwgTk8gTElDRU5TRSBPUiBPVEhFUiBSSUdIVFMsIFdIRVRIRVIgRVhQUkVTUyBPUiBJTVBMSUVELCBBUkUgR1JBTlRFRCBVTkRFUiBBTlkgUEFURU5UIE9SIE9USEVSIElOVEVMTEVDVFVBTCBQUk9QRVJUWSBSSUdIVFMgT0YgU1RNSUNST0VMRUNUUk9OSUNTIE9SIEFOWSBUSElSRCBQQVJUWS4NCiA="
+                }
+              }
+            }
+          ],
+          "copyright" : "COPYRIGHT 2014 STMicroelectronics"
+        },
+        {
+          "type" : "library",
+          "bom-ref" : "267606a2-f577-4313-b8f6-24eab460d44e",
+          "supplier" : {
+            "name" : "STMicroelectronics"
+          },
+          "author" : "STMicroelectronics - MCD Application Team",
+          "group" : "STMicroelectronics",
+          "name" : "STM32Cube Expansion of Class B library",
+          "version" : "V2.2.0",
+          "description" : "STM32Cube Expansion of Class B library",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "BSD-3-Clause-Clear"
+              }
+            }
+          ],
+          "copyright" : "COPYRIGHT 2014 STMicroelectronics"
+        },
+        {
+          "type" : "device-driver",
+          "bom-ref" : "d08ee527-73c6-4756-aef6-48d8e7459434",
+          "supplier" : {
+            "name" : "STMicroelectronics"
+          },
+          "author" : "STMicroelectronics - MCD Application Team",
+          "group" : "STMicroelectronics",
+          "name" : "STM32L1xx HAL Drivers",
+          "version" : "V1.4.5",
+          "description" : "The STM32Cube HAL and LL, an STM32 abstraction layer embedded software, ensure maximized portability across STM32 portfolio.",
+          "licenses" : [
+            {
+              "license" : {
+                "id" : "BSD-3-Clause-Clear",
+                "url" : "https://github.com/STMicroelectronics/stm32l1xx-hal-driver/blob/master/LICENSE.md"
+              }
+            }
+          ],
+          "copyright" : "COPYRIGHT 2014 STMicroelectronics"
+        },
+        {
+          "type" : "library",
+          "bom-ref" : "b5fa5159-5f83-41a4-8c44-4ec14d2d8cc6",
+          "supplier" : {
+            "name" : "SEGGER Software GmbH"
+          },
+          "author" : "SEGGER Software GmbH",
+          "group" : "SEGGER Software GmbH",
+          "name" : "emWin",
+          "version" : "V5.44",
+          "description" : "emWin V5.44 - Graphical user interface for embedded applications",
+          "licenses" : [
+            {
+              "license" : {
+                "name" : "STMicroelectronics Software License Agreement Liberty V2",
+                "url" : "http://www.st.com/software_license_agreement_liberty_v2",
+                "text" : {
+                  "contentType" : "text/plain",
+                  "encoding" : "base64",
+                  "content" : "U0xBMDA0NCBSZXY1L0ZlYnJ1YXJ5IDIwMTgNCg0KQlkgSU5TVEFMTElORyBDT1BZSU5HLCBET1dOTE9BRElORywgQUNDRVNTSU5HIE9SIE9USEVSV0lTRSBVU0lORyBUSElTIFNPRlRXQVJFIE9SIEFOWSBQQVJUIFRIRVJFT0YgKEFORCBUSEUgUkVMQVRFRCBET0NVTUVOVEFUSU9OKSBGUk9NIFNUTUlDUk9FTEVDVFJPTklDUyBJTlRFUk5BVElPTkFMIE4uViwgU1dJU1MgQlJBTkNIIEFORC9PUiBJVFMgQUZGSUxJQVRFRCBDT01QQU5JRVMgKFNUTUlDUk9FTEVDVFJPTklDUyksIFRIRSBSRUNJUElFTlQsIE9OIEJFSEFMRiBPRiBISU1TRUxGIE9SIEhFUlNFTEYsIE9SIE9OIEJFSEFMRiBPRiBBTlkgRU5USVRZIEJZIFdISUNIIFNVQ0ggUkVDSVBJRU5UIElTIEVNUExPWUVEIEFORC9PUiBFTkdBR0VEIEFHUkVFUyBUTyBCRSBCT1VORCBCWSBUSElTIFNPRlRXQVJFIExJQ0VOU0UgQUdSRUVNRU5ULg0KDQpVbmRlciBTVE1pY3JvZWxlY3Ryb25pY3PigJkgaW50ZWxsZWN0dWFsIHByb3BlcnR5IHJpZ2h0cywgdGhlIHJlZGlzdHJpYnV0aW9uLCByZXByb2R1Y3Rpb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3JtcyBvZiB0aGUgc29mdHdhcmUgb3IgYW55IHBhcnQgdGhlcmVvZiwgd2l0aCBvciB3aXRob3V0IG1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRlZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0Og0KMS4JUmVkaXN0cmlidXRpb24gb2Ygc291cmNlIGNvZGUgKG1vZGlmaWVkIG9yIG5vdCkgbXVzdCByZXRhaW4gYW55IGNvcHlyaWdodCBub3RpY2UsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zIGFuZCB0aGUgZGlzY2xhaW1lciBzZXQgZm9ydGggYmVsb3cgYXMgaXRlbXMgMTAgYW5kIDExLg0KMi4JUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtLCBleGNlcHQgYXMgZW1iZWRkZWQgaW50byBtaWNyb2NvbnRyb2xsZXIgb3IgbWljcm9wcm9jZXNzb3IgZGV2aWNlIG1hbnVmYWN0dXJlZCBieSBvciBmb3IgU1RNaWNyb2VsZWN0cm9uaWNzIG9yIGEgc29mdHdhcmUgdXBkYXRlIGZvciBzdWNoIGRldmljZSwgbXVzdCByZXByb2R1Y2UgYW55IGNvcHlyaWdodCBub3RpY2UgcHJvdmlkZWQgd2l0aCB0aGUgYmluYXJ5IGNvZGUsIHRoaXMgbGlzdCBvZiBjb25kaXRpb25zLCBhbmQgdGhlIGRpc2NsYWltZXIgc2V0IGZvcnRoIGJlbG93IGFzIGl0ZW1zIDEwIGFuZCAxMSwgaW4gZG9jdW1lbnRhdGlvbiBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi4NCjMuCU5laXRoZXIgdGhlIG5hbWUgb2YgU1RNaWNyb2VsZWN0cm9uaWNzIG5vciB0aGUgbmFtZXMgb2Ygb3RoZXIgY29udHJpYnV0b3JzIHRvIHRoaXMgc29mdHdhcmUgbWF5IGJlIHVzZWQgdG8gZW5kb3JzZSBvciBwcm9tb3RlIHByb2R1Y3RzIGRlcml2ZWQgZnJvbSB0aGlzIHNvZnR3YXJlIG9yIHBhcnQgdGhlcmVvZiB3aXRob3V0IHNwZWNpZmljIHdyaXR0ZW4gcGVybWlzc2lvbi4NCjQuCVRoaXMgc29mdHdhcmUgb3IgYW55IHBhcnQgdGhlcmVvZiwgaW5jbHVkaW5nIG1vZGlmaWNhdGlvbnMgYW5kL29yIGRlcml2YXRpdmUgd29ya3Mgb2YgdGhpcyBzb2Z0d2FyZSwgbXVzdCBiZSB1c2VkIGFuZCBleGVjdXRlIHNvbGVseSBhbmQgZXhjbHVzaXZlbHkgb24gb3IgaW4gY29tYmluYXRpb24gd2l0aCBhIG1pY3JvY29udHJvbGxlciBvciBtaWNyb3Byb2Nlc3NvciBkZXZpY2UgbWFudWZhY3R1cmVkIGJ5IG9yIGZvciBTVE1pY3JvZWxlY3Ryb25pY3MuDQo1LglObyB1c2UsIHJlcHJvZHVjdGlvbiBvciByZWRpc3RyaWJ1dGlvbiBvZiB0aGlzIHNvZnR3YXJlIHBhcnRpYWxseSBvciB0b3RhbGx5IG1heSBiZSBkb25lIGluIGFueSBtYW5uZXIgdGhhdCB3b3VsZCBzdWJqZWN0IHRoaXMgc29mdHdhcmUgdG8gYW55IE9wZW4gU291cmNlIFRlcm1zLiDigJxPcGVuIFNvdXJjZSBUZXJtc+KAnSBzaGFsbCBtZWFuIGFueSBvcGVuIHNvdXJjZSBsaWNlbnNlIHdoaWNoIHJlcXVpcmVzIGFzIHBhcnQgb2YgZGlzdHJpYnV0aW9uIG9mIHNvZnR3YXJlIHRoYXQgdGhlIHNvdXJjZSBjb2RlIG9mIHN1Y2ggc29mdHdhcmUgaXMgZGlzdHJpYnV0ZWQgdGhlcmV3aXRoIG9yIG90aGVyd2lzZSBtYWRlIGF2YWlsYWJsZSwgb3Igb3BlbiBzb3VyY2UgbGljZW5zZSB0aGF0IHN1YnN0YW50aWFsbHkgY29tcGxpZXMgd2l0aCB0aGUgT3BlbiBTb3VyY2UgZGVmaW5pdGlvbiBzcGVjaWZpZWQgYXQgd3d3Lm9wZW5zb3VyY2Uub3JnIGFuZCBhbnkgb3RoZXIgY29tcGFyYWJsZSBvcGVuIHNvdXJjZSBsaWNlbnNlIHN1Y2ggYXMgZm9yIGV4YW1wbGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgKEdQTCksIEVjbGlwc2UgUHVibGljIExpY2Vuc2UgKEVQTCksIEFwYWNoZSBTb2Z0d2FyZSBMaWNlbnNlLCBCU0QgbGljZW5zZSBvciBNSVQgbGljZW5zZS4NCjYuCVNUTWljcm9lbGVjdHJvbmljcyBoYXMgbm8gb2JsaWdhdGlvbiB0byBwcm92aWRlIGFueSBtYWludGVuYW5jZSwgc3VwcG9ydCBvciB1cGRhdGVzIGZvciB0aGUgc29mdHdhcmUuDQo3LglUaGUgc29mdHdhcmUgaXMgYW5kIHdpbGwgcmVtYWluIHRoZSBleGNsdXNpdmUgcHJvcGVydHkgb2YgU1RNaWNyb2VsZWN0cm9uaWNzIGFuZCBpdHMgbGljZW5zb3JzLiBUaGUgcmVjaXBpZW50IHdpbGwgbm90IHRha2UgYW55IGFjdGlvbiB0aGF0IGplb3BhcmRpemVzIFNUTWljcm9lbGVjdHJvbmljcyBhbmQgaXRzIGxpY2Vuc29ycycgcHJvcHJpZXRhcnkgcmlnaHRzIG9yIGFjcXVpcmUgYW55IHJpZ2h0cyBpbiB0aGUgc29mdHdhcmUsIGV4Y2VwdCB0aGUgbGltaXRlZCByaWdodHMgc3BlY2lmaWVkIGhlcmV1bmRlci4NCjguCVRoZSByZWNpcGllbnQgc2hhbGwgY29tcGx5IHdpdGggYWxsIGFwcGxpY2FibGUgbGF3cyBhbmQgcmVndWxhdGlvbnMgYWZmZWN0aW5nIHRoZSB1c2Ugb2YgdGhlIHNvZnR3YXJlIG9yIGFueSBwYXJ0IHRoZXJlb2YgaW5jbHVkaW5nIGFueSBhcHBsaWNhYmxlIGV4cG9ydCBjb250cm9sIGxhdyBvciByZWd1bGF0aW9uLg0KOS4JUmVkaXN0cmlidXRpb24gYW5kIHVzZSBvZiB0aGlzIHNvZnR3YXJlIG9yIGFueSBwYXJ0IHRoZXJlb2Ygb3RoZXIgdGhhbiBhcyBwZXJtaXR0ZWQgdW5kZXIgdGhpcyBsaWNlbnNlIGlzIHZvaWQgYW5kIHdpbGwgYXV0b21hdGljYWxseSB0ZXJtaW5hdGUgeW91ciByaWdodHMgdW5kZXIgdGhpcyBsaWNlbnNlLiANCjEwLglUSElTIFNPRlRXQVJFIElTIFBST1ZJREVEIEJZIFNUTUlDUk9FTEVDVFJPTklDUyBBTkQgQ09OVFJJQlVUT1JTICJBUyBJUyIgQU5EIEFOWSBFWFBSRVNTLCBJTVBMSUVEIE9SIFNUQVRVVE9SWSBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFksIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBOT04tSU5GUklOR0VNRU5UIE9GIFRISVJEIFBBUlRZIElOVEVMTEVDVFVBTCBQUk9QRVJUWSBSSUdIVFMsIFdISUNIIEFSRSBESVNDTEFJTUVEIFRPIFRIRSBGVUxMRVNUIEVYVEVOVCBQRVJNSVRURUQgQlkgTEFXLiBJTiBOTyBFVkVOVCBTSEFMTCBTVE1JQ1JPRUxFQ1RST05JQ1MgT1IgQ09OVFJJQlVUT1JTIEJFIExJQUJMRSBGT1IgQU5ZIERJUkVDVCwgSU5ESVJFQ1QsIElOQ0lERU5UQUwsIFNQRUNJQUwsIEVYRU1QTEFSWSwgT1IgQ09OU0VRVUVOVElBTCBEQU1BR0VTIChJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgUFJPQ1VSRU1FTlQgT0YgU1VCU1RJVFVURSBHT09EUyBPUiBTRVJWSUNFUzsgTE9TUyBPRiBVU0UsIERBVEEsIE9SIFBST0ZJVFM7IE9SIEJVU0lORVNTIElOVEVSUlVQVElPTikgSE9XRVZFUiBDQVVTRUQgQU5EIE9OIEFOWSBUSEVPUlkgT0YgTElBQklMSVRZLCBXSEVUSEVSIElOIENPTlRSQUNULCBTVFJJQ1QgTElBQklMSVRZLCBPUiBUT1JUIChJTkNMVURJTkcgTkVHTElHRU5DRSBPUiBPVEhFUldJU0UpIEFSSVNJTkcgSU4gQU5ZIFdBWSBPVVQgT0YgVEhFIFVTRSBPRiBUSElTIFNPRlRXQVJFLCBFVkVOIElGIEFEVklTRUQgT0YgVEhFIFBPU1NJQklMSVRZIE9GIFNVQ0ggREFNQUdFLg0KMTEuCUVYQ0VQVCBBUyBFWFBSRVNTTFkgUEVSTUlUVEVEIEhFUkVVTkRFUiwgTk8gTElDRU5TRSBPUiBPVEhFUiBSSUdIVFMsIFdIRVRIRVIgRVhQUkVTUyBPUiBJTVBMSUVELCBBUkUgR1JBTlRFRCBVTkRFUiBBTlkgUEFURU5UIE9SIE9USEVSIElOVEVMTEVDVFVBTCBQUk9QRVJUWSBSSUdIVFMgT0YgU1RNSUNST0VMRUNUUk9OSUNTIE9SIEFOWSBUSElSRCBQQVJUWS4NCiA="
+                }
+              }
+            }
+          ],
+          "copyright" : "Copyright © 2001-2024 SEGGER Microcontroller GmbH. All rights reserved."
+        }
+      ]
     }
   ],
   "dependencies" : [
@@ -464,7 +698,9 @@
         "b9b078b5-4b06-4471-977a-6082b91d6a32",
         "5557b4c9-520e-45af-ae5c-928d5df4e254",
         "9610022b-049d-468e-bc66-56421a581a3c",
-        "5e1e40f9-d2ec-491d-8850-7af989eb0c33"
+        "5e1e40f9-d2ec-491d-8850-7af989eb0c33",
+        "f25e4a7e-3d09-4ff6-bede-6b7eb4aded9e",
+        "c1181029-0c5d-4111-9a43-cf91ff65c5d0"
       ]
     },
     {
@@ -538,6 +774,25 @@
     {
       "ref" : "5e1e40f9-d2ec-491d-8850-7af989eb0c33",
       "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f25e4a7e-3d09-4ff6-bede-6b7eb4aded9e",
+      "dependsOn" : [
+        "41930c80-a2c8-43e5-bade-037587c453d9",
+        "d08ee527-73c6-4756-aef6-48d8e7459434"
+      ]
+    },
+    {
+      "ref" : "c1181029-0c5d-4111-9a43-cf91ff65c5d0",
+      "dependsOn" : [
+        "41930c80-a2c8-43e5-bade-037587c453d9",
+        "f37829d0-1df5-4a65-91b5-2e6cbd90c4d5",
+        "319a057e-dbbd-43e6-b331-462219f588d8",
+        "7a04b2ce-e70b-4985-8244-94042ee444cb",
+        "267606a2-f577-4313-b8f6-24eab460d44e",
+        "d08ee527-73c6-4756-aef6-48d8e7459434",
+        "b5fa5159-5f83-41a4-8c44-4ec14d2d8cc6"
+      ]
     }
   ]
 }
