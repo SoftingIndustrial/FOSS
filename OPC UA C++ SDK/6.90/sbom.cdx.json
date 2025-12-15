@@ -1,0 +1,155 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:2bd79060-e746-4e46-a6af-d24e4d22f307",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-03T07:53:57Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.13.2"
+      }
+    ],
+    "component" : {
+      "type" : "framework",
+      "bom-ref" : "7e1327a2-d40a-4cf0-bccb-184696c43214",
+      "name" : "OPC UA C++ SDK",
+      "version" : "6.90"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "5d1e9c9c-af4f-4bdc-95ab-3ba717aac023",
+      "author" : "jsoncpp contributors",
+      "group" : "Open Source Software",
+      "name" : "jsoncpp",
+      "version" : "1.9.6",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Baptiste Lepilleur <blep@users.sourceforge.net> Aaron Jacobs <aaronjjacobs@gmail.com> Aaron Jacobs <jacobsa@google.com> Adam Boseley <ABoseley@agjunction.com> Adam Boseley <adam.boseley@gmail.com> Aleksandr Derbenev <13alexac@gmail.com> Alexander Gazarov <DrMetallius@users.noreply.github.com> Alexander V. Brezgin <abrezgin@appliedtech.ru> Alexandr Brezgin <albrezgin@mail.ru> Alexey Kruchinin <alexey@mopals.com> Anton Indrawan <anton.indrawan@gmail.com> Baptiste Jonglez <git@bitsofnetworks.org> Baptiste Lepilleur <baptiste.lepilleur@gmail.com> Baruch Siach <baruch@tkos.co.il> Ben Boeckel <mathstuf@gmail.com> Benjamin Knecht <bknecht@logitech.com> Bernd Kuhls <bernd.kuhls@t-online.de> Billy Donahue <billydonahue@google.com> Braden McDorman <bmcdorman@gmail.com> Brandon Myers <bmyers1788@gmail.com> Brendan Drew <brendan.drew@daqri.com> chason <cxchao802@gmail.com> chenguoping <chenguopingdota@163.com> Chris Gilling <cgilling@iparadigms.com> Christopher Dawes <christopher.dawes.1981@googlemail.com> Christophe...",
+      "cpe" : "cpe:2.3:a:jsoncpp_project:jsoncpp:1.9.6:*:*:*:*:*:*:*",
+      "purl" : "pkg:github/open-source-parsers/jsoncpp@1.9.6?checksum=sha256%3Af93b6dd7ce796b13d02c108bc9f79812245a82e577581c4c9aabe57075c90ea2&download_url=https%3A%2F%2Fgithub.com%2Fopen-source-parsers%2Fjsoncpp%2Farchive%2Frefs%2Ftags%2F1.9.6.tar.gz"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2e64b09c-4d43-4791-b5b1-136e575db680",
+      "author" : "libxml2 contributors",
+      "group" : "GNOME",
+      "name" : "libxml2",
+      "version" : "2.15.1",
+      "description" : "XML parser and toolkit: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home",
+      "hashes" : [
+        {
+          "alg" : "SHA-256",
+          "content" : "ffef9ad419f148bd07f852f773e9c7764a139582c13b82f103f186ea75c5266e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 1998-2012 Daniel Veillard. All Rights Reserved. Contributors:Bjorn Reese, William Brack, Igor Zlatkovic for the Windows port, Aleksey Sanin, Nick Wellnhofer",
+      "cpe" : "cpe:2.3:a:xmlsoft:libxml2:2.15.1:*:*:*:*:*:*:*",
+      "purl" : "pkg:github/gnome/libxml@2.15.1?checksum=sha256%3Affef9ad419f148bd07f852f773e9c7764a139582c13b82f103f186ea75c5266e&download_url=https%3A%2F%2Fgitlab.gnome.org%2FGNOME%2Flibxml2%2F-%2Farchive%2Fv2.15.1%2Flibxml2-v2.15.1.tar"
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "045d2306-d525-47a6-a81a-b3f298d218be",
+      "group" : "OPC Foundation",
+      "name" : "OPC Ansi C Stack",
+      "version" : "1.03.341",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Reciprocal Community License 1.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) 2008,2009 OPC Foundation, Inc., All Rights Reserved."
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "24531202-b9fa-413a-9789-0f9646123c79",
+      "author" : "OpenSSL Corp.",
+      "group" : "OpenSSL Corp.",
+      "name" : "OpenSSL",
+      "version" : "3.0.18",
+      "hashes" : [
+        {
+          "alg" : "SHA-256",
+          "content" : "d80c34f5cf902dccf1f1b5df5ebb86d0392e37049e5d73df1b3abae72e4ffe8b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1998-2024 The OpenSSL Project Authors Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson All rights reserved.",
+      "cpe" : "cpe:2.3:a:openssl:openssl:3.0.18:*:*:*:*:*:*:*",
+      "purl" : "pkg:github/openssl/openssl@3.0.18?checksum=sha256%3Ad80c34f5cf902dccf1f1b5df5ebb86d0392e37049e5d73df1b3abae72e4ffe8b&download_url=https%3A%2F%2Fgithub.com%2Fopenssl%2Fopenssl%2Freleases%2Fdownload%2Fopenssl-3.0.18%2Fopenssl-3.0.18.tar.gz"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e726aef2-5382-4503-82dd-22a5958e2eb4",
+      "author" : "eclipse-paho",
+      "group" : "eclipe-paho",
+      "name" : "paho.mqtt.c",
+      "version" : "1.3.15",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Eclipse Foundation",
+      "purl" : "pkg:github/eclipse-paho/paho.mqtt.c@1.3.15?checksum=sha256%3A60ce2cfdc146fcb81c621cb8b45874d2eb1d4693105d048f60e31b8f3468be90&download_url=https%3A%2F%2Fgithub.com%2Feclipse-paho%2Fpaho.mqtt.c%2Farchive%2Frefs%2Ftags%2Fv1.3.15.tar.gz"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "7e1327a2-d40a-4cf0-bccb-184696c43214",
+      "dependsOn" : [
+        "24531202-b9fa-413a-9789-0f9646123c79",
+        "2e64b09c-4d43-4791-b5b1-136e575db680",
+        "e726aef2-5382-4503-82dd-22a5958e2eb4",
+        "5d1e9c9c-af4f-4bdc-95ab-3ba717aac023",
+        "045d2306-d525-47a6-a81a-b3f298d218be"
+      ]
+    },
+    {
+      "ref" : "5d1e9c9c-af4f-4bdc-95ab-3ba717aac023",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2e64b09c-4d43-4791-b5b1-136e575db680",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "045d2306-d525-47a6-a81a-b3f298d218be",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "24531202-b9fa-413a-9789-0f9646123c79",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e726aef2-5382-4503-82dd-22a5958e2eb4",
+      "dependsOn" : [ ]
+    }
+  ]
+}
