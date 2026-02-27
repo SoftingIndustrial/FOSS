@@ -3,13 +3,14 @@
 
 Item | Details
 | -------- | -------- 
-SBOM File | 560.json
+SBOM File | sbom_with_dependencies.cdx.json
 SBOM Type | cyclonedx
 Version | 1.5
-Name | DataFEED OPC Suite 5.70
+Name | DataFEED OPC Suite
+Creator | person:#support.automation@softing.com
 Created | 2025-11-10T07:09:07Z
 Files | 0
-Packages | 14
+Packages | 19
 Relationships | 0
 Services | 0
 Vulnerabilities | 0
@@ -18,6 +19,11 @@ Vulnerabilities | 0
 
 Name | Version | Type | Supplier | License
 | -------- | -------- | -------- | -------- | -------- 
+frontend | 6.90.1 | FRAMEWORK |  | Commercial
+frontend | 0.1.0 | LIBRARY |  | Commercial
+common | 0.1.0 | LIBRARY |  | Commercial
+ec_log_rs | 0.1.0 | LIBRARY |  | Commercial
+ec_log_rs | 5.70.0 | LIBRARY |  | Commercial
 B&R PVI Communication Library | 4.3.4.114 | LIBRARY |  | Free
 fwlib32 | 1.05 | LIBRARY | FANUC | Free
 Libbson | 1.15.1 | LIBRARY |  | Apache-2.0
@@ -35,6 +41,11 @@ TinyXML 2 XML Parser | 2.8.2.3 | LIBRARY |  | Zlib
 
 Name | Version | Ecosystem | Download | Copyright
 | -------- | -------- | -------- | -------- | -------- 
+frontend | 6.90.1 | - | https://industrial.softing.com/de/ | Copyright © Softing Industrial Automation GmbH
+frontend | 0.1.0 | - | https://industrial.softing.com/de/ | Copyright © Softing Industrial Automation GmbH
+common | 0.1.0 | - | https://industrial.softing.com/de/ | Copyright © Softing Industrial Automation GmbH
+ec_log_rs | 0.1.0 | - | https://industrial.softing.com/de/ | Copyright © Softing Industrial Automation GmbH
+ec_log_rs | 5.70.0 | - | https://industrial.softing.com/de/ | Copyright © Softing Industrial Automation GmbH
 B&R PVI Communication Library | 4.3.4.114 | - | https://www.br-automation.com/en/products/software/automation-software/automation-netpvi/ | Copyright © B&R
 fwlib32 | 1.05 | - | NOT KNOWN | -
 Libbson | 1.15.1 | - | https://mongoc.org/libbson/1.15.1/index.html | Copyright 2017, MongoDB, Inc.Created using Sphinx 1.8.3
@@ -52,6 +63,11 @@ TinyXML 2 XML Parser | 2.8.2.3 | - | https://github.com/leethomason/tinyxml2/ | 
 
 Name | PURL | CPE
 | -------- | -------- | -------- 
+frontend |  | 
+frontend |  | 
+common |  | 
+ec_log_rs |  | 
+ec_log_rs |  | 
 B&R PVI Communication Library |  | 
 fwlib32 |  | 
 Libbson |  | cpe:2.3:a:mongodb:libbson:1.9.5:*:*:*:*:*:*:*
@@ -71,7 +87,8 @@ TinyXML 2 XML Parser |  | cpe:2.3:a:tinyxml2_project:tinyxml2:8.0.0:*:*:*:*:*:*:
 
 Type | Count
 | -------- | -------- 
-LIBRARY | 14
+FRAMEWORK | 1
+LIBRARY | 18
 
 # License Summary
 
@@ -80,6 +97,7 @@ License | Count
 Apache-2.0 | 3
 BSD-2-Clause | 1
 BSD-3-Clause | 1
+Commercial | 5
 EPL-1.0 | 1
 EPL-2.0 | 1
 Free | 2
@@ -101,7 +119,7 @@ Element | Status
 | -------- | -------- 
 All file information provided? | True
 All package information provided? | False
-Creator identified? | False
+Creator identified? | True
 Creation time identified? | True
 Dependency relationships provided? | False
 NTIA conformant False
@@ -213,6 +231,10 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
+## Commercial
+
+Unable to find license text.
 
 ## EPL-1.0
 
