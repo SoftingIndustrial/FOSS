@@ -12,14 +12,132 @@
         "version" : "4.13.2"
       }
     ],
+    "authors" : [
+      {
+        "email" : "support.automation@softing.com"
+      }
+    ],
     "component" : {
       "type" : "application",
       "bom-ref" : "cd533a1d-4da5-477c-ab8f-a135b5796f9c",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
       "name" : "DataFEED OPC Suite",
       "version" : "5.70"
     }
   },
   "components" : [
+    {
+      "type" : "framework",
+      "bom-ref" : "opcuacpptk@6.90.1",
+      "author" : "Softing Industrial Automation GmbH",
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "frontend",
+      "version" : "6.90.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Commercial"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Softing Industrial Automation GmbH",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "frontend@0.1.0",
+      "author" : "Softing Industrial Automation GmbH",
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "frontend",
+      "version" : "0.1.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Commercial"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Softing Industrial Automation GmbH",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "common@0.1.0",
+      "author" : "Softing Industrial Automation GmbH",
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "common",
+      "version" : "0.1.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Commercial"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Softing Industrial Automation GmbH",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ec_srv_web@0.1.0",
+      "author" : "Softing Industrial Automation GmbH",
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "ec_log_rs",
+      "version" : "0.1.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Commercial"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Softing Industrial Automation GmbH",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ec_log_rs@5.70.0",
+      "author" : "Softing Industrial Automation GmbH",
+      "group" : "Softing Industrial Automation GmbH",
+      "name" : "ec_log_rs",
+      "version" : "5.70.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Commercial"
+          }
+        }
+      ],
+      "copyright" : "Copyright © Softing Industrial Automation GmbH",
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/"
+        }
+      ]
+    },
     {
       "type" : "library",
       "bom-ref" : "b83e8cc6-e76f-4221-b8b4-483a9ecf96ab",
@@ -301,6 +419,14 @@
     }
   ],
   "dependencies" : [
+    {
+      "ref" : "ec_srv_web@0.1.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ec_log_rs@5.70.0",
+      "dependsOn" : [ ]
+    },
     {
       "ref" : "cd533a1d-4da5-477c-ab8f-a135b5796f9c",
       "dependsOn" : [ ]
