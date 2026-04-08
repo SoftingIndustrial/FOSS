@@ -1,0 +1,838 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:ff2aa2d2-bcae-42f8-a495-4c537538ee0a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-07T15:21:30.036075+00:00",
+    "component": {
+      "type": "application",
+      "name": "SDEX Suite (Windows)"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Ajax.org",
+        "url": [
+          "http://www.ajax.org"
+        ]
+      },
+      "author": "Ajax.org",
+      "publisher": "Ajax.org",
+      "name": "Ace Editor",
+      "version": "1.8.1",
+      "description": "Ace (Ajax.org Cloud9 Editor)",
+      "licenses": [
+        {
+          "expression": "(BSD-3-Clause)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:ajax.org:ace_editor:1.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/ace-builds@1.8.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/ajaxorg/ace-builds",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/ace-builds",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ajaxorg/ace-builds",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2015-11-04T19:42:47Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2026-01-23T14:05:43Z"
+        },
+        {
+          "name": "ecosystems:owner_location",
+          "value": "Amsterdam, The Netherlands"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Brix",
+        "url": [
+          "http://brix.github.io/"
+        ]
+      },
+      "author": "Brix",
+      "publisher": "Evan Vosberg",
+      "name": "CryptoJS",
+      "version": "4.2.0",
+      "description": "JavaScript library of crypto standards.",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:crypto-js_project:crypto-js:4.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/crypto-js@4.2.0",
+      "externalReferences": [
+        {
+          "url": "http://github.com/brix/crypto-js",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/crypto-js",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brix/crypto-js",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2013-07-23T14:23:58Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2023-10-24T22:20:29Z"
+        },
+        {
+          "name": "ecosystems:owner_location",
+          "value": "Berlin, Germany"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Nicolas Garcia Belmonte",
+      "publisher": "Nicolas Garcia Belmonte",
+      "name": "JavaScript InfoVis Toolkit (JIT)",
+      "version": "2.0.1",
+      "description": "Tools for creating Interactive Data Visualizations for the Web. [Official Page](https://philogb.github.io/jit/)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:philogb:jit:2.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:generic/javascript-infovis-toolkit-jit@2.0.1"
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "jQuery",
+        "url": [
+          "https://jquery.com"
+        ]
+      },
+      "author": "jQuery",
+      "publisher": "OpenJS Foundation",
+      "name": "jQuery",
+      "version": "3.6.4",
+      "description": "JavaScript library for DOM operations",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:jquery:jquery:3.6.4:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/jquery@3.6.4",
+      "externalReferences": [
+        {
+          "url": "https://jquery.com",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jquery",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jquery/jquery",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2011-03-19T07:19:56Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2026-01-18T00:28:13Z"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "jquery"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Klaus Hartl"
+      },
+      "author": "Klaus Hartl",
+      "publisher": "Klaus Hartl",
+      "name": "jQuery Cookie",
+      "version": "1.4.1",
+      "description": "A simple, lightweight jQuery plugin for reading, writing and deleting cookies.",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:jquery_cookie_project:jquery_cookie:1.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/jquery.cookie@1.4.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/carhartl/jquery-cookie",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jquery.cookie",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/carhartl/jquery-cookie",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2014-04-27T20:19:24Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2014-04-27T20:19:24Z"
+        },
+        {
+          "name": "ecosystems:repository_archived",
+          "value": "true"
+        },
+        {
+          "name": "ecosystems:owner_location",
+          "value": "Germany"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "jQuery",
+        "url": [
+          "https://jquery.com"
+        ]
+      },
+      "author": "jQuery",
+      "publisher": "OpenJS Foundation",
+      "name": "jQuery UI",
+      "version": "1.13.2",
+      "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:jqueryui:jquery_ui:1.13.2:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/jquery-ui@1.13.2",
+      "externalReferences": [
+        {
+          "url": "https://jqueryui.com",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jquery-ui",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jquery/jquery-ui",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2014-03-16T08:21:46Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2026-01-28T23:49:18Z"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "javascript"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "jquery"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "jQWidgets Ltd.",
+      "publisher": "jQWidgets Ltd.",
+      "name": "jQWidgets",
+      "version": "17.0.0",
+      "description": "jQWidgets is an advanced Angular, Vue, Blazor, React, Web Components, jquery, ASP .NET MVC, Custom Elements and HTML5 UI framework.",
+      "licenses": [
+        {
+          "expression": "(https://www.jqwidgets.com/license/)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:jqwidgets:jqwidgets:17.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/jqwidgets-scripts@17.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.jqwidgets.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jqwidgets-scripts",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jqwidgets/jQWidgets",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2017-08-23T07:36:00Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2026-03-09T13:25:31Z"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "angular"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "angular10"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "blazor"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "chart"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "charting"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "css"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "data-grid"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "datagrid"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "datagridview"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "grid"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "html"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "javascript"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "jquery"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "material-ui"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "react"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "reactjs"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "scheduler"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "vue"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "vuejs"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "web-components"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Andrey Sidorov"
+      },
+      "author": "Andrey Sidorov",
+      "publisher": "sidorares",
+      "name": "JSON-bigint",
+      "version": "1.0.0",
+      "description": "JSON.parse with bigints support",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:json-bigint_project:json-bigint:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/json-bigint@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/sidorares/json-bigint#readme",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/json-bigint",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/sidorares/json-bigint",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2013-09-12T04:49:13Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2020-07-14T11:29:39Z"
+        },
+        {
+          "name": "ecosystems:owner_location",
+          "value": "Melbourne, Australia"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Ivan Bozhanov",
+        "url": [
+          "https://vakata.com"
+        ]
+      },
+      "author": "Ivan Bozhanov",
+      "publisher": "Ivan Bozhanov",
+      "name": "jsTree",
+      "version": "3.3.12",
+      "description": "jQuery tree plugin",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:jstree:jstree:3.3.12:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/jstree@3.3.12",
+      "externalReferences": [
+        {
+          "url": "http://jstree.com",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/jstree",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/vakata/jstree",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2014-03-19T14:46:57Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2024-09-10T08:54:30Z"
+        },
+        {
+          "name": "ecosystems:owner_location",
+          "value": "Plovdiv, Bulgaria"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "jquery-plugin"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "jstree"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "supplier": {
+        "name": "Knockout.js",
+        "url": [
+          "http://knockoutjs.com"
+        ]
+      },
+      "author": "Knockout.js",
+      "publisher": "Steven Sanderson",
+      "name": "Knockout",
+      "version": "3.5.1",
+      "description": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
+      "licenses": [
+        {
+          "expression": "(MIT)"
+        }
+      ],
+      "cpe": "cpe:2.3:a:knockoutjs:knockout:3.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/knockout@3.5.1",
+      "externalReferences": [
+        {
+          "url": "http://knockoutjs.com/",
+          "type": "website"
+        },
+        {
+          "url": "https://www.npmjs.com/package/knockout",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/knockout/knockout",
+          "type": "vcs"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ecosystems:first_release_published_at",
+          "value": "2014-03-07T21:52:13Z"
+        },
+        {
+          "name": "ecosystems:latest_release_published_at",
+          "value": "2026-03-25T04:31:27Z"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "data-binding"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "javascript"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "knockout"
+        },
+        {
+          "name": "ecosystems:topic",
+          "value": "mvvm"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "author": "Joseph Myers",
+      "publisher": "Joseph Myers",
+      "name": "MD5",
+      "description": "JavaScript MD5 implementation. [Official Page](http://www.myersdaily.org/joseph/javascript/md5-text.html)",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause",
+            "url": "https://opensource.org/license/bsd-3-clause"
+          }
+        }
+      ],
+      "purl": "pkg:generic/md5"
+    },
+    {
+      "type": "library",
+      "author": "Daniel Stenberg",
+      "publisher": "Daniel Stenberg",
+      "name": "cURL",
+      "version": "8.1.2",
+      "description": "Command line tool and library for transferring data with URLs. [Official Page](https://curl.se/) / [GitHub](https://github.com/curl/curl)",
+      "licenses": [
+        {
+          "license": {
+            "name": "curl"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:haxx:curl:8.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/curl/curl@8.1.2"
+    },
+    {
+      "type": "library",
+      "author": "Eclipse Foundation",
+      "publisher": "Eclipse Foundation",
+      "name": "Eclipse Paho (MQTT C)",
+      "version": "1.3.13",
+      "description": "Eclipse Paho MQTT C client library for IoT messaging. [Official Page](https://eclipse.dev/paho/) / [GitHub](https://github.com/eclipse/paho.mqtt.c)",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause-Modification",
+            "url": "https://www.eclipse.org/org/documents/edl-v10/"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:eclipse:paho_mqtt_c:1.3.13:*:*:*:*:*:*:*",
+      "purl": "pkg:github/eclipse/paho.mqtt.c@1.3.13"
+    },
+    {
+      "type": "library",
+      "author": "FANUC",
+      "publisher": "FANUC",
+      "name": "FOCAS",
+      "description": "FANUC CNC access library for automation integration.",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial"
+          }
+        }
+      ],
+      "purl": "pkg:generic/focas"
+    },
+    {
+      "type": "library",
+      "author": "Baptiste Lepilleur",
+      "publisher": "Baptiste Lepilleur",
+      "name": "jsoncpp",
+      "version": "1.9.6",
+      "description": "C++ library for interacting with JSON. [GitHub](https://github.com/open-source-parsers/jsoncpp)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT",
+            "url": "https://github.com/open-source-parsers/jsoncpp/blob/master/LICENSE"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:jsoncpp_project:jsoncpp:1.9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/open-source-parsers/jsoncpp@1.9.6"
+    },
+    {
+      "type": "library",
+      "author": "Open Market",
+      "publisher": "Open Market",
+      "name": "libfcgi",
+      "version": "2.4.1",
+      "description": "C/C++ library for the FastCGI protocol. [GitHub](https://github.com/FastCGI-Archives/fcgi2)",
+      "licenses": [
+        {
+          "license": {
+            "name": "OML",
+            "url": "https://github.com/FastCGI-Archives/fcgi2/blob/master/LICENSE"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:fastcgi:fcgi:2.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/fastcgi-archives/fcgi2@2.4.1"
+    },
+    {
+      "type": "library",
+      "author": "X-Formation",
+      "publisher": "X-Formation",
+      "name": "liblmxclient",
+      "version": "5.5.0",
+      "description": "Proprietary license management client. [GitLab (Internal)](https://ms-gitlab.ia-dev.softing.com/di/license)",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial"
+          }
+        }
+      ],
+      "purl": "pkg:generic/liblmxclient@5.5.0"
+    },
+    {
+      "type": "library",
+      "author": "PUC-Rio",
+      "publisher": "PUC-Rio",
+      "name": "liblua (Lua)",
+      "version": "5.4.4",
+      "description": "Powerful, efficient, lightweight, embeddable scripting language. [Official Page](https://www.lua.org/) / [GitHub](https://github.com/lua/lua)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:lua:lua:5.4.4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/lua/lua@5.4.4"
+    },
+    {
+      "type": "library",
+      "author": "GNOME Project",
+      "publisher": "GNOME Project",
+      "name": "libxml2",
+      "version": "2.9.14",
+      "description": "XML C parser and toolkit developed for the Gnome project. [Official Page](http://xmlsoft.org/) / [GitLab](https://gitlab.gnome.org/GNOME/libxml2)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:xmlsoft:libxml2:2.9.14:*:*:*:*:*:*:*",
+      "purl": "pkg:generic/libxml2@2.9.14"
+    },
+    {
+      "type": "library",
+      "author": "Dieter Baron and Thomas Klausner",
+      "publisher": "Dieter Baron and Thomas Klausner",
+      "name": "libzip",
+      "version": "1.10",
+      "description": "C library for reading, creating, and modifying zip archives. [Official Page](https://libzip.org/) / [GitHub](https://github.com/nih-at/libzip)",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:nih:libzip:1.10:*:*:*:*:*:*:*",
+      "purl": "pkg:github/nih-at/libzip@1.10"
+    },
+    {
+      "type": "library",
+      "author": "F5, Inc.",
+      "publisher": "F5, Inc.",
+      "name": "nginx",
+      "version": "1.26.3",
+      "description": "High-performance web server and reverse proxy. [Official Page](https://nginx.org/)",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:f5:nginx_open_source:1.26.3:*:*:*:*:*:*:*",
+      "purl": "pkg:generic/nginx@1.26.3"
+    },
+    {
+      "type": "library",
+      "author": "OpenLDAP Foundation",
+      "publisher": "OpenLDAP Foundation",
+      "name": "OpenLDAP",
+      "version": "2.5.13",
+      "description": "Free, open-source implementation of the Lightweight Directory Access Protocol. [Official Page](https://www.openldap.org/) / [GitHub](https://github.com/openldap/openldap)",
+      "licenses": [
+        {
+          "license": {
+            "name": "OLDAP-2.5",
+            "url": "https://www.openldap.org/software/release/license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:openldap:openldap:2.5.13:*:*:*:*:*:*:*",
+      "purl": "pkg:github/openldap/openldap@2.5.13"
+    },
+    {
+      "type": "library",
+      "author": "OpenSSL Software Foundation",
+      "publisher": "OpenSSL Software Foundation",
+      "name": "OpenSSL",
+      "version": "3.0.13",
+      "description": "Robust toolkit for TLS/SSL protocols. [Official Page](https://www.openssl.org/) / [GitHub](https://github.com/openssl/openssl)",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:openssl:openssl:3.0.13:*:*:*:*:*:*:*",
+      "purl": "pkg:github/openssl/openssl@3.0.13"
+    },
+    {
+      "type": "library",
+      "author": "Jupp Mueller",
+      "publisher": "Jupp Mueller",
+      "name": "Prometheus-cpp",
+      "version": "1.1.0",
+      "description": "Prometheus Client Library for Modern C++. [GitHub](https://github.com/jupp0r/prometheus-cpp)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:prometheus:prometheus-cpp:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/jupp0r/prometheus-cpp@1.1.0"
+    },
+    {
+      "type": "library",
+      "author": "ThePhD",
+      "publisher": "ThePhD",
+      "name": "sol2",
+      "version": "3.3.0",
+      "description": "C++ library binding to Lua. [Official Page](https://sol2.readthedocs.io/) / [GitHub](https://github.com/ThePhD/sol2)",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:sol2_project:sol2:3.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/thephd/sol2@3.3.0"
+    },
+    {
+      "type": "library",
+      "author": "Jean-loup Gailly and Mark Adler",
+      "publisher": "Jean-loup Gailly and Mark Adler",
+      "name": "zlib",
+      "version": "1.3",
+      "description": "Massively spiffy yet delicately unobtrusive compression library. [Official Page](https://zlib.net/) / [GitHub](https://github.com/madler/zlib)",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib",
+            "url": "https://zlib.net/zlib_license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:gnu:zlib:1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/madler/zlib@1.3"
+    }
+  ]
+}
