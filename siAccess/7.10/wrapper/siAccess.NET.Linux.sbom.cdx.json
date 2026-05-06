@@ -1,0 +1,184 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2c10990a-4f1f-453a-8199-39f0232e4742",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-02T13:40:37Z",
+    "tools": [
+      {
+        "vendor": "OWASP",
+        "name": "Dependency-Track",
+        "version": "4.13.6"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Softing Industrial Automation"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:generic/Softing/siAccess.NET@7.10?Linux",
+      "name": "siAccess.NET.Linux",
+      "version": "7.10.0",
+      "description": ".NET wrapper library for siAccess on Linux"
+    },
+    "manufacture": {
+      "name": "Softing Industrial Automation"
+    },
+    "supplier": {
+      "name": "Softing Industrial Automation GmbH",
+      "url": [
+        "https://industrial.softing.com/"
+      ],
+      "contact": [
+        {
+          "email": "info.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/Softing/siAccess@7.10?Linux",
+      "group": "Softing Industrial Automation",
+      "name": "siAccess.Linux",
+      "version": "7.10.0",
+      "description": "siAccess core function library for Linux OS",
+      "supplier": {
+        "name": "Softing Industrial Automation GmbH",
+        "url": [
+          "https://industrial.softing.com/"
+        ],
+        "contact": [
+          {
+            "email": "info.automation@softing.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "499d6625-473f-488d-8bb3-353458284882",
+      "supplier": {
+        "name": "boost.org open-source project"
+      },
+      "author": "Christopher M. Kohlhoff",
+      "group": "Public Domain",
+      "name": "boost",
+      "version": "1.90.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSL-1.0"
+          }
+        }
+      ],
+      "copyright": "(C) 2003-2025 Christopher M. Kohlhoff",
+      "cpe": "cpe:2.3:a:boost:boost:1.90:*:*:*:*:*:*:*",
+      "purl": "pkg:boost/boost@1.90",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://github.com/boostorg/boost/releases/"
+        },
+        {
+          "name": "type:website",
+          "value": "http://www.boost.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "f087c9dc-dfd6-47ad-ad91-915891010102",
+      "supplier": {
+        "name": "pugixml project (maint. Arseny Kapoulkine)"
+      },
+      "author": "Arseny Kapoulkine",
+      "group": "Public Domain",
+      "name": "pugixml",
+      "version": "1.15.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2006-2026 Arseny Kapoulkine",
+      "cpe": "cpe:2.3:a:pugixml_project:pugixml:1.15:*:*:*:*:*:*:*",
+      "purl": "pkg:cxx/pugixml@1.15",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://github.com/zeux/pugixml/releases/download/v1.15/pugixml-1.15.zip"
+        },
+        {
+          "name": "type:website",
+          "value": "http://pugixml.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "db1357eb-b7f7-4df3-a421-128e7e0398ea",
+      "supplier": {
+        "name": "zlib project"
+      },
+      "author": "Jean-loup Gailly and Mark Adler",
+      "group": "GNU",
+      "name": "zlib",
+      "version": "1.3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "copyright": "(C) 1995-2022 Jean-loup Gailly and Mark Adler",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:lib/czlib@1.3.2",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://www.zlib.net/zlib131.zip"
+        },
+        {
+          "name": "type:website",
+          "value": "https://zlib.net/"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:generic/Softing/siAccess.NET@7.10?Linux",
+      "dependsOn": [
+        "pkg:generic/Softing/siAccess@7.10?Linux"
+      ]
+    },
+    {
+      "ref": "pkg:generic/Softing/siAccess@7.10?Linux",
+      "dependsOn": [
+        "499d6625-473f-488d-8bb3-353458284882",
+        "f087c9dc-dfd6-47ad-ad91-915891010102",
+        "db1357eb-b7f7-4df3-a421-128e7e0398ea"
+      ]
+    },
+    {
+      "ref": "499d6625-473f-488d-8bb3-353458284882",
+      "dependsOn": []
+    },
+    {
+      "ref": "f087c9dc-dfd6-47ad-ad91-915891010102",
+      "dependsOn": []
+    },
+    {
+      "ref": "db1357eb-b7f7-4df3-a421-128e7e0398ea",
+      "dependsOn": []
+    }
+  ]
+}

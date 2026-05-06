@@ -1,0 +1,280 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:de2c8db6-dc80-4720-9ef2-02e90e67f0dd",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-05-04T08:11:31Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.14.1"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation GmbH",
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "e7e1fed0-7dab-4c82-b142-0b911532369d",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "name" : "PROFIBUS Slave for Altera FPGA",
+      "version" : "1.30.00",
+      "description" : "PROFIBUS Slave for Altera FPGA",
+      "cpe" : "cpe:2.3:a:softing:profibus_slave_subsystem_altera:1.30:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/embedded-module-und-kommunikations-software/industrial-ethernet.html"
+        }
+      ]
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation GmbH",
+      "url" : [
+        "https://industrial.softing.com"
+      ],
+      "contact" : [
+        {
+          "email" : "support.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "fd8ee5c1-6cef-4a16-a142-7f224500a767",
+      "supplier" : {
+        "name" : "Altera"
+      },
+      "author" : "Altera",
+      "name" : "Altera Nios II Processor",
+      "version" : "18.0 - 23.1",
+      "description" : "Altera Nios II Processor",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Altera FPGA IP License",
+            "url" : "https://www.intel.com/content/www/us/en/support/programmable/support-resources/intellectual-property/megacore-ip.html"
+          }
+        }
+      ],
+      "copyright" : "#Copyright (C) 2016 Intel Corporation. All rights reserved. #Any megafunction design, and related net list (encrypted or decrypted), #support information, device programming or simulation file, and any other #associated documentation or information provided by Intel or a partner #under Intel's Megafunction Partnership Program may be used only to #program PLD devices (but not masked PLD devices) from Intel. Any other #use of such megafunction design, net list, support information, device #programming or simulation file, or any other related documentation or #information is prohibited for any other purpose, including, but not #limited to modification, reverse engineering, de-compiling, or use with #any other silicon devices, unless such use is explicitly licensed under #a separate agreement with Intel or a megafunction partner. Title to #the intellectual property, including patents, copyrights, trademarks, #trade secrets, or maskworks, embodied in any such megafunction design, #net list, support informati..."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c9fd5b3a-3a5b-45c5-98ce-379c31d416b0",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3b4137d1-c9df-447f-80c4-cc9c1d25795c",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "External Bus IP Core",
+      "version" : "1.21.00",
+      "description" : "External Bus IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1ef68746-3476-4fc4-bcd5-6b63a422f3d3",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "2.01.00",
+      "description" : "Fieldbus Utility IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "32668928-e3bf-4dcf-a8df-5500025bffd9",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Mutex IP Core",
+      "version" : "1.04.00",
+      "description" : "Mutex IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e1a8310a-3a88-4881-99c9-1e7d4c618ecc",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "PROFIBUS Slave IP Core",
+      "version" : "1.13.00",
+      "description" : "PROFIBUS Slave IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2013. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c9622308-e58c-4d98-9f28-7bc6cc93ab1b",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "PROFIBUS Slave Stack",
+      "version" : "6.50.00",
+      "description" : "PROFIBUS Slave Stack",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2000-2022. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c3968d1e-dde0-4161-a16f-4997155a426d",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "SDAI Sample Application",
+      "version" : "1.45.00",
+      "description" : "SDAI Sample Application",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2026. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "f74c3caf-0599-4957-8b29-1276b575c72e",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.96.00",
+      "description" : "Simple Device Application Interface (SDAI)",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2025. All Rights Reserved."
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "e7e1fed0-7dab-4c82-b142-0b911532369d",
+      "dependsOn" : [
+        "c9fd5b3a-3a5b-45c5-98ce-379c31d416b0",
+        "e1a8310a-3a88-4881-99c9-1e7d4c618ecc",
+        "3b4137d1-c9df-447f-80c4-cc9c1d25795c",
+        "f74c3caf-0599-4957-8b29-1276b575c72e",
+        "32668928-e3bf-4dcf-a8df-5500025bffd9",
+        "c9622308-e58c-4d98-9f28-7bc6cc93ab1b",
+        "c3968d1e-dde0-4161-a16f-4997155a426d",
+        "1ef68746-3476-4fc4-bcd5-6b63a422f3d3",
+        "fd8ee5c1-6cef-4a16-a142-7f224500a767"
+      ]
+    },
+    {
+      "ref" : "fd8ee5c1-6cef-4a16-a142-7f224500a767",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c9fd5b3a-3a5b-45c5-98ce-379c31d416b0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3b4137d1-c9df-447f-80c4-cc9c1d25795c",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1ef68746-3476-4fc4-bcd5-6b63a422f3d3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "32668928-e3bf-4dcf-a8df-5500025bffd9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e1a8310a-3a88-4881-99c9-1e7d4c618ecc",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c9622308-e58c-4d98-9f28-7bc6cc93ab1b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c3968d1e-dde0-4161-a16f-4997155a426d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "f74c3caf-0599-4957-8b29-1276b575c72e",
+      "dependsOn" : [ ]
+    }
+  ]
+}

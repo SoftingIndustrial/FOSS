@@ -1,0 +1,288 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:cab2be91-6e95-4897-8a69-74b7784432b6",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-05-04T08:23:01Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.14.1"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation GmbH",
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "8f5b0fdf-b693-4b15-90d8-9b59736cb59d",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "name" : "EtherCAT Slave for Altera FPGA",
+      "version" : "1.30.00",
+      "description" : "EtherCAT Slave for Altera FPGA version 1.30.00.",
+      "cpe" : "cpe:2.3:a:softing:ethercat_slave_subsystem_altera:1.30:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/embedded-module-und-kommunikations-software/industrial-ethernet.html"
+        }
+      ]
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation GmbH",
+      "url" : [
+        "https://industrial.softing.com"
+      ],
+      "contact" : [
+        {
+          "email" : "support.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "f78ff9c4-c102-4153-af7a-0877803b9e63",
+      "supplier" : {
+        "name" : "Altera"
+      },
+      "author" : "Altera",
+      "name" : "Altera Nios II Processor",
+      "version" : "18.0 - 23.1",
+      "description" : "Altera Nios II Processor",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Altera FPGA IP License",
+            "url" : "https://www.intel.com/content/www/us/en/support/programmable/support-resources/intellectual-property/megacore-ip.html"
+          }
+        }
+      ],
+      "copyright" : "#Copyright (C) 2016 Intel Corporation. All rights reserved. #Any megafunction design, and related net list (encrypted or decrypted), #support information, device programming or simulation file, and any other #associated documentation or information provided by Intel or a partner #under Intel's Megafunction Partnership Program may be used only to #program PLD devices (but not masked PLD devices) from Intel. Any other #use of such megafunction design, net list, support information, device #programming or simulation file, or any other related documentation or #information is prohibited for any other purpose, including, but not #limited to modification, reverse engineering, de-compiling, or use with #any other silicon devices, unless such use is explicitly licensed under #a separate agreement with Intel or a megafunction partner. Title to #the intellectual property, including patents, copyrights, trademarks, #trade secrets, or maskworks, embodied in any such megafunction design, #net list, support informati..."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "47583483-b512-47ee-8124-c37afa9affb5",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "DMA IP Core",
+      "version" : "1.31.00",
+      "description" : "DMA IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "71bc3d49-81ee-4fc4-a796-ec139dea81d6",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "24dbc75e-6df2-4ddb-8ed6-ce2a65032900",
+      "supplier" : {
+        "name" : "BECKHOFF Automation GmbH & Co. KG"
+      },
+      "author" : "BECKHOFF Automation GmbH & Co. KG",
+      "name" : "EtherCAT Slave Controller IP Core (ESC30)",
+      "version" : "3.00.03 (Patch 2)",
+      "description" : "EtherCAT Slave Controller IP Core (ESC30)"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9ddb20b6-53ba-4341-b2a5-aab2909168e0",
+      "supplier" : {
+        "name" : "BECKHOFF Automation GmbH & Co. KG"
+      },
+      "author" : "BECKHOFF Automation GmbH & Co. KG",
+      "name" : "EtherCAT Slave Stack",
+      "version" : "2.26.00",
+      "description" : "EtherCAT Slave Stack (Softing version based on version 5.11 from Beckhoff)"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "45f93868-27c3-4b6a-934e-09ca775c6b37",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "External Bus IP Core",
+      "version" : "1.21.00",
+      "description" : "External Bus IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "18728da4-b623-4789-9c5e-7615ba2a5e0f",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "2.01.00",
+      "description" : "Fieldbus Utility IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e43406af-d229-4fe3-9c9f-477a56340f11",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Mutex IP Core",
+      "version" : "1.04.00",
+      "description" : "Mutex IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "332a62fa-5a5e-4447-a04c-c71b6124b166",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "SDAI Sample Application",
+      "version" : "1.45.00",
+      "description" : "SDAI Sample Application",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2026. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "68990c3c-6001-4986-8975-39abb0908dc6",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.96.00",
+      "description" : "Simple Device Application Interface (SDAI)",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2025. All Rights Reserved."
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "8f5b0fdf-b693-4b15-90d8-9b59736cb59d",
+      "dependsOn" : [
+        "68990c3c-6001-4986-8975-39abb0908dc6",
+        "9ddb20b6-53ba-4341-b2a5-aab2909168e0",
+        "47583483-b512-47ee-8124-c37afa9affb5",
+        "24dbc75e-6df2-4ddb-8ed6-ce2a65032900",
+        "18728da4-b623-4789-9c5e-7615ba2a5e0f",
+        "e43406af-d229-4fe3-9c9f-477a56340f11",
+        "71bc3d49-81ee-4fc4-a796-ec139dea81d6",
+        "332a62fa-5a5e-4447-a04c-c71b6124b166",
+        "45f93868-27c3-4b6a-934e-09ca775c6b37",
+        "f78ff9c4-c102-4153-af7a-0877803b9e63"
+      ]
+    },
+    {
+      "ref" : "f78ff9c4-c102-4153-af7a-0877803b9e63",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "47583483-b512-47ee-8124-c37afa9affb5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "71bc3d49-81ee-4fc4-a796-ec139dea81d6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "24dbc75e-6df2-4ddb-8ed6-ce2a65032900",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9ddb20b6-53ba-4341-b2a5-aab2909168e0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "45f93868-27c3-4b6a-934e-09ca775c6b37",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "18728da4-b623-4789-9c5e-7615ba2a5e0f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e43406af-d229-4fe3-9c9f-477a56340f11",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "332a62fa-5a5e-4447-a04c-c71b6124b166",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "68990c3c-6001-4986-8975-39abb0908dc6",
+      "dependsOn" : [ ]
+    }
+  ]
+}

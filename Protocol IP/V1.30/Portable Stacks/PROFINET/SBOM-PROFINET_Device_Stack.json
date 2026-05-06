@@ -1,0 +1,135 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:c32e05ed-6883-461e-b5d1-a9edffa61dd2",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-05-04T07:49:54Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.14.1"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation GmbH",
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "b60bc91b-a1c4-40ab-9538-69c1646b3113",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "name" : "PROFINET Device Stack",
+      "version" : "2.30.00",
+      "description" : "PROFINET Device Stack 2.30.00.",
+      "cpe" : "cpe:2.3:a:softing:profinet_device_stack:2.30:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/embedded-module-und-kommunikations-software/industrial-ethernet.html"
+        }
+      ]
+    },
+    "manufacture" : {
+      "name" : "Softing Industrial Automation GmbH",
+      "url" : [
+        "https://industrial.softing.com"
+      ],
+      "contact" : [
+        {
+          "email" : "support.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "4536ad40-2aa7-4d67-9f6c-e04bed1edf07",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "PROFINET Device Stack",
+      "version" : "2.30.00",
+      "description" : "PROFINET Device Stack version 2.29.00.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2025. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0668342d-8c5e-4c78-80eb-1ad312517a1f",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "SDAI Sample Application",
+      "version" : "1.45.00",
+      "description" : "SDAI Sample Application",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2026. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b898a688-5985-4906-9549-a135502d9adf",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Simple Device Application Interface (SDAI)",
+      "version" : "1.96.00",
+      "description" : "Simple Device Application Interface (SDAI)",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2025. All Rights Reserved."
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "b60bc91b-a1c4-40ab-9538-69c1646b3113",
+      "dependsOn" : [
+        "0668342d-8c5e-4c78-80eb-1ad312517a1f",
+        "b898a688-5985-4906-9549-a135502d9adf",
+        "4536ad40-2aa7-4d67-9f6c-e04bed1edf07"
+      ]
+    },
+    {
+      "ref" : "4536ad40-2aa7-4d67-9f6c-e04bed1edf07",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0668342d-8c5e-4c78-80eb-1ad312517a1f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b898a688-5985-4906-9549-a135502d9adf",
+      "dependsOn" : [ ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b1532b3c-237c-4d2a-8843-a01856eb7049",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-02-26T12:19:43Z",
+    "tools": [
+      {
+        "vendor": "OWASP",
+        "name": "Dependency-Track",
+        "version": "4.13.6"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Softing Industrial Automation"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:generic/Softing/siAccess.Java@7.10?Windows",
+      "group": "Softing Industrial Automation",
+      "name": "siAccess.Java.Windows",
+      "version": "7.10.0",
+      "description": "Java Native Interface for Java wrapper library siAccess_java.jar"
+    },
+    "manufacture": {
+      "name": "Softing Industrial Automation"
+    },
+    "supplier": {
+      "name": "Softing Industrial Automation GmbH",
+      "url": [
+        "https://industrial.softing.com/"
+      ],
+      "contact": [
+        {
+          "email": "info.automation@softing.com"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/Softing/siAccess@7.10?Windows",
+      "group": "Softing Industrial Automation",
+      "name": "siAccess.Windows",
+      "version": "7.10.0",
+      "description": "siAccess core function library for Windows OS",
+      "supplier": {
+        "name": "Softing Industrial Automation GmbH",
+        "url": [
+          "https://industrial.softing.com/"
+        ],
+        "contact": [
+          {
+            "email": "info.automation@softing.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "library",
+      "bom-ref": "4df75711-ec52-4f62-a2fc-64b7622a8ea3",
+      "supplier": {
+        "name": "boost.org open-source project"
+      },
+      "author": "Christopher M. Kohlhoff",
+      "group": "Public Domain",
+      "name": "boost",
+      "version": "1.90.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSL-1.0"
+          }
+        }
+      ],
+      "copyright": "(C) 2003-2025 Christopher M. Kohlhoff",
+      "cpe": "cpe:2.3:a:boost:boost:1.90:*:*:*:*:*:*:*",
+      "purl": "pkg:boost/boost@1.90",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://github.com/boostorg/boost/releases/"
+        },
+        {
+          "name": "type:website",
+          "value": "http://www.boost.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "9a5ef869-4c9a-49af-9098-344f382c14dc",
+      "supplier": {
+        "name": "Sequiter Software, Inc."
+      },
+      "author": "Sequiter Software, Inc.",
+      "group": "Sequiter Software, Inc.",
+      "name": "CodeBase",
+      "version": "6.5",
+      "copyright": "Copyright Sequiter Software Inc., 1988-2000. (company dissolved)",
+      "cpe": "cpe:2.3:a:sequiter:codeBase:6.5:*:*:*:*:*:*:*",
+      "purl": "pkg:sequiter/codebase@6.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "8398f6fd-40a0-4b2b-990f-abac6d91a4d9",
+      "supplier": {
+        "name": "The OpenSSL Project"
+      },
+      "author": "The OpenSSL Project Authors",
+      "group": "OpenSSL Software Foundation, Inc.",
+      "name": "OpenSSL",
+      "version": "3.5.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 1998-2025 The OpenSSL Project Authors Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson",
+      "cpe": "cpe:2.3:a:openssl:openssl:3.5.6:*:*:*:*:*:*:*",
+      "purl": "pkg:openssl/openssl@3.5.6",
+      "properties": [
+        {
+          "name": "component:scope",
+          "value": "optional"
+        },
+        {
+          "name": "type:distribution",
+          "value": "https://openstypesl-library.org/source/"
+        },
+        {
+          "name": "type:website",
+          "value": "https://openssl-library.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ca0d4d71-0cb2-4ee1-93a3-5f9f147b868f",
+      "supplier": {
+        "name": "pugixml project (maint. Arseny Kapoulkine)"
+      },
+      "author": "Arseny Kapoulkine",
+      "group": "Public Domain",
+      "name": "pugixml",
+      "version": "1.15.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2006-2026 Arseny Kapoulkine",
+      "cpe": "cpe:2.3:a:pugixml_project:pugixml:1.15:*:*:*:*:*:*:*",
+      "purl": "pkg:cxx/pugixml@1.15",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://github.com/zeux/pugixml/releases/download/v1.15/pugixml-1.15.zip"
+        },
+        {
+          "name": "type:website",
+          "value": "http://pugixml.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "c00cf3cf-2f65-4e12-a68c-501b98b29dbd",
+      "supplier": {
+        "name": "zlib project"
+      },
+      "author": "Jean-loup Gailly and Mark Adler",
+      "group": "GNU",
+      "name": "zlib",
+      "version": "1.3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "copyright": "(C) 1995-2022 Jean-loup Gailly and Mark Adler",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:lib/czlib@1.3.2",
+      "properties": [
+        {
+          "name": "type:distribution",
+          "value": "https://www.zlib.net/zlib131.zip"
+        },
+        {
+          "name": "type:website",
+          "value": "https://zlib.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/Microsoft/VisualCPlusPlusRuntime@14.50?Windows",
+      "supplier": {
+        "name": "Microsoft"
+      },
+      "author": "Microsoft",
+      "name": "Microsoft Visual C++ toolset static runtime",
+      "version": "14.50",
+      "copyright": "(C) Microsoft Corporation",
+      "cpe": "cpe:2.3:a:microsoft:visual_c++:14.50:*:*:*:static_runtime:*:*:*",
+      "purl": "pkg:lib/microsoft/msvc-runtime-static@14.50"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:generic/Softing/siAccess.Java@7.10?Windows",
+      "dependsOn": [
+        "pkg:generic/Softing/siAccess@7.10?Windows"
+      ]
+    },
+    {
+      "ref": "pkg:generic/Softing/siAccess@7.10?Windows",
+      "dependsOn": [
+        "4df75711-ec52-4f62-a2fc-64b7622a8ea3",
+        "8398f6fd-40a0-4b2b-990f-abac6d91a4d9",
+        "9a5ef869-4c9a-49af-9098-344f382c14dc",
+        "c00cf3cf-2f65-4e12-a68c-501b98b29dbd",
+        "ca0d4d71-0cb2-4ee1-93a3-5f9f147b868f",
+        "pkg:generic/Microsoft/VisualCPlusPlusRuntime@14.50?Windows"
+      ]
+    },
+    {
+      "ref": "4df75711-ec52-4f62-a2fc-64b7622a8ea3",
+      "dependsOn": []
+    },
+    {
+      "ref": "9a5ef869-4c9a-49af-9098-344f382c14dc",
+      "dependsOn": []
+    },
+    {
+      "ref": "8398f6fd-40a0-4b2b-990f-abac6d91a4d9",
+      "dependsOn": []
+    },
+    {
+      "ref": "ca0d4d71-0cb2-4ee1-93a3-5f9f147b868f",
+      "dependsOn": []
+    },
+    {
+      "ref": "c00cf3cf-2f65-4e12-a68c-501b98b29dbd",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:generic/Microsoft/VisualCPlusPlusRuntime@14.50?Windows",
+      "dependsOn": []
+    }
+  ]
+}
