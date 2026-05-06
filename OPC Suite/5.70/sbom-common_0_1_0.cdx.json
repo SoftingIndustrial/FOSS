@@ -1,0 +1,336 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:dda3bd2b-fc0c-4efe-9e01-121a58bbdfcb",
+  "metadata": {
+    "timestamp": "2026-02-23T14:07:29.332542072Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cargo-cyclonedx",
+        "version": "0.5.5"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "common@0.1.0",
+      "supplier" : {
+        "name" : "Softing Industrial GmbH"
+      },
+      "author" : "Softing Industrial GmbH",
+      "group" : "Softing Industrial GmbH",
+      "name": "common",
+      "version": "0.1.0",
+      "scope": "required"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#derive_more@0.99.20",
+      "name": "derive_more",
+      "version": "0.99.20",
+      "description": "Adds #[derive(x)] macros for more traits",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/derive_more@0.99.20",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://jeltef.github.io/derive_more/derive_more/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/JelteF/derive_more"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#getrandom@0.2.17",
+      "name": "getrandom",
+      "version": "0.2.17",
+      "description": "A small cross-platform library for retrieving random data from system source",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/getrandom@0.2.17",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/getrandom"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rust-random/getrandom"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+      "name": "serde",
+      "version": "1.0.228",
+      "description": "A generic serialization/deserialization framework",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/serde@1.0.228",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/serde"
+        },
+        {
+          "type": "website",
+          "url": "https://serde.rs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/serde-rs/serde"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+      "name": "serde_json",
+      "version": "1.0.149",
+      "description": "A JSON serialization file format",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/serde_json@1.0.149",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/serde_json"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/serde-rs/json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#strum@0.24.1",
+      "name": "strum",
+      "version": "0.24.1",
+      "description": "Helpful macros for working with enums and strings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/strum@0.24.1",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/strum"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Peternator7/strum"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/Peternator7/strum"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#strum_macros@0.24.3",
+      "name": "strum_macros",
+      "version": "0.24.3",
+      "description": "Helpful macros for working with enums and strings",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/strum_macros@0.24.3",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/strum"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Peternator7/strum"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/Peternator7/strum"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+      "name": "time",
+      "version": "0.3.47",
+      "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/time@0.3.47",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://time-rs.github.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/time-rs/time"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+      "name": "uuid",
+      "version": "1.21.0",
+      "description": "A library to generate and parse UUIDs.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/uuid@1.21.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/uuid"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/uuid-rs/uuid"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/uuid-rs/uuid"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0",
+      "name": "yew",
+      "version": "0.20.0",
+      "description": "A framework for creating reliable and efficient web applications",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/yew@0.20.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/yew/"
+        },
+        {
+          "type": "website",
+          "url": "https://yew.rs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/yewstack/yew"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "common@0.1.0",
+      "dependsOn": [
+        "registry+https://github.com/rust-lang/crates.io-index#derive_more@0.99.20",
+        "registry+https://github.com/rust-lang/crates.io-index#getrandom@0.2.17",
+        "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+        "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+        "registry+https://github.com/rust-lang/crates.io-index#strum@0.24.1",
+        "registry+https://github.com/rust-lang/crates.io-index#strum_macros@0.24.3",
+        "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+        "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+        "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0"
+      ]
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#derive_more@0.99.20",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#getrandom@0.2.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#strum@0.24.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#strum_macros@0.24.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0",
+      "dependsOn": []
+    }
+  ]
+}

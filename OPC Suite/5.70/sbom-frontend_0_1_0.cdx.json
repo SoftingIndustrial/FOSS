@@ -1,0 +1,733 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:e29fea04-5caa-40b1-8aa5-8c73a2e415fc",
+  "metadata": {
+    "timestamp": "2026-02-23T14:07:29.326368135Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cargo-cyclonedx",
+        "version": "0.5.5"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "frontend@0.1.0",
+      "supplier" : {
+        "name" : "Softing Industrial GmbH"
+      },
+      "author" : "Softing Industrial GmbH",
+      "group" : "Softing Industrial GmbH",
+      "name": "frontend",
+      "version": "0.1.0",
+      "scope": "required"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "common@0.1.0",
+      "supplier" : {
+        "name" : "Softing Industrial GmbH"
+      },
+      "author" : "Softing Industrial GmbH",
+      "group" : "Softing Industrial GmbH",
+      "name": "common",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#async-trait@0.1.89",
+      "name": "async-trait",
+      "version": "0.1.89",
+      "description": "Type erasure for async trait methods",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/async-trait@0.1.89",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/async-trait"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/dtolnay/async-trait"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#bounce@0.6.1",
+      "name": "bounce",
+      "version": "0.6.1",
+      "description": "The uncomplicated state management library for Yew.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/bounce@0.6.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/bounce-rs/bounce"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/bounce-rs/bounce"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#chrono@0.4.44",
+      "name": "chrono",
+      "version": "0.4.44",
+      "description": "Date and time library for Rust",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/chrono@0.4.44",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/chrono/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chronotope/chrono"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/chronotope/chrono"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#gloo-net@0.2.6",
+      "name": "gloo-net",
+      "version": "0.2.6",
+      "description": "HTTP requests library for WASM Apps",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/gloo-net@0.2.6",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/rustwasm/gloo"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#gloo@0.8.1",
+      "name": "gloo",
+      "version": "0.8.1",
+      "description": "A modular toolkit for Rust and WebAssembly",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/gloo@0.8.1",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/gloo/"
+        },
+        {
+          "type": "website",
+          "url": "https://gloo-rs.web.app/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rustwasm/gloo"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#js-sys@0.3.88",
+      "name": "js-sys",
+      "version": "0.3.88",
+      "description": "Bindings for all JS global objects and functions in all JS environments like Node.js and browsers, built on `#[wasm_bindgen]` using the `wasm-bindgen` crate. ",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/js-sys@0.3.88",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/js-sys"
+        },
+        {
+          "type": "website",
+          "url": "https://wasm-bindgen.github.io/wasm-bindgen/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#lazy_static@1.5.0",
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "description": "A macro for declaring lazily evaluated statics in Rust.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/lazy_static@1.5.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/lazy_static"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rust-lang-nursery/lazy-static.rs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#log@0.4.29",
+      "name": "log",
+      "version": "0.4.29",
+      "description": "A lightweight logging facade for Rust ",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/log@0.4.29",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/log"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rust-lang/log"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#reqwest@0.11.27",
+      "name": "reqwest",
+      "version": "0.11.27",
+      "description": "higher level HTTP client library",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/reqwest@0.11.27",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/reqwest"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/seanmonstar/reqwest"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+      "name": "serde",
+      "version": "1.0.228",
+      "description": "A generic serialization/deserialization framework",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/serde@1.0.228",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/serde"
+        },
+        {
+          "type": "website",
+          "url": "https://serde.rs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/serde-rs/serde"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+      "name": "serde_json",
+      "version": "1.0.149",
+      "description": "A JSON serialization file format",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/serde_json@1.0.149",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/serde_json"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/serde-rs/json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+      "name": "time",
+      "version": "0.3.47",
+      "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/time@0.3.47",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://time-rs.github.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/time-rs/time"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+      "name": "uuid",
+      "version": "1.21.0",
+      "description": "A library to generate and parse UUIDs.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/uuid@1.21.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/uuid"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/uuid-rs/uuid"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/uuid-rs/uuid"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-futures@0.4.61",
+      "name": "wasm-bindgen-futures",
+      "version": "0.4.61",
+      "description": "Bridging the gap between Rust Futures and JavaScript Promises",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/wasm-bindgen-futures@0.4.61",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/wasm-bindgen-futures"
+        },
+        {
+          "type": "website",
+          "url": "https://wasm-bindgen.github.io/wasm-bindgen/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen@0.2.111",
+      "name": "wasm-bindgen",
+      "version": "0.2.111",
+      "description": "Easy support for interacting between JS and Rust. ",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/wasm-bindgen@0.2.111",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/wasm-bindgen"
+        },
+        {
+          "type": "website",
+          "url": "https://wasm-bindgen.github.io/wasm-bindgen"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/wasm-bindgen/wasm-bindgen"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-logger@0.2.0",
+      "name": "wasm-logger",
+      "version": "0.2.0",
+      "description": "A logger that sends a message with its Rust source's line and filename to the browser console",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/wasm-logger@0.2.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/wasm-logger"
+        },
+        {
+          "type": "vcs",
+          "url": "https://gitlab.com/limira-rs/wasm-logger"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#web-sys@0.3.88",
+      "name": "web-sys",
+      "version": "0.3.88",
+      "description": "Bindings for all Web APIs, a procedurally generated crate from WebIDL ",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/web-sys@0.3.88",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://wasm-bindgen.github.io/wasm-bindgen/api/web_sys/"
+        },
+        {
+          "type": "website",
+          "url": "https://wasm-bindgen.github.io/wasm-bindgen/web-sys/index.html"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#yew-event-source@0.2.1",
+      "name": "yew-event-source",
+      "version": "0.2.1",
+      "description": "an event source service for the yew web framework",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/yew-event-source@0.2.1",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/strawlab/yew-event-source"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#yew-hooks@0.2.0",
+      "name": "yew-hooks",
+      "version": "0.2.0",
+      "description": "Hooks for the Yew web framework, inspired by react hook libs like streamich/react-use and alibaba/hooks.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/yew-hooks@0.2.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/yew-hooks/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jetli/yew-hooks"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/jetli/yew-hooks"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#yew-router@0.17.0",
+      "name": "yew-router",
+      "version": "0.17.0",
+      "description": "A router implementation for the Yew framework",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/yew-router@0.17.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/yewstack/yew"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0",
+      "name": "yew",
+      "version": "0.20.0",
+      "description": "A framework for creating reliable and efficient web applications",
+      "scope": "required",
+      "licenses": [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:cargo/yew@0.20.0",
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "https://docs.rs/yew/"
+        },
+        {
+          "type": "website",
+          "url": "https://yew.rs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/yewstack/yew"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "common@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "frontend@0.1.0",
+      "dependsOn": [
+        "registry+https://github.com/rust-lang/crates.io-index#async-trait@0.1.89",
+        "registry+https://github.com/rust-lang/crates.io-index#bounce@0.6.1",
+        "registry+https://github.com/rust-lang/crates.io-index#chrono@0.4.44",
+        "common@0.1.0",
+        "registry+https://github.com/rust-lang/crates.io-index#gloo@0.8.1",
+        "registry+https://github.com/rust-lang/crates.io-index#gloo-net@0.2.6",
+        "registry+https://github.com/rust-lang/crates.io-index#js-sys@0.3.88",
+        "registry+https://github.com/rust-lang/crates.io-index#lazy_static@1.5.0",
+        "registry+https://github.com/rust-lang/crates.io-index#log@0.4.29",
+        "registry+https://github.com/rust-lang/crates.io-index#reqwest@0.11.27",
+        "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+        "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+        "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+        "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+        "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen@0.2.111",
+        "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-futures@0.4.61",
+        "registry+https://github.com/rust-lang/crates.io-index#wasm-logger@0.2.0",
+        "registry+https://github.com/rust-lang/crates.io-index#web-sys@0.3.88",
+        "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0",
+        "registry+https://github.com/rust-lang/crates.io-index#yew-event-source@0.2.1",
+        "registry+https://github.com/rust-lang/crates.io-index#yew-hooks@0.2.0",
+        "registry+https://github.com/rust-lang/crates.io-index#yew-router@0.17.0"
+      ]
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#async-trait@0.1.89",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#bounce@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#chrono@0.4.44",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#gloo-net@0.2.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#gloo@0.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#js-sys@0.3.88",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#lazy_static@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#log@0.4.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#reqwest@0.11.27",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#serde@1.0.228",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#serde_json@1.0.149",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#time@0.3.47",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#uuid@1.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen-futures@0.4.61",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-bindgen@0.2.111",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#wasm-logger@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#web-sys@0.3.88",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#yew-event-source@0.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#yew-hooks@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#yew-router@0.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "registry+https://github.com/rust-lang/crates.io-index#yew@0.20.0",
+      "dependsOn": []
+    }
+  ]
+}

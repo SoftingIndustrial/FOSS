@@ -1,0 +1,460 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:ad46f5c1-4c0b-4bb4-9df2-fc7588189786",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-07T15:21:25.233413+00:00",
+    "component": {
+      "type": "application",
+      "name": "SDEX Suite (Linux)"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Ace Editor",
+      "version": "1.8.1",
+      "description": "High performance code editor for the web. [Official Page](https://ace.c9.io/) / [GitHub](https://github.com/ajaxorg/ace)",
+      "author": "Ajax.org",
+      "publisher": "Ajax.org",
+      "purl": "pkg:npm/ace-builds@1.8.1",
+      "cpe": "cpe:2.3:a:ajax.org:ace_editor:1.8.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "CryptoJS",
+      "version": "4.2.0",
+      "description": "JavaScript library of crypto standards. [GitHub](https://github.com/brix/crypto-js)",
+      "author": "Evan Vosberg",
+      "publisher": "Evan Vosberg",
+      "purl": "pkg:npm/crypto-js@4.2.0",
+      "cpe": "cpe:2.3:a:crypto-js_project:crypto-js:4.2.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "JavaScript InfoVis Toolkit (JIT)",
+      "version": "2.0.1",
+      "description": "Tools for creating Interactive Data Visualizations for the Web. [Official Page](https://philogb.github.io/jit/)",
+      "author": "Nicolas Garcia Belmonte",
+      "publisher": "Nicolas Garcia Belmonte",
+      "purl": "pkg:generic/javascript-infovis-toolkit-jit@2.0.1",
+      "cpe": "cpe:2.3:a:philogb:jit:2.0.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jQuery",
+      "version": "3.6.4",
+      "description": "Fast, small, and feature-rich JavaScript library. [Official Page](https://jquery.com/)",
+      "author": "OpenJS Foundation",
+      "publisher": "OpenJS Foundation",
+      "purl": "pkg:npm/jquery@3.6.4",
+      "cpe": "cpe:2.3:a:jquery:jquery:3.6.4:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jQuery Cookie",
+      "version": "1.4.1",
+      "description": "A simple, lightweight jQuery plugin for reading, writing and deleting cookies. [GitHub](https://github.com/carhartl/jquery-cookie)",
+      "author": "Klaus Hartl",
+      "publisher": "Klaus Hartl",
+      "purl": "pkg:npm/jquery.cookie@1.4.1",
+      "cpe": "cpe:2.3:a:jquery_cookie_project:jquery_cookie:1.4.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jQuery UI",
+      "version": "1.13.2",
+      "description": "Curated set of user interface interactions, effects, widgets, and themes for jQuery. [Official Page](http://jqueryui.com)",
+      "author": "OpenJS Foundation",
+      "publisher": "OpenJS Foundation",
+      "purl": "pkg:npm/jquery-ui@1.13.2",
+      "cpe": "cpe:2.3:a:jqueryui:jquery_ui:1.13.2:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jQWidgets",
+      "version": "17.0.0",
+      "description": "Comprehensive HTML5/JavaScript UI controls framework. [Official Page](https://www.jqwidgets.com/)",
+      "author": "jQWidgets Ltd.",
+      "publisher": "jQWidgets Ltd.",
+      "purl": "pkg:npm/jqwidgets-scripts@17.0.0",
+      "cpe": "cpe:2.3:a:jqwidgets:jqwidgets:17.0.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "JSON-bigint",
+      "version": "1.0.0",
+      "description": "JSON.parse/stringify with bigints support. [GitHub](https://github.com/sidorares/json-bigint)",
+      "author": "sidorares",
+      "publisher": "sidorares",
+      "purl": "pkg:npm/json-bigint@1.0.0",
+      "cpe": "cpe:2.3:a:json-bigint_project:json-bigint:1.0.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jsTree",
+      "version": "3.3.12",
+      "description": "jQuery plugin, that provides interactive trees. [Official Page](https://www.jstree.com/)",
+      "author": "Ivan Bozhanov",
+      "publisher": "Ivan Bozhanov",
+      "purl": "pkg:npm/jstree@3.3.12",
+      "cpe": "cpe:2.3:a:jstree:jstree:3.3.12:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Knockout",
+      "version": "3.5.1",
+      "description": "Simplify dynamic JavaScript UIs with the Model-View-ViewModel (MVVM) pattern. [Official Page](https://knockoutjs.com/)",
+      "author": "Steven Sanderson",
+      "publisher": "Steven Sanderson",
+      "purl": "pkg:npm/knockout@3.5.1",
+      "cpe": "cpe:2.3:a:knockoutjs:knockout:3.5.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "MD5",
+      "version": "",
+      "description": "JavaScript MD5 implementation. [Official Page](http://www.myersdaily.org/joseph/javascript/md5-text.html)",
+      "author": "Joseph Myers",
+      "publisher": "Joseph Myers",
+      "purl": "pkg:generic/md5",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause",
+            "url": "https://opensource.org/license/bsd-3-clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cURL",
+      "version": "8.1.2",
+      "description": "Command line tool and library for transferring data with URLs. [Official Page](https://curl.se/) / [GitHub](https://github.com/curl/curl)",
+      "author": "Daniel Stenberg",
+      "publisher": "Daniel Stenberg",
+      "purl": "pkg:github/curl/curl@8.1.2",
+      "cpe": "cpe:2.3:a:haxx:curl:8.1.2:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "curl"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Eclipse Paho (MQTT C)",
+      "version": "1.3.13",
+      "description": "Eclipse Paho MQTT C client library for IoT messaging. [Official Page](https://eclipse.dev/paho/) / [GitHub](https://github.com/eclipse/paho.mqtt.c)",
+      "author": "Eclipse Foundation",
+      "publisher": "Eclipse Foundation",
+      "purl": "pkg:github/eclipse/paho.mqtt.c@1.3.13",
+      "cpe": "cpe:2.3:a:eclipse:paho_mqtt_c:1.3.13:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause-Modification",
+            "url": "https://www.eclipse.org/org/documents/edl-v10/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "FOCAS",
+      "version": "",
+      "description": "FANUC CNC access library for automation integration.",
+      "author": "FANUC",
+      "publisher": "FANUC",
+      "purl": "pkg:generic/focas",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jsoncpp",
+      "version": "1.9.6",
+      "description": "C++ library for interacting with JSON. [GitHub](https://github.com/open-source-parsers/jsoncpp)",
+      "author": "Baptiste Lepilleur",
+      "publisher": "Baptiste Lepilleur",
+      "purl": "pkg:github/open-source-parsers/jsoncpp@1.9.6",
+      "cpe": "cpe:2.3:a:jsoncpp_project:jsoncpp:1.9.6:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT",
+            "url": "https://github.com/open-source-parsers/jsoncpp/blob/master/LICENSE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libfcgi",
+      "version": "2.4.1",
+      "description": "C/C++ library for the FastCGI protocol. [GitHub](https://github.com/FastCGI-Archives/fcgi2)",
+      "author": "Open Market",
+      "publisher": "Open Market",
+      "purl": "pkg:github/fastcgi-archives/fcgi2@2.4.1",
+      "cpe": "cpe:2.3:a:fastcgi:fcgi:2.4.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "OML",
+            "url": "https://github.com/FastCGI-Archives/fcgi2/blob/master/LICENSE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "liblmxclient",
+      "version": "5.5.0",
+      "description": "Proprietary license management client. [GitLab (Internal)](https://ms-gitlab.ia-dev.softing.com/di/license)",
+      "author": "X-Formation",
+      "publisher": "X-Formation",
+      "purl": "pkg:generic/liblmxclient@5.5.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Commercial"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "liblua (Lua)",
+      "version": "5.4.4",
+      "description": "Powerful, efficient, lightweight, embeddable scripting language. [Official Page](https://www.lua.org/) / [GitHub](https://github.com/lua/lua)",
+      "author": "PUC-Rio",
+      "publisher": "PUC-Rio",
+      "purl": "pkg:github/lua/lua@5.4.4",
+      "cpe": "cpe:2.3:a:lua:lua:5.4.4:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.9.14",
+      "description": "XML C parser and toolkit developed for the Gnome project. [Official Page](http://xmlsoft.org/) / [GitLab](https://gitlab.gnome.org/GNOME/libxml2)",
+      "author": "GNOME Project",
+      "publisher": "GNOME Project",
+      "purl": "pkg:generic/libxml2@2.9.14",
+      "cpe": "cpe:2.3:a:xmlsoft:libxml2:2.9.14:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libzip",
+      "version": "1.10",
+      "description": "C library for reading, creating, and modifying zip archives. [Official Page](https://libzip.org/) / [GitHub](https://github.com/nih-at/libzip)",
+      "author": "Dieter Baron and Thomas Klausner",
+      "publisher": "Dieter Baron and Thomas Klausner",
+      "purl": "pkg:github/nih-at/libzip@1.10",
+      "cpe": "cpe:2.3:a:nih:libzip:1.10:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "nginx",
+      "version": "1.22.1",
+      "description": "High-performance web server and reverse proxy. [Official Page](https://nginx.org/)",
+      "author": "F5, Inc.",
+      "publisher": "F5, Inc.",
+      "purl": "pkg:generic/nginx@1.22.1",
+      "cpe": "cpe:2.3:a:f5:nginx_open_source:1.22.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "OpenLDAP",
+      "version": "2.5.13",
+      "description": "Free, open-source implementation of the Lightweight Directory Access Protocol. [Official Page](https://www.openldap.org/) / [GitHub](https://github.com/openldap/openldap)",
+      "author": "OpenLDAP Foundation",
+      "publisher": "OpenLDAP Foundation",
+      "purl": "pkg:github/openldap/openldap@2.5.13",
+      "cpe": "cpe:2.3:a:openldap:openldap:2.5.13:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "OLDAP-2.5",
+            "url": "https://www.openldap.org/software/release/license.html"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "OpenSSL",
+      "version": "3.0.13",
+      "description": "Robust toolkit for TLS/SSL protocols. [Official Page](https://www.openssl.org/) / [GitHub](https://github.com/openssl/openssl)",
+      "author": "OpenSSL Software Foundation",
+      "publisher": "OpenSSL Software Foundation",
+      "purl": "pkg:github/openssl/openssl@3.0.13",
+      "cpe": "cpe:2.3:a:openssl:openssl:3.0.13:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Prometheus-cpp",
+      "version": "1.1.0",
+      "description": "Prometheus Client Library for Modern C++. [GitHub](https://github.com/jupp0r/prometheus-cpp)",
+      "author": "Jupp Mueller",
+      "publisher": "Jupp Mueller",
+      "purl": "pkg:github/jupp0r/prometheus-cpp@1.1.0",
+      "cpe": "cpe:2.3:a:prometheus:prometheus-cpp:1.1.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "sol2",
+      "version": "3.3.0",
+      "description": "C++ library binding to Lua. [Official Page](https://sol2.readthedocs.io/) / [GitHub](https://github.com/ThePhD/sol2)",
+      "author": "ThePhD",
+      "publisher": "ThePhD",
+      "purl": "pkg:github/thephd/sol2@3.3.0",
+      "cpe": "cpe:2.3:a:sol2_project:sol2:3.3.0:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zlib",
+      "version": "1.3",
+      "description": "Massively spiffy yet delicately unobtrusive compression library. [Official Page](https://zlib.net/) / [GitHub](https://github.com/madler/zlib)",
+      "author": "Jean-loup Gailly and Mark Adler",
+      "publisher": "Jean-loup Gailly and Mark Adler",
+      "purl": "pkg:github/madler/zlib@1.3",
+      "cpe": "cpe:2.3:a:gnu:zlib:1.3:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib",
+            "url": "https://zlib.net/zlib_license.html"
+          }
+        }
+      ]
+    }
+  ]
+}
