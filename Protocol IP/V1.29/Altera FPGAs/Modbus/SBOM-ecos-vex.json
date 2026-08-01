@@ -4,22 +4,16 @@
   "serialNumber" : "urn:uuid:b2e2fdff-041c-433d-a7ea-ff351ef94d59",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-01-24T08:31:46Z",
-    "tools" : [
-      {
-        "vendor" : "OWASP",
-        "name" : "Dependency-Track",
-        "version" : "4.11.5"
-      }
-    ],
-    "component" : {
-      "type" : "firmware",
-      "bom-ref" : "b71f5f60-a6e7-466d-aa26-d63243a5950a",
-      "name" : "PROFINET Device for Altera FPGA",
-      "version" : "1.29.00",
-      "description" : "PROFINET Device for Altera FPGA version 1.29.00."
-    }
+    "timestamp" : "2026-06-08T08:31:46Z"
   },
+  "components": [
+    {
+      "bom-ref": "vex-comp-eCos-4.1.10",
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "type": "library"
+    }
+  ],  
   "vulnerabilities" : [
     {
       "bom-ref" : "68c89c03-7db0-49f7-834d-be33130df214",
@@ -62,7 +56,7 @@
       },
       "affects" : [
         {
-          "ref" : "b71f5f60-a6e7-466d-aa26-d63243a5950a"
+          "ref" : "vex-comp-eCos-4.1.10"
         }
       ]
     }
