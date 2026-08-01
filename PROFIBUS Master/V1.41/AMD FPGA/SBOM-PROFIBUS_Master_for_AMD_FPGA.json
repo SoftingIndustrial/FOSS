@@ -1,0 +1,236 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:3a61b2da-f227-4291-b255-455f94ac7376",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-06-18T11:40:26Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.14.1"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "Softing Industrial Automation GmbH",
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "8cca9ba2-ecf5-4fad-a9f3-144e4440c3ff",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "name" : "PROFIBUS Master for AMD FPGA",
+      "version" : "1.41.00",
+      "description" : "PROFIBUS Master for AMD FPGA",
+      "cpe" : "cpe:2.3:a:softing:profibus_master_subsystem_xilinx:1.41:*:*:*:*:*:*:*",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://industrial.softing.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://industrial.softing.com/de/produkte/embedded-module-und-kommunikations-software/fielldbus.html"
+        }
+      ]
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "9c641fc4-c6a9-4145-8a9a-b6b61fde50e0",
+      "supplier" : {
+        "name" : "AMD"
+      },
+      "author" : "AMD",
+      "name" : "AMD MicroBlaze Processor",
+      "version" : "11.0",
+      "description" : "AMD MicroBlaze Processor"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "66c96f8e-d778-4d48-b568-666689db2a7f",
+      "supplier" : {
+        "name" : "various"
+      },
+      "name" : "eCos",
+      "version" : "4.1.10",
+      "description" : "eCos operating system subset customized by Softing",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "eCos-2.0",
+            "url" : "https://ecos.sourceware.org/license-overview.html"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.1.10:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "e78af104-cf3a-4431-adf3-15dc965cb2f8",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "External Bus IP Core",
+      "version" : "1.11.00",
+      "description" : "External Bus IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "146816ab-f62d-450a-83be-7a06dd1e62f0",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "Fieldbus Utility IP Core",
+      "version" : "1.00.00",
+      "description" : "Fieldbus Utility IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2011-2023. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d7a1e724-f135-48d4-a987-c0907834f5e5",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation",
+      "name" : "PROFIBUS Master IP Core",
+      "version" : "1.40.00",
+      "description" : "PROFIBUS Slave IP Core",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2013. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "651c3e80-1518-4c62-8f7f-f65039bd9114",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "PROFIBUS Master Stack",
+      "version" : "6.71.00",
+      "description" : "PROFIBUS Master Stack",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2000-2022. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "3200b497-9f62-4925-9269-6bfe1f3ad246",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "PROFIstack Access Kit (PSAK)",
+      "version" : "1.71.00",
+      "description" : "PROFIstack Access Kit",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2022. All Rights Reserved."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "38b2454f-d0b5-4c89-a0ec-a9b4fb9fdc18",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "author" : "Softing Industrial Automation GmbH",
+      "name" : "PROFIstack Access Kit (PSAK) Application",
+      "version" : "6.71.00",
+      "description" : "PROFIstack Access Kit (PSAK) Application",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Softing commercial license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (C) SOFTING Industrial Automation GmbH 2005-2025. All Rights Reserved."
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "8cca9ba2-ecf5-4fad-a9f3-144e4440c3ff",
+      "dependsOn" : [
+        "146816ab-f62d-450a-83be-7a06dd1e62f0",
+        "66c96f8e-d778-4d48-b568-666689db2a7f",
+        "38b2454f-d0b5-4c89-a0ec-a9b4fb9fdc18",
+        "3200b497-9f62-4925-9269-6bfe1f3ad246",
+        "e78af104-cf3a-4431-adf3-15dc965cb2f8",
+        "d7a1e724-f135-48d4-a987-c0907834f5e5",
+        "9c641fc4-c6a9-4145-8a9a-b6b61fde50e0",
+        "651c3e80-1518-4c62-8f7f-f65039bd9114"
+      ]
+    },
+    {
+      "ref" : "9c641fc4-c6a9-4145-8a9a-b6b61fde50e0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "66c96f8e-d778-4d48-b568-666689db2a7f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "e78af104-cf3a-4431-adf3-15dc965cb2f8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "146816ab-f62d-450a-83be-7a06dd1e62f0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d7a1e724-f135-48d4-a987-c0907834f5e5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "651c3e80-1518-4c62-8f7f-f65039bd9114",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "3200b497-9f62-4925-9269-6bfe1f3ad246",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "38b2454f-d0b5-4c89-a0ec-a9b4fb9fdc18",
+      "dependsOn" : [ ]
+    }
+  ]
+}
