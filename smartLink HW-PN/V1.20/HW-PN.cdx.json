@@ -1,0 +1,515 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:ba58d771-cded-464e-9ced-01a8e5236655",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-08-25T14:57:40Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP",
+        "name" : "Dependency-Track",
+        "version" : "4.14.3"
+      }
+    ],
+    "authors" : [
+      {
+        "email" : "support.automation@softing.com"
+      }
+    ],
+    "component" : {
+      "type" : "firmware",
+      "bom-ref" : "7cd185a8-43c4-4983-a333-c1952d01ab91",
+      "supplier" : {
+        "name" : "Softing Industrial Automation GmbH"
+      },
+      "name" : "smartLink HW-PN",
+      "version" : "1.20.00",
+      "description" : "smartLink HW-PN V1.20"
+    }
+  },
+  "components" : [
+    {
+      "type" : "file",
+      "bom-ref" : "fe5766ca-89b2-4d9a-8e1d-2d805974598e",
+      "supplier" : {
+        "name" : "Aha-Soft"
+      },
+      "author" : "Aha-Soft",
+      "group" : "Aha-Soft",
+      "name" : "Administrator Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.aha-soft.com/free-icons/free-large-boss-icon-set",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception",
+            "url" : "http://www.aha-soft.com/terms-of-use.htm"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2000-2019 Aha-Soft"
+    },
+    {
+      "type" : "framework",
+      "bom-ref" : "14136357-409e-4709-bf3f-539d02e25f92",
+      "supplier" : {
+        "name" : "Google LLC"
+      },
+      "author" : "Google LLC",
+      "group" : "Google LLC",
+      "name" : "Angular",
+      "version" : "2.4.0",
+      "description" : "Source: https://angular.io/",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://angular.io/license"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2010-2020 Google LLC.",
+      "purl" : "pkg:npm/angular@2.4.x"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0ff8ca46-15ab-453e-9a59-d61e1ebcd287",
+      "supplier" : {
+        "name" : "500Tech LTD"
+      },
+      "author" : "500Tech LTD",
+      "group" : "500Tech LTD",
+      "name" : "angular-tree-component",
+      "version" : "3.3.0",
+      "description" : "Source: https://github.com/500tech/angular-tree-component",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/CirclonGroup/angular-tree-component"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 500Tech LTD"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "04acd6ec-a9e4-4b25-b1f3-801fa9854e25",
+      "supplier" : {
+        "name" : "zloirock"
+      },
+      "author" : "Denis Pushkarev and others",
+      "group" : "zloirock",
+      "name" : "core-js",
+      "version" : "2.4.1",
+      "description" : "Source: https://github.com/zloirock/core-js",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/zloirock/core-js"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2025 Denis Pushkarev",
+      "purl" : "pkg:npm/core-js@2.4.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8c51e56a-d880-4a2b-bbdf-9e8c0f3f943d",
+      "supplier" : {
+        "name" : "eCosCentric Limited"
+      },
+      "author" : "eCosCentric Limited",
+      "group" : "eCosCentric Limited",
+      "name" : "eCosPro",
+      "version" : "4.3.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "eCosPro License",
+            "url" : "https://www.ecoscentric.com/licensing/ecospro-license-3_0.shtml"
+          }
+        }
+      ],
+      "copyright" : "https://www.ecoscentric.com/company/legal.shtml",
+      "cpe" : "cpe:2.3:a:ecoscentric:ecospro:4.3.0:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "2a5a54cb-602e-435e-806d-04e9b847068e",
+      "supplier" : {
+        "name" : "Eli Grey"
+      },
+      "author" : "Eli Grey",
+      "group" : "eligrey",
+      "name" : "file-saver",
+      "version" : "1.3.3",
+      "description" : "Source: https://github.com/eligrey/FileSaver.js",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/eligrey/FileSaver.js/"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 Eli Grey",
+      "purl" : "pkg:npm/file-saver@1.3.3"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7ebf392f-e525-4752-8214-56330ae033c1",
+      "supplier" : {
+        "name" : "JS Foundation"
+      },
+      "author" : "JS Foundation and other contributors",
+      "group" : "JS Foundation and other contributors",
+      "name" : "lodash-es",
+      "version" : "4.17.4",
+      "description" : "Source: https://github.com/lodash/lodash",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/lodash/lodash"
+          }
+        }
+      ],
+      "copyright" : "Copyright © JS Foundation and other contributors <https://js.foundation/> Based on Underscore.js, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>",
+      "purl" : "pkg:npm/lodash-es@4.17.4"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ca7343d2-a92e-4f46-89fa-7fef7dcae24e",
+      "supplier" : {
+        "name" : "Free Software Foundation Inc."
+      },
+      "author" : "Swedish Institute of Computer Science and other contributors",
+      "group" : "Nicht-GNU Software",
+      "name" : "LWIP",
+      "version" : "2.1.1",
+      "description" : "Source: http://git.savannah.nongnu.org/cgit/lwip.git",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-1-Clause",
+            "url" : "https://github.com/lwip-tcpip/lwip?tab=readme-ov-file"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2001, 2002 Swedish Institute of Computer Science. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, ...",
+      "cpe" : "cpe:2.3:a:lwip_project:lwip:2.1.1:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "file",
+      "bom-ref" : "783277aa-b2eb-4f38-8184-f54b308e6a18",
+      "supplier" : {
+        "name" : "Oxygen project"
+      },
+      "author" : "Oxygen Team",
+      "group" : "Oxygen project",
+      "name" : "Maintenance Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Categories-preferences-system-icon.html",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception"
+          }
+        }
+      ],
+      "copyright" : "Oxygen Icon Theme has been developed by The Oxygen Team. Art Directors: Nuno F. Pinheiro <nuno@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Naming Coordinator Jakob Petsovits <jpetso@gmx.at> Designers: David J. Miller <miller@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Johann Ollivier Lapeyre <johann@oxygen-icons.org> Kenneth Wimer <ken@oxygen-icons.org> Nuno F. Pinheiro <nuno@oxygen-icons.org> Riccardo Iaconelli <riccardo@oxygen-icons.org> David J. Miller <miller@oxygen-icons.org> Thanks to: Lee Olson: Contributed drawing used in application-x-bittorent icon. Marco AurÃ©lio \"CorÃ©\": Improved audio-input-microphone icon. Matthias Kretz: Contributed \"audio-input-line\" device icon. Mauricio Piacentini <piacentini@kde.org> : game icons mashup Erlend Hamberg: \"text-x-haskell\" mimetype icon."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "66147259-edc0-4eff-9eac-d27b5756aeaa",
+      "supplier" : {
+        "name" : "MobX"
+      },
+      "author" : "Michel Weststrate",
+      "group" : "Michel Weststrate",
+      "name" : "mobx",
+      "version" : "3.1.7",
+      "description" : "Source: https://github.com/mobxjs/mobx",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/mobxjs/mobx"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015 Michel Weststrate",
+      "purl" : "pkg:npm/mobx@3.1.7"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "811ba1a4-d444-4def-bcdd-37e34c7d449f",
+      "supplier" : {
+        "name" : "Mike Grabski"
+      },
+      "author" : "Mike Grabski",
+      "group" : "Mike Grabski",
+      "name" : "ng2-idle",
+      "version" : "2.0.0",
+      "description" : "Source: https://github.com/HackedByChinese/ng2-idle",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://github.com/grbsk/ng2-idle"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 Mike Grabski",
+      "purl" : "pkg:npm/ng2-idle@2.0.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "15bf0481-f807-4587-b26b-68f2e28bdfed",
+      "supplier" : {
+        "name" : "500Tech LTD"
+      },
+      "author" : "Elia Rohana",
+      "group" : "500Tech LTD",
+      "name" : "ng2-mobx",
+      "version" : "1.2.9",
+      "description" : "Source: https://github.com/EliaRohana/ng2-mobx",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/mobxjs/mobx-angular"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2016 500Tech LTD",
+      "purl" : "pkg:npm/ng2-mobx@1.2.9"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "18ba008d-cb33-4b30-bca9-5953fc3583bb",
+      "supplier" : {
+        "name" : "Valor Software"
+      },
+      "author" : "Valor Software",
+      "group" : "Valor Software",
+      "name" : "ngx-bootstrap",
+      "version" : "1.9.3",
+      "description" : "Source: https://github.com/valor-software/ngx-boostrap",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://github.com/valor-software/ngx-bootstrap"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015-2017 Valor Software Copyright © 2015-2017 Dmitriy Shekhovtsov<valorkin@gmail.com>",
+      "purl" : "pkg:npm/ngx-bootstrap@1.9.3"
+    },
+    {
+      "type" : "file",
+      "bom-ref" : "1247fd91-73bb-4551-b245-4867b8db1d24",
+      "supplier" : {
+        "name" : "Oxygen project"
+      },
+      "author" : "Oxygen Team",
+      "group" : "Oxygen project",
+      "name" : "Observer Image",
+      "version" : "1.0.0",
+      "description" : "Source: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-edit-find-icon.html",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-linking-exception"
+          }
+        }
+      ],
+      "copyright" : "Oxygen Icon Theme has been developed by The Oxygen Team. Art Directors: Nuno F. Pinheiro <nuno@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Naming Coordinator Jakob Petsovits <jpetso@gmx.at> Designers: David J. Miller <miller@oxygen-icons.org> David Vignoni <david@oxygen-icons.org> Johann Ollivier Lapeyre <johann@oxygen-icons.org> Kenneth Wimer <ken@oxygen-icons.org> Nuno F. Pinheiro <nuno@oxygen-icons.org> Riccardo Iaconelli <riccardo@oxygen-icons.org> David J. Miller <miller@oxygen-icons.org> Thanks to: Lee Olson: Contributed drawing used in application-x-bittorent icon. Marco AurÃ©lio \"CorÃ©\": Improved audio-input-microphone icon. Matthias Kretz: Contributed \"audio-input-line\" device icon. Mauricio Piacentini <piacentini@kde.org> : game icons mashup Erlend Hamberg: \"text-x-haskell\" mimetype icon."
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "98ed458b-e459-4218-bf68-efce1170299b",
+      "supplier" : {
+        "name" : "OpenSSL Project"
+      },
+      "author" : "OpenSSL Project",
+      "group" : "OpenSSL Project",
+      "name" : "OpenSSL",
+      "version" : "1.02",
+      "description" : "Source: http://www.openssl.org",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "OpenSSL"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 1998-2018 The OpenSSL Project. All rights reserved. Copyright © 1995-1998 Eric Young (eay@cryptsoft.com) This product includes cryptographic software written by Eric Young (eay@cryptsoft.com) This product includes software written by Tim Hudson (tjh@cryptsoft.com)",
+      "cpe" : "cpe:2.3:a:openssl:openssl:1.0.2u:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0e51af54-7fdc-49b5-90f1-8e964fbc0cdc",
+      "supplier" : {
+        "name" : "Tencent"
+      },
+      "author" : "json.org, Alexander Chemeris, THL A29 Limited, Milo Yip",
+      "group" : "Tencent",
+      "name" : "RapidJSON",
+      "version" : "1.1.0",
+      "description" : "Source: https://github.com/Tencent/rapidjson",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "JSON"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2015 THL A29 Limited, a Tencent company, and Milo Yip The msinttypes r29 Copyright © 2006-2013 Alexander Chemeris json.org Copyright © 2002 JSON.org JSON_checker Copyright © 2002 JSON.org",
+      "cpe" : "cpe:2.3:a:tencent:rapidjson:1.1.0:*:*:*:*:*:*:*"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "dafb25fc-5aa0-443b-93a7-de9a0b4fac97",
+      "supplier" : {
+        "name" : "Marcin Kalicinski"
+      },
+      "author" : "Marcin Kalicinski",
+      "group" : "Marcin Kalicinski",
+      "name" : "RapidXml",
+      "version" : "1.13.0",
+      "description" : "Source: http://rapidxml.sourceforge.net",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright © 2006, 2007 Marcin Kalicinski"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0af7482f-42ce-42bf-a00e-f5d7504da02a",
+      "supplier" : {
+        "name" : "RxJS Dev"
+      },
+      "author" : "Ben Lesh (ben@benlesh.com), Tracy Lee (tracy@thisdot.co) or OJ Kwon (kwon.ohjoong@gmail.com) and others",
+      "group" : "rxjs dev",
+      "name" : "rxjs",
+      "version" : "5.1.0",
+      "description" : "Source: https://github.com/reactivex/rxjs",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://rxjs.dev"
+          }
+        }
+      ],
+      "copyright" : "Ben Lesh (ben@benlesh.com), Tracy Lee (tracy@thisdot.co) or OJ Kwon (kwon.ohjoong@gmail.com) and others",
+      "purl" : "pkg:npm/rxjs@5.1.0"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "7cd185a8-43c4-4983-a333-c1952d01ab91",
+      "dependsOn" : [
+        "0ff8ca46-15ab-453e-9a59-d61e1ebcd287",
+        "dafb25fc-5aa0-443b-93a7-de9a0b4fac97",
+        "811ba1a4-d444-4def-bcdd-37e34c7d449f",
+        "98ed458b-e459-4218-bf68-efce1170299b",
+        "0af7482f-42ce-42bf-a00e-f5d7504da02a",
+        "0e51af54-7fdc-49b5-90f1-8e964fbc0cdc",
+        "2a5a54cb-602e-435e-806d-04e9b847068e",
+        "14136357-409e-4709-bf3f-539d02e25f92",
+        "04acd6ec-a9e4-4b25-b1f3-801fa9854e25",
+        "15bf0481-f807-4587-b26b-68f2e28bdfed",
+        "1247fd91-73bb-4551-b245-4867b8db1d24",
+        "18ba008d-cb33-4b30-bca9-5953fc3583bb",
+        "7ebf392f-e525-4752-8214-56330ae033c1",
+        "783277aa-b2eb-4f38-8184-f54b308e6a18",
+        "fe5766ca-89b2-4d9a-8e1d-2d805974598e",
+        "8c51e56a-d880-4a2b-bbdf-9e8c0f3f943d",
+        "66147259-edc0-4eff-9eac-d27b5756aeaa",
+        "ca7343d2-a92e-4f46-89fa-7fef7dcae24e"
+      ]
+    },
+    {
+      "ref" : "fe5766ca-89b2-4d9a-8e1d-2d805974598e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "14136357-409e-4709-bf3f-539d02e25f92",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0ff8ca46-15ab-453e-9a59-d61e1ebcd287",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "04acd6ec-a9e4-4b25-b1f3-801fa9854e25",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8c51e56a-d880-4a2b-bbdf-9e8c0f3f943d",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "2a5a54cb-602e-435e-806d-04e9b847068e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7ebf392f-e525-4752-8214-56330ae033c1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "ca7343d2-a92e-4f46-89fa-7fef7dcae24e",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "783277aa-b2eb-4f38-8184-f54b308e6a18",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "66147259-edc0-4eff-9eac-d27b5756aeaa",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "811ba1a4-d444-4def-bcdd-37e34c7d449f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "15bf0481-f807-4587-b26b-68f2e28bdfed",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "18ba008d-cb33-4b30-bca9-5953fc3583bb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1247fd91-73bb-4551-b245-4867b8db1d24",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "98ed458b-e459-4218-bf68-efce1170299b",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0e51af54-7fdc-49b5-90f1-8e964fbc0cdc",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "dafb25fc-5aa0-443b-93a7-de9a0b4fac97",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0af7482f-42ce-42bf-a00e-f5d7504da02a",
+      "dependsOn" : [ ]
+    }
+  ]
+}
