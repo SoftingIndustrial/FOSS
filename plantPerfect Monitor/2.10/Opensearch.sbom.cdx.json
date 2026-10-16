@@ -1,0 +1,52 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:d9c5c6df-4e2b-42c5-a799-c348068b181c",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-10-16T12:29:45Z",
+    "tools" : {
+      "components" : [
+        {
+          "type" : "application",
+          "supplier" : {
+            "name" : "OWASP"
+          },
+          "name" : "Dependency-Track",
+          "version" : "5.2.0"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "container",
+      "bom-ref" : "1919b7fe-e00f-4b83-b52a-c0cf2cb1c210",
+      "name" : "PPM - Opensearch",
+      "version" : "2.10"
+    }
+  },
+  "components" : [
+    {
+      "type" : "container",
+      "bom-ref" : "b7c9b5ef-fa77-4bec-a7a2-3a82da7776fd",
+      "name" : "opensearchproject/opensearch:2.19.2",
+      "version" : "2.19.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "1919b7fe-e00f-4b83-b52a-c0cf2cb1c210",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b7c9b5ef-fa77-4bec-a7a2-3a82da7776fd",
+      "dependsOn" : [ ]
+    }
+  ]
+}
