@@ -1,0 +1,53 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:b4d84d09-705f-4ef5-bac0-02c6acfc46cc",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-10-16T13:09:48Z",
+    "tools" : {
+      "components" : [
+        {
+          "type" : "application",
+          "supplier" : {
+            "name" : "OWASP"
+          },
+          "name" : "Dependency-Track",
+          "version" : "5.2.0"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "container",
+      "bom-ref" : "c77517a5-022a-48ed-a77f-87012a4655b3",
+      "name" : "PPM - Mosquitto",
+      "version" : "2.00"
+    }
+  },
+  "components" : [
+    {
+      "type" : "container",
+      "bom-ref" : "70f33239-b8dc-4b86-877e-0020972262ff",
+      "name" : "eclipse-mosquitto:2.0.22-openssl",
+      "version" : "2.0.22-openssl",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        }
+      ],
+      "cpe" : "cpe:2.3:a:eclipse:mosquitto:2.0.22:*:*:*:*:*:*:*"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "c77517a5-022a-48ed-a77f-87012a4655b3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "70f33239-b8dc-4b86-877e-0020972262ff",
+      "dependsOn" : [ ]
+    }
+  ]
+}

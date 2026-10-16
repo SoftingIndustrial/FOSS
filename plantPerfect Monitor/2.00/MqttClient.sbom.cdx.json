@@ -1,0 +1,645 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:7e302c30-a374-4693-9097-c318730ccf06",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-10-16T13:10:36Z",
+    "tools" : {
+      "components" : [
+        {
+          "type" : "application",
+          "supplier" : {
+            "name" : "OWASP"
+          },
+          "name" : "Dependency-Track",
+          "version" : "5.2.0"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "b98091d6-9821-4e8a-996b-0eca62cf9dbf",
+      "name" : "PPM - MQTTClient",
+      "version" : "2.00"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "bdf7ed7e-84a4-4f93-98d5-65c9f17a7ceb",
+      "name" : "certifi",
+      "version" : "2026.4.22",
+      "description" : "Python package for providing Mozilla's CA Bundle.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/certifi@2026.4.22",
+      "externalReferences" : [
+        {
+          "type" : "other",
+          "url" : "https://github.com/certifi/python-certifi",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/certifi/python-certifi",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "89a0b199-8edb-49fc-b2a4-f4c1f995d555",
+      "name" : "charset-normalizer",
+      "version" : "3.4.7",
+      "description" : "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/charset-normalizer@3.4.7",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://charset-normalizer.readthedocs.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jawah/charset_normalizer/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/jawah/charset_normalizer",
+          "comment" : "from packaging metadata Project-URL: Code"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0aa379e7-152e-44c8-9bad-2e2283088976",
+      "name" : "Events",
+      "version" : "0.5",
+      "description" : "Bringing the elegance of C# EventHandler to Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/events@0.5"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "11739c6e-41bb-4df0-b382-d6afbd444db6",
+      "name" : "grpcio",
+      "version" : "1.80.0",
+      "description" : "HTTP/2-based RPC framework",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/grpcio@1.80.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://grpc.github.io/grpc/python",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/grpc/grpc/issues",
+          "comment" : "from packaging metadata Project-URL: Bug Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/grpc/grpc",
+          "comment" : "from packaging metadata Project-URL: Source Code"
+        },
+        {
+          "type" : "website",
+          "url" : "https://grpc.io",
+          "comment" : "from packaging metadata Project-URL: Homepage"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4e4422ec-b5bf-41a4-9e2b-61925de24d61",
+      "name" : "idna",
+      "version" : "3.15",
+      "description" : "Internationalized Domain Names in Applications (IDNA)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/idna@3.15",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/kjd/idna/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/kjd/idna",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/kjd/idna/blob/master/HISTORY.md",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1708a0e6-d520-4dad-a98d-6bd55efca7f5",
+      "name" : "opensearch-protobufs",
+      "version" : "1.2.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/opensearch-protobufs@1.2.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://github.com/opensearch-project/opensearch-protobufs/blob/main/README.md",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/opensearch-project/opensearch-protobufs/issues",
+          "comment" : "from packaging metadata Project-URL: Bug Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/opensearch-project/opensearch-protobufs",
+          "comment" : "from packaging metadata Project-URL: Source Code"
+        },
+        {
+          "type" : "website",
+          "url" : "https://opensearch.org/",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "ef49a1cf-3a0c-47df-abd4-a6f98d5deae8",
+      "name" : "opensearch-py",
+      "version" : "3.2.0",
+      "description" : "Python client for OpenSearch",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/opensearch-py@3.2.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://opensearch.org/docs/clients/python",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/opensearch-project/opensearch-py/issues",
+          "comment" : "from packaging metadata Project-URL: Issue Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/opensearch-project/opensearch-py",
+          "comment" : "from packaging metadata Project-URL: Source Code"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/opensearch-project/opensearch-py",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1768bc7b-83b4-4406-a423-44e79b60c9fc",
+      "name" : "paho-mqtt",
+      "version" : "2.1.0",
+      "description" : "MQTT version 5.0/3.1.1 client class",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/paho-mqtt@2.1.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d8eae816-1ae0-40b7-a0db-bbb68a16f726",
+      "name" : "pip",
+      "version" : "26.1.1",
+      "description" : "The PyPA recommended tool for installing Python packages.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/pip@26.1.1",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://pip.pypa.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/pypa/pip",
+          "comment" : "from packaging metadata Project-URL: Source"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://pip.pypa.io/en/stable/news/",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://pip.pypa.io/",
+          "comment" : "from packaging metadata Project-URL: Homepage"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "b5a1d97e-5049-4607-b426-6c1c01609a13",
+      "name" : "protobuf",
+      "version" : "7.34.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/protobuf@7.34.1"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1be208a9-1484-4d96-bbe4-034e5efbc65f",
+      "name" : "pycryptodome",
+      "version" : "3.23.0",
+      "description" : "Cryptographic library for Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/pycryptodome@3.23.0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "d687c586-b300-40db-9aac-261f62833ef3",
+      "name" : "python-dateutil",
+      "version" : "2.9.0.post0",
+      "description" : "Extensions to the standard Python datetime module",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/python-dateutil@2.9.0.post0"
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "4b7fa832-d8e3-499d-8fd7-12c72447f93a",
+      "name" : "requests",
+      "version" : "2.34.0",
+      "description" : "Python HTTP for Humans.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/requests@2.34.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://requests.readthedocs.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/psf/requests",
+          "comment" : "from packaging metadata Project-URL: Source"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "298bb2d3-5bd3-460d-9215-5b3eae2eb4b1",
+      "name" : "setuptools",
+      "version" : "66.1.1",
+      "description" : "Easily download, build, install, upgrade, and uninstall Python packages",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/setuptools@66.1.1",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://setuptools.pypa.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://setuptools.pypa.io/en/stable/history.html",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/pypa/setuptools",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "1f1ba3ce-b247-4f5a-ad5a-42418570e4f8",
+      "name" : "six",
+      "version" : "1.17.0",
+      "description" : "Python 2 and 3 compatibility utilities",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/six@1.17.0",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/benjaminp/six",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "8ad34162-831d-4456-833e-fcef8952ad16",
+      "name" : "typing_extensions",
+      "version" : "4.15.0",
+      "description" : "Backported and Experimental Type Hints for Python 3.9+",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "PSF-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/typing-extensions@4.15.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://typing-extensions.readthedocs.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/python/typing_extensions/issues",
+          "comment" : "from packaging metadata Project-URL: Bug Tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/python/typing/discussions",
+          "comment" : "from packaging metadata Project-URL: Q & A"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+          "comment" : "from packaging metadata Project-URL: Changes"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/python/typing_extensions",
+          "comment" : "from packaging metadata Project-URL: Repository"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/python/typing_extensions",
+          "comment" : "from packaging metadata Project-URL: Home"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "0ce4a707-59d9-4fd4-83b5-81344e463f7f",
+      "name" : "urllib3",
+      "version" : "2.7.0",
+      "description" : "HTTP library with thread-safe connection pooling, file post, and more.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/urllib3@2.7.0",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://urllib3.readthedocs.io",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/urllib3/urllib3/issues",
+          "comment" : "from packaging metadata Project-URL: Issue tracker"
+        },
+        {
+          "type" : "other",
+          "url" : "https://github.com/urllib3/urllib3",
+          "comment" : "from packaging metadata Project-URL: Code"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "80f8602d-c400-44b0-8715-4a6111cdd6d3",
+      "name" : "wheel",
+      "version" : "0.38.4",
+      "description" : "A built-package format for Python",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:pypi/wheel@0.38.4",
+      "externalReferences" : [
+        {
+          "type" : "documentation",
+          "url" : "https://wheel.readthedocs.io/",
+          "comment" : "from packaging metadata Project-URL: Documentation"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/pypa/wheel/issues",
+          "comment" : "from packaging metadata Project-URL: Issue Tracker"
+        },
+        {
+          "type" : "release-notes",
+          "url" : "https://wheel.readthedocs.io/en/stable/news.html",
+          "comment" : "from packaging metadata Project-URL: Changelog"
+        },
+        {
+          "type" : "website",
+          "url" : "https://github.com/pypa/wheel",
+          "comment" : "from packaging metadata: Home-page"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "b98091d6-9821-4e8a-996b-0eca62cf9dbf",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "bdf7ed7e-84a4-4f93-98d5-65c9f17a7ceb",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "89a0b199-8edb-49fc-b2a4-f4c1f995d555",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0aa379e7-152e-44c8-9bad-2e2283088976",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "11739c6e-41bb-4df0-b382-d6afbd444db6",
+      "dependsOn" : [
+        "8ad34162-831d-4456-833e-fcef8952ad16"
+      ]
+    },
+    {
+      "ref" : "4e4422ec-b5bf-41a4-9e2b-61925de24d61",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1708a0e6-d520-4dad-a98d-6bd55efca7f5",
+      "dependsOn" : [
+        "b5a1d97e-5049-4607-b426-6c1c01609a13",
+        "11739c6e-41bb-4df0-b382-d6afbd444db6"
+      ]
+    },
+    {
+      "ref" : "ef49a1cf-3a0c-47df-abd4-a6f98d5deae8",
+      "dependsOn" : [
+        "d687c586-b300-40db-9aac-261f62833ef3",
+        "4b7fa832-d8e3-499d-8fd7-12c72447f93a",
+        "0aa379e7-152e-44c8-9bad-2e2283088976",
+        "1708a0e6-d520-4dad-a98d-6bd55efca7f5",
+        "0ce4a707-59d9-4fd4-83b5-81344e463f7f",
+        "bdf7ed7e-84a4-4f93-98d5-65c9f17a7ceb"
+      ]
+    },
+    {
+      "ref" : "1768bc7b-83b4-4406-a423-44e79b60c9fc",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d8eae816-1ae0-40b7-a0db-bbb68a16f726",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "b5a1d97e-5049-4607-b426-6c1c01609a13",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1be208a9-1484-4d96-bbe4-034e5efbc65f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "d687c586-b300-40db-9aac-261f62833ef3",
+      "dependsOn" : [
+        "1f1ba3ce-b247-4f5a-ad5a-42418570e4f8"
+      ]
+    },
+    {
+      "ref" : "4b7fa832-d8e3-499d-8fd7-12c72447f93a",
+      "dependsOn" : [
+        "89a0b199-8edb-49fc-b2a4-f4c1f995d555",
+        "0ce4a707-59d9-4fd4-83b5-81344e463f7f",
+        "bdf7ed7e-84a4-4f93-98d5-65c9f17a7ceb",
+        "4e4422ec-b5bf-41a4-9e2b-61925de24d61"
+      ]
+    },
+    {
+      "ref" : "298bb2d3-5bd3-460d-9215-5b3eae2eb4b1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "1f1ba3ce-b247-4f5a-ad5a-42418570e4f8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "8ad34162-831d-4456-833e-fcef8952ad16",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "0ce4a707-59d9-4fd4-83b5-81344e463f7f",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "80f8602d-c400-44b0-8715-4a6111cdd6d3",
+      "dependsOn" : [ ]
+    }
+  ]
+}
